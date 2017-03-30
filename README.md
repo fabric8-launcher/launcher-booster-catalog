@@ -14,4 +14,4 @@ The `booster.yaml` file is expected to have the following structure:
 Name   | Description | Required | Size
 ------ | ----------- | -----    | ----
 name | The quickstart name  |  Yes  |  50
-descriptionFile  |  (Optional) Link to file in repo containing adoc for the description (assumed default: `.openshiftio/description.adoc` ) |No  |  255
+descriptionPath  |  (Optional) Link to file in repo containing adoc for the description (assumed default: `.openshiftio/description.adoc` ) |No  |  255
