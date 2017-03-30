@@ -7,11 +7,11 @@ Name   | Description
 ------ | -----------
 githubRepo| The GitHub repository location
 gitRef | The git reference (tag/branch/SHA1)
-boosterDescriptorPath|  Path in the repository specified to `booster.yaml` (defaults to `.openshiftio/booster.yaml`)
+boosterDescriptorPath|  (Optional) Path in the repository specified to `booster.yaml` (defaults to `.openshiftio/booster.yaml`)
 
 The `booster.yaml` file is expected to have the following structure:
 
 Name   | Description | Required | Size
 ------ | ----------- | -----    | ----
 name | The quickstart name  |  Yes  |  50
-descriptionFile  |  Link to file in repo containing adoc for the description (assumed default: `.openshiftio/description.adoc` ) |No  |  255
+descriptionFile  |  (Optional) Link to file in repo containing adoc for the description (assumed default: `.openshiftio/description.adoc` ) |No  |  255
