@@ -9,7 +9,7 @@ githubRepo| The GitHub repository location
 gitRef | The git reference (tag/branch/SHA1)
 boosterDescriptorPath|  Path in the repository specified to `booster.yaml` (defaults to `.openshiftio/booster.yaml`)
 
-The `launchpad.yaml` file is expected to have the following structure:
+The `booster.yaml` file is expected to have the following structure:
 
 Name   | Description | Required | Size
 ------ | ----------- | -----    | ----
