@@ -1,2 +1,4 @@
 githubRepo: openshiftio-vertx-boosters/vertx-http-booster
 gitRef: master
+runtime: vert.x
+mission: rest-http

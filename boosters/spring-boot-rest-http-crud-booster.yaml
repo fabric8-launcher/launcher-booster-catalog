@@ -1,2 +1,4 @@
 githubRepo: snowdrop/spring-boot-crud-booster
 gitRef: master
+runtime: spring-boot
+mission: crud

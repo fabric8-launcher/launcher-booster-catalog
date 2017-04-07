@@ -1,2 +1,4 @@
 githubRepo: snowdrop/secured_rest-springboot
 gitRef: master
+runtime: spring-boot
+mission: rest-http-secured

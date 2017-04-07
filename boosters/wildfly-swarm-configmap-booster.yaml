@@ -1,2 +1,4 @@
 githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-configmap
 gitRef: master
+runtime: wildfly-swarm
+mission: configmap
