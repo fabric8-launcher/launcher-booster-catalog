@@ -1,4 +1,2 @@
 githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-rest-http
 gitRef: master
-runtime: wildfly-swarm
-mission: rest-http

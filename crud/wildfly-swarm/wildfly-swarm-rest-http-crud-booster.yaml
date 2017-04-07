@@ -1,4 +1,2 @@
 githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-crud
 gitRef: master
-runtime: wildfly-swarm
-mission: crud

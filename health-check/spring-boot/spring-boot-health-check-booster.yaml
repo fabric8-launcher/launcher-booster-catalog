@@ -1,4 +1,2 @@
 githubRepo: snowdrop/health_check_springboot
 gitRef: master
-runtime: spring-boot
-mission: health-check

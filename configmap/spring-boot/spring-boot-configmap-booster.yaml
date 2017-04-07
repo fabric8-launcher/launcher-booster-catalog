@@ -1,4 +1,2 @@
 githubRepo: snowdrop/spring-boot-configmap-booster
 gitRef: master
-runtime: spring-boot
-mission: configmap
