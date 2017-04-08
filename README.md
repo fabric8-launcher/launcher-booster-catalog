@@ -1,9 +1,9 @@
 # Booster Catalog
 Set of known example applications (Boosters) conforming to the minimal set of requirements necessary to be served by the Launchpad.
 
-This repository is organized by `mission/runtime/booster-catalog-entry.yaml`:
+This repository is organized by `{mission}/{runtime}/{booster-catalog-entry}.yaml`:
 
-For each booster (example application), create a YAML file in the `boosters` directory with information containing:
+For each booster (example application), create a YAML file in the respective `{mission}/{runtime}` directory with information containing:
 
 Name   | Description 
 ------ | -----------
