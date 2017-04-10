@@ -17,4 +17,4 @@ Name   | Description | Required | Size
 ------ | ----------- | -----    | ----
 name | The booster name  |  Yes  |  50
 descriptionPath  |  (Optional) Link to file in repo containing adoc for the description (assumed default: `.openshiftio/description.adoc` ) |No  |  255
-jenkinsfilePath | (Optional) Link to file in repo, relative to the repo root, for the Jenkins Pipeline Definition file (assumed default: `.openshiftio/Jenkinsfile`) | No | 255
+jenkinsfilePath | (Optional) Link to file in repo, relative to the repo root, for the Jenkins Pipeline Definition file (assumed default: `Jenkinsfile`) | No | 255
