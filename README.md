@@ -1,5 +1,8 @@
 # Booster Catalog
-Set of known example applications (Boosters) conforming to the minimal set of requirements necessary to be served by the Launchpad.
+Set of known example applications (Boosters) conforming to the minimal set of requirements necessary to be served by launch.openshift.io.
+
+- next: this is the branch from which we'll cut the next tag
+- openshift-online-free; this is the branch read by launch.openshift.io and launch-stage.openshift.io.  Only the Boosters capable of running in the OSO Free environment are included here.
 
 This repository is organized by `{mission}/{runtime}/{booster-catalog-entry}.yaml`:
 
