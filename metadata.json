@@ -1,0 +1,11 @@
+{
+    "missions":[
+        {"id": "health-check", "name":"Health Check"},
+        {"id": "rest-http", "name":"REST API Level 0"}
+    ],
+    "runtimes":[
+        {"id": "wildfly-swarm", "name":"WildFly Swarm"},
+        {"id": "vert.x", "name":"Vert.x"},
+        {"id": "spring-boot", "name":"Spring Boot"}
+    ] 
+}
