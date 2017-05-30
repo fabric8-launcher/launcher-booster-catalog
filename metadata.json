@@ -8,7 +8,7 @@
     ],
     "runtimes":[
         {"id": "wildfly-swarm", "name":"WildFly Swarm"},
-        {"id": "vert.x", "name":"Vert.x"},
+        {"id": "vert.x", "name":"Eclipse Vert.x"},
         {"id": "spring-boot", "name":"Spring Boot"}
     ] 
 }
