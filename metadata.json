@@ -4,7 +4,8 @@
         {"id": "crud", "name":"CRUD"},
         {"id": "health-check", "name":"Health Check"},
         {"id": "rest-http", "name":"REST API Level 0"},
-        {"id": "rest-http-secured", "name":"Secured"}
+        {"id": "rest-http-secured", "name":"Secured"},
+        {"id": "circuit-breaker", "name":"Circuit Breaker"}
     ],
     "runtimes":[
         {"id": "wildfly-swarm", "name":"WildFly Swarm"},
