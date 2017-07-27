@@ -10,6 +10,7 @@
     "runtimes":[
         {"id": "wildfly-swarm", "name":"WildFly Swarm"},
         {"id": "vert.x", "name":"Eclipse Vert.x"},
-        {"id": "spring-boot", "name":"Spring Boot"}
-    ] 
+        {"id": "spring-boot", "name":"Spring Boot"},
+        {"id": "nodejs", "name": "Node.js"}
+    ]
 }
