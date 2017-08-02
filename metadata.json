@@ -1,5 +1,6 @@
 {
     "missions":[
+        {"id": "configmap", "name": "Externalized Configuration"},
         {"id": "health-check", "name":"Health Check"},
         {"id": "rest-http", "name":"REST API Level 0"}
     ],
