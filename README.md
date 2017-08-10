@@ -27,3 +27,5 @@ name | The booster name  |  Yes  |  50
 descriptionPath  |  (Optional) Link to file in repo containing adoc for the description (assumed default: `.openshiftio/description.adoc` ) |No  |  255
 jenkinsfilePath | (Optional) Link to file in repo, relative to the repo root, for the Jenkins Pipeline Definition file (assumed default: `Jenkinsfile`) | No | 255
 versions | A list of associative arrays containing `id` and `name` elements that map version ids to their human-readable names |  No  |  --
+
+For an in-depth explanation of how to declare runtime versions see [HOWTO Add Runtime Versions to Boosters](https://github.com/openshiftio/booster-catalog/wiki/HOWTO-Add-Runtime-Versions-to-Boosters)
