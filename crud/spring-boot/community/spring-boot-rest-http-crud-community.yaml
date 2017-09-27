@@ -1,2 +1,6 @@
 githubRepo: snowdrop/spring-boot-crud-booster
+<<<<<<< HEAD
 gitRef: v8
+=======
+gitRef: v9
+>>>>>>> de9f591... Use tag upstream/downstream for RHOAR Beta2

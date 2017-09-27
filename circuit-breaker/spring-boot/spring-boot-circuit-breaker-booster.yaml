@@ -1,2 +1,6 @@
 githubRepo: snowdrop/spring-boot-circuit-breaker-booster
+<<<<<<< HEAD:circuit-breaker/spring-boot/spring-boot-circuit-breaker-booster.yaml
 gitRef: v4
+=======
+gitRef: v5
+>>>>>>> de9f591... Use tag upstream/downstream for RHOAR Beta2:circuit-breaker/spring-boot/community/spring-boot-circuit-breaker-community.yaml

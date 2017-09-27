@@ -1,2 +1,6 @@
 githubRepo: snowdrop/spring-boot-configmap-booster
+<<<<<<< HEAD
 gitRef: v7
+=======
+gitRef: v8
+>>>>>>> de9f591... Use tag upstream/downstream for RHOAR Beta2
