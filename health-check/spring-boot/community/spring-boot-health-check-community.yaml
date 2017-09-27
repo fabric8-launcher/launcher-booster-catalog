@@ -1,6 +1,2 @@
 githubRepo: snowdrop/spring-boot-health-check-booster
-<<<<<<< HEAD
-gitRef: v6
-=======
 gitRef: v7
->>>>>>> de9f591... Use tag upstream/downstream for RHOAR Beta2
