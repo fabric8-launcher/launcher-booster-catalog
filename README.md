@@ -3,7 +3,6 @@ Set of known example applications (Boosters) conforming to the minimal set of re
 
 - next: this is the branch from which we'll cut the next tag
 - openshift-online-free; this is the branch read by launch.openshift.io and launch.prod-preview.openshift.io[].  Only the Boosters capable of running in the OSO Free environment are included here.
-- osio: this is the branch used by openshift.io. Only the Boosters capable of running in the OSIO environment are included here.
 
 The repository has a `metadata.json` file in the root containing a list of the supported missions and runtimes along with their human-readable names.
 
