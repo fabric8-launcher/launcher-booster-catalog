@@ -1,3 +1,3 @@
 githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-secured
 gitRef: 7.0.0-redhat-1
-#disableLaunch: true
+#supportedDeploymentTypes: zip
