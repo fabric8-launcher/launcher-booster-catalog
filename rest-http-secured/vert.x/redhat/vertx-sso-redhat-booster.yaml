@@ -1,0 +1,4 @@
+# Use community for now.
+githubRepo: openshiftio-vertx-boosters/vertx-secured-http-booster
+gitRef: v10
+supportedDeploymentTypes: zip
