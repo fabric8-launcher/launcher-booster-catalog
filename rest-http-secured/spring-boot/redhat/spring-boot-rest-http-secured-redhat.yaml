@@ -1,0 +1,3 @@
+githubRepo: snowdrop/spring-boot-http-secured-booster
+gitRef: v1-redhat
+supportedDeploymentTypes: zip
