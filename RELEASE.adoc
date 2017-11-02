@@ -14,3 +14,7 @@ git push --tags
 git checkout master 
 git branch -D release
 ```
+
+== How to make the release effective in production?
+
+File an issue in https://gitlab.cee.redhat.com/dtsd/housekeeping/issues to have the Service Delivery team perform the necessary changes in the production env (example in https://gitlab.cee.redhat.com/dtsd/housekeeping/issues/643).
