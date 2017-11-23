@@ -1,8 +1,8 @@
 # Booster Catalog
 Set of known example applications (Boosters) conforming to the minimal set of requirements necessary to be served by launch.openshift.io.
 
-- next: this is the branch from which we'll cut the next tag
-- openshift-online-free; this is the branch read by launch.openshift.io and launch.prod-preview.openshift.io[].  Only the Boosters capable of running in the OSO Free environment are included here.
+- next: this is the branch from which we'll cut the next tag. Production does not use this branch, it is only used in the staging environment.
+- openshift-online-free; this branch is used in staging AND production. Only the Boosters capable of running in the OSO Free environment are included here.
 
 The repository has a `metadata.json` file in the root containing a list of the supported missions and runtimes along with their human-readable names.
 
