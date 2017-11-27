@@ -1,0 +1,15 @@
+source:
+  git:
+    ref: redhat
+metadata:
+  version:
+    name: 7.0.0 (Red Hat Fuse)
+environment:
+  staging:
+    source:
+      git:
+        ref: v1-redhat
+  production:
+    source:
+      git:
+        ref: v1-redhat

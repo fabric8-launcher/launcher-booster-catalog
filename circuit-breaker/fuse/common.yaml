@@ -1,0 +1,5 @@
+name: Spring Boot Circuit Breaker Example
+description: Quickstart to demonstrate Circuit Breaker pattern with Apache Camel.
+source:
+  git:
+    url: https://github.com/valdar/fuse-springboot-circuit-breaker-booster
