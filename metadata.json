@@ -8,9 +8,9 @@
         {"id": "circuit-breaker", "name":"Circuit Breaker"}
     ],
     "runtimes":[
-        {"id": "wildfly-swarm", "name":"WildFly Swarm", "icon": "https://raw.githubusercontent.com/edewit/booster-catalog/icons/assets/swarm.svg"},
-        {"id": "vert.x", "name":"Eclipse Vert.x", "icon": "https://raw.githubusercontent.com/edewit/booster-catalog/icons/assets/vertx.svg"},
-        {"id": "spring-boot", "name":"Spring Boot", "icon": "https://raw.githubusercontent.com/edewit/booster-catalog/icons/assets/spring-boot.svg"},
-        {"id": "nodejs", "name": "Node.js", "icon": "https://raw.githubusercontent.com/edewit/booster-catalog/icons/assets/nodejs.svg"}
+        {"id": "wildfly-swarm", "name":"WildFly Swarm", "icon": "https://cdn.rawgit.com/edewit/booster-catalog/icons/assets/swarm.svg"},
+        {"id": "vert.x", "name":"Eclipse Vert.x", "icon": "https://cdn.rawgit.com/edewit/booster-catalog/icons/assets/vertx.svg"},
+        {"id": "spring-boot", "name":"Spring Boot", "icon": "https://cdn.rawgit.com/edewit/booster-catalog/icons/assets/spring-boot.svg"},
+        {"id": "nodejs", "name": "Node.js", "icon": "https://cdn.rawgit.com/edewit/booster-catalog/icons/assets/nodejs.svg"}
     ]
 }
