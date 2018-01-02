@@ -1,2 +1,2 @@
-githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-crud
-gitRef: 7.0.0-redhat-5
+githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-crud-redhat
+gitRef: master
