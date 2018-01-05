@@ -1,2 +1,5 @@
 .boosters/
 .idea/
+
+# Eclipse
+.project
