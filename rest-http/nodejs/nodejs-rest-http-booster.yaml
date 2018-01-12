@@ -1,2 +1,4 @@
 githubRepo: bucharest-gold/nodejs-rest-http
 gitRef: master
+name: Node.js - HTTP
+description: Runs a Node.js HTTP application

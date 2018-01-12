@@ -1,0 +1,2 @@
+name: Spring Boot Health Check Example
+description: A booster demonstrating how to set up the Health Check pattern with Spring Boot on OpenShift

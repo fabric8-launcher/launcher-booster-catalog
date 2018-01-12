@@ -1,2 +1,3 @@
 githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-configmap
 gitRef: master
+version: 2017.10.0 (Community)

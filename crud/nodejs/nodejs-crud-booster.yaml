@@ -1,2 +1,4 @@
 githubRepo: bucharest-gold/nodejs-rest-http-crud
 gitRef: master
+name: Node.js - CRUD Example
+description: Runs a Node.js application exposing a HTTP endpoint proposing CRUD operations

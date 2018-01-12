@@ -1,2 +1,3 @@
 githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-circuit-breaker-redhat
 gitRef: master
+version: 7.0.0.redhat-6 (RHOAR)

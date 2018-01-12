@@ -1,3 +1,5 @@
 githubRepo: bucharest-gold/nodejs-rest-http-secured
 gitRef: master
 supportedDeploymentTypes: zip
+name: Node.js - REST and RH SSO
+description: A simple HTTP application using Node.js secured by RH SSO
