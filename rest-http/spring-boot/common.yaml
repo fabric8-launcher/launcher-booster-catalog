@@ -1,2 +1,2 @@
 name: Spring Boot - HTTP Example
-description: A booster demonstrating how to set up a simple REST webservice with Spring Boot on OpenShift
+description: Quickstart to expose a HTTP Greeting endpoint using Spring Boot and Apache Tomcat in embedded mode

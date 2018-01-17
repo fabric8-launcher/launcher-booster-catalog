@@ -1,2 +1,2 @@
 name: Spring Boot - ConfigMap Example
-description: A booster demonstrating how to externalize configuration using Spring Boot on OpenShift and ConfigMaps
+description: Booster to expose an HTTP Greeting endpoint using Spring Boot where the message is defined as a Kubernetes ConfigMap property

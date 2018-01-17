@@ -1,2 +1,2 @@
 name: Spring Boot Circuit Breaker Example
-description: A booster demonstrating how to set up the Circuit Breaker pattern with Spring Boot on OpenShift
+description: Quickstart to demonstrate Circuit Breaker pattern with Spring Boot.
