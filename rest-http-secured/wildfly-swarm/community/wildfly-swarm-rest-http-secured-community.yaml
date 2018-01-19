@@ -1,4 +1,5 @@
 githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-secured
 gitRef: master
-supportedDeploymentTypes: zip
 version: 2017.10.0 (Community)
+metadata:
+  supportedDeploymentTypes: zip
