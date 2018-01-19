@@ -24,24 +24,22 @@ The repository has a `metadata.json` file in the root containing a list of the s
 
 IMPORTANT: If a new mission or runtime is introduced, you MUST change the `metadata.json` file too. 
 
-This repository is organized by `{mission}/{runtime}/{booster-catalog-entry}.yaml` or  `{mission}/{runtime}/{version}/{booster-catalog-entry}.yaml` depending if your booster supports runtime versions or not:
+This repository is organized by `{mission}/{runtime}/booster.yaml` or  `{mission}/{runtime}/{version}/{name}.yaml` depending if your booster supports runtime versions or not:
 
-For each booster (example application), create a YAML file in the respective `{mission}/{runtime}` (or  `{mission}/{runtime}/{version}`) directory with information containing:
+For each Booster (example application), create a YAML file in the respective `{mission}/{runtime}` (or  `{mission}/{runtime}/{version}`) directory named `booster.yaml` (but it can have any name you want, except `common.yaml`). In it should be the following information:
 
 Name   | Description 
 ------ | -----------
-githubRepo| The GitHub repository location
+name | The name of the Booster
+description | (Optional) A longer description for the Booster
+githubRepo | The GitHub repository location
 gitRef | The git reference (tag/branch/SHA1)
-boosterDescriptorPath| (Optional) Path in the repository specified to `booster.yaml` (defaults to `.openshiftio/booster.yaml`)
-buildProfile| (Optional) The Maven profile that should be activated in the booster's `pom.xml` file
+ignore | (Optional) Set this to "true" to have the Booster be ignored by the Launcher
+metadata/version | If the Booster supports versions then this is the name that will be shown in the UI
+metadata/supportedDeploymentTypes | (Optional) A single string or a list of strings indicating which deployment types are supported by this booster (can be "cd", "zip" or "osio")
+metadata/buildProfile | (Optional) The Maven profile that should be activated in the booster's `pom.xml` file
 
-The `booster.yaml` file beforementioned is expected to have the following structure:
+Often separate Boosters will share the same infotmation. For example both the community and official supported versions of a Booster will most likely have the same name and description. To avoid duplication you can put those items in a `common.yaml` file instead. When the Launcher encounters a `common.yaml` file in the catalog _all_ Boosters in the same folder and in all sub folders will be based on the information found in that file. The file can contain the exact same information as a `booster.yaml` file. Any information in the `booster.yaml` files will merge with or overwrite the information found in the `common.yaml` file. Application of `common.yaml` files is recursive, so `common.yaml` files in sub folders will overwrite values found in `common.yaml` files in parent folders.
 
-Name   | Description | Required | Size
------- | ----------- | -----    | ----
-name | The booster name  |  Yes  |  50
-descriptionPath  |  (Optional) Link to file in repo containing adoc for the description (assumed default: `.openshiftio/description.adoc` ) |No  |  255
-jenkinsfilePath | (Optional) Link to file in repo, relative to the repo root, for the Jenkins Pipeline Definition file (assumed default: `Jenkinsfile`) | No | 255
-versions | A list of associative arrays containing `id` and `name` elements that map version ids to their human-readable names |  No  |  --
+For an in-depth explanation of how to declare runtime versions see [HOWTO Add Runtime Versions to Boosters](https://github.com/fabric8-launcher/launcher-booster-catalog/wiki/HOWTO-Add-Runtime-Versions-to-Boosters)
 
-For an in-depth explanation of how to declare runtime versions see [HOWTO Add Runtime Versions to Boosters](https://github.com/openshiftio/booster-catalog/wiki/HOWTO-Add-Runtime-Versions-to-Boosters)
