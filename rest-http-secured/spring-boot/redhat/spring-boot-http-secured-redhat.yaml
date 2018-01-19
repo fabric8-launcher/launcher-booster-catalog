@@ -1,3 +1,5 @@
 githubRepo: snowdrop/spring-boot-http-secured-booster
 gitRef: master
-version: 1.5.8.RELEASE (RHOAR)
+metadata:
+  version:
+    name: 1.5.8.RELEASE (RHOAR)

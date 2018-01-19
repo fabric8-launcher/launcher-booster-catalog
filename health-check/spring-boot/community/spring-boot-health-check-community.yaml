@@ -1,3 +1,5 @@
 githubRepo: snowdrop/spring-boot-health-check-booster
 gitRef: master
-version: 1.5.8.RELEASE (Community)
+metadata:
+  version:
+    name: 1.5.8.RELEASE (Community)

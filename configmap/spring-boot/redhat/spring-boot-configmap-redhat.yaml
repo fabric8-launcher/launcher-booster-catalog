@@ -1,3 +1,5 @@
 githubRepo: snowdrop/spring-boot-configmap-booster
 gitRef: redhat
-version: 1.5.8.RELEASE (RHOAR)
+metadata:
+  version:
+    name: 1.5.8.RELEASE (RHOAR)

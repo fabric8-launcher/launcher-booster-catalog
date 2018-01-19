@@ -1,3 +1,5 @@
 githubRepo: openshiftio-vertx-boosters/vertx-crud-booster
 gitRef: master
-version: 3.4.2.Final (Community)
+metadata:
+  version:
+    name: 3.4.2.Final (Community)

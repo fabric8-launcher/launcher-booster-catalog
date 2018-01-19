@@ -1,3 +1,5 @@
 githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-health-check-redhat
 gitRef: master
-version: 7.0.0.redhat-6 (RHOAR)
+metadata:
+  version:
+    name: 7.0.0.redhat-6 (RHOAR)

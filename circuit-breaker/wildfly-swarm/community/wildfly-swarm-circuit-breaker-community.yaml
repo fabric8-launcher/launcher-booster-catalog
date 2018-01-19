@@ -1,3 +1,6 @@
 githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-circuit-breaker
 gitRef: master
-version: 2017.10.0 (Community)
+metadata:
+  version:
+    name: 2017.10.0 (Community)
+
