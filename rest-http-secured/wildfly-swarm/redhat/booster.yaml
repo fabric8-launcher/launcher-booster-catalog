@@ -3,4 +3,4 @@ gitRef: master
 metadata:
   version:
     name: 7.0.0.redhat-6 (RHOAR)
-  supportedDeploymentTypes: zip
+  doesNotRunOn: "*"
