@@ -1,4 +1,4 @@
-githubRepo: snowdrop/spring-boot-health-check-booster
+gitRepo: https://github.com/snowdrop/spring-boot-health-check-booster
 gitRef: master
 metadata:
   version:

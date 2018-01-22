@@ -1,4 +1,4 @@
-githubRepo: bucharest-gold/nodejs-health-check
+gitRepo: https://github.com/bucharest-gold/nodejs-health-check
 gitRef: master
 name: Node.js - Health Checks
 description: Demonstrates Health Checks in Node.js

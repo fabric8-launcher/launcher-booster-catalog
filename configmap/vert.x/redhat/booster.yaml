@@ -1,4 +1,4 @@
-githubRepo: openshiftio-vertx-boosters/vertx-configmap-booster-redhat
+gitRepo: https://github.com/openshiftio-vertx-boosters/vertx-configmap-booster-redhat
 gitRef: master
 metadata:
   version:

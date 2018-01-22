@@ -1,4 +1,4 @@
-githubRepo: snowdrop/spring-boot-configmap-booster
+gitRepo: https://github.com/snowdrop/spring-boot-configmap-booster
 gitRef: master
 metadata:
   version:

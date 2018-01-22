@@ -32,8 +32,8 @@ Name   | Description
 ------ | -----------
 name | The name of the Booster
 description | (Optional) A longer description for the Booster
-githubRepo | The GitHub repository location
-gitRef | The git reference (tag/branch/SHA1)
+gitRepo | The Git repository location URL
+gitRef | The Git reference (tag/branch/SHA1)
 ignore | (Optional) Set this to "true" to have the Booster be ignored by the Launcher
 metadata/version | If the Booster supports versions then this is the name that will be shown in the UI
 metadata/runsOn | (Optional) A single cluster type or a list of cluster types where this booster can run. If the key is not specified or has the single value `*` the booster will run everywhere. If the key is specified but has no values then it will run nowhere.

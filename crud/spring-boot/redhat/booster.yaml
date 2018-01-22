@@ -1,4 +1,4 @@
-githubRepo: snowdrop/spring-boot-crud-booster
+gitRepo: https://github.com/snowdrop/spring-boot-crud-booster
 gitRef: redhat
 metadata:
   version:

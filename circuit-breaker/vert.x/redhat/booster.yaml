@@ -1,4 +1,4 @@
-githubRepo: openshiftio-vertx-boosters/vertx-circuit-breaker-booster-redhat
+gitRepo: https://github.com/openshiftio-vertx-boosters/vertx-circuit-breaker-booster-redhat
 gitRef: master
 metadata:
   version:

@@ -1,4 +1,4 @@
-githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-secured
+gitRepo: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-secured
 gitRef: master
 metadata:
   version:

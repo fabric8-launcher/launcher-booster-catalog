@@ -1,4 +1,4 @@
-githubRepo: openshiftio-vertx-boosters/vertx-http-booster
+gitRepo: https://github.com/openshiftio-vertx-boosters/vertx-http-booster
 gitRef: master
 metadata:
   version:

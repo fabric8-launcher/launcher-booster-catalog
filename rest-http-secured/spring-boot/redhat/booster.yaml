@@ -1,4 +1,4 @@
-githubRepo: snowdrop/spring-boot-http-secured-booster
+gitRepo: https://github.com/snowdrop/spring-boot-http-secured-booster
 gitRef: master
 metadata:
   version:

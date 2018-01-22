@@ -1,4 +1,4 @@
-githubRepo: wildfly-swarm-openshiftio-boosters/wfswarm-health-check
+gitRepo: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-health-check
 gitRef: master
 metadata:
   version:
