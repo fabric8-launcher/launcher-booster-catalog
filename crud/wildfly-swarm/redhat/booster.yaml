@@ -1,5 +1,7 @@
-gitRepo: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-crud-redhat
-gitRef: master
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-crud-redhat
+    ref: master
 metadata:
   version:
     name: 7.0.0.redhat-6 (RHOAR)

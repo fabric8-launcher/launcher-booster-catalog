@@ -1,4 +1,6 @@
-gitRepo: https://github.com/bucharest-gold/nodejs-rest-http
-gitRef: master
+source:
+  git:
+    url: https://github.com/bucharest-gold/nodejs-rest-http
+    ref: master
 name: Node.js - HTTP
 description: Runs a Node.js HTTP application

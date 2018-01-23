@@ -7,7 +7,7 @@ IMPORTANT: *Boosters that point to master MUST  be removed.*
 ```
 git checkout -B release
 # Remove all YAML files that point to master
-find . -name "*.yaml" -type f -exec grep -q 'gitRef: master' {} \; -exec rm {} \;
+find . -name "*.yaml" -type f -exec grep -q 'ref: master' {} \; -exec rm {} \;
 git commit -m "Updating to v1"
 git tag v1
 git push --tags

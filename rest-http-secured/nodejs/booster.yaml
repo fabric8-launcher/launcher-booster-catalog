@@ -1,5 +1,7 @@
-gitRepo: https://github.com/bucharest-gold/nodejs-rest-http-secured
-gitRef: master
+source:
+  git:
+    url: https://github.com/bucharest-gold/nodejs-rest-http-secured
+    ref: master
 name: Node.js - REST and RH SSO
 description: A simple HTTP application using Node.js secured by RH SSO
 metadata:

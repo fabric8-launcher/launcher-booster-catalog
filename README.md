@@ -32,10 +32,10 @@ Name   | Description
 ------ | -----------
 name | The name of the Booster
 description | (Optional) A longer description for the Booster
-gitRepo | The Git repository location URL
-gitRef | The Git reference (tag/branch/SHA1)
 ignore | (Optional) Set this to "true" to have the Booster be ignored by the Launcher
-metadata/version | If the Booster supports versions then this is the name that will be shown in the UI
+source/git/url | The Git repository location URL
+source/git/ref | The Git reference (tag/branch/SHA1)
+metadata/version/name | If the Booster supports versions then this is the name that will be shown in the UI
 metadata/runsOn | (Optional) A single cluster type or a list of cluster types where this booster can run. A type can be prefixed with `!` to negate the option: the booster will _not_ run on clusters of that type. Special values `all` and `none` indicate the booster will run everywhere or nowhere respectively.
 metadata/buildProfile | (Optional) The Maven profile that should be activated in the booster's `pom.xml` file
 

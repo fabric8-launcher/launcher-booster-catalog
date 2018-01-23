@@ -1,5 +1,7 @@
-gitRepo: https://github.com/openshiftio-vertx-boosters/vertx-configmap-booster
-gitRef: master
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-configmap-booster
+    ref: master
 metadata:
   version:
     name: 3.4.2.Final (Community)
