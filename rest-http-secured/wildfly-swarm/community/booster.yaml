@@ -3,4 +3,4 @@ gitRef: master
 metadata:
   version:
     name: 2017.10.0 (Community)
-  doesNotRunOn: "*"
+  runsOn: "none"
