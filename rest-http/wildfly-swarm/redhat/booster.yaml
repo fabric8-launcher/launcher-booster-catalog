@@ -4,4 +4,13 @@ source:
     ref: master
 metadata:
   version:
-    name: 7.0.0.redhat-6 (RHOAR)
+    name: 7.0.0.redhat-8 (RHOAR)
+environment:
+  staging:
+    source:
+      git:
+        ref: 7.0.0-redhat-6
+  production:
+    source:
+      git:
+        ref: 7.0.0-redhat-6

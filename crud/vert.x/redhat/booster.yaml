@@ -5,3 +5,12 @@ source:
 metadata:
   version:
     name: 3.4.2.redhat-006 (RHOAR)
+environment:
+  staging:
+    source:
+      git:
+        ref: v7
+  production:
+    source:
+      git:
+        ref: v6

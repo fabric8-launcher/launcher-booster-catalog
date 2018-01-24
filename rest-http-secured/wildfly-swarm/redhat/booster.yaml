@@ -4,5 +4,14 @@ source:
     ref: master
 metadata:
   version:
-    name: 7.0.0.redhat-6 (RHOAR)
-  runsOn: "none"
+    name: 7.0.0.redhat-8 (RHOAR)
+  runsOn: none
+environment:
+  staging:
+    source:
+      git:
+        ref: 7.0.0-redhat-4
+  production:
+    source:
+      git:
+        ref: 7.0.0-redhat-4

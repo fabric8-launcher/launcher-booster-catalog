@@ -5,4 +5,13 @@ source:
 name: Node.js - REST and RH SSO
 description: A simple HTTP application using Node.js secured by RH SSO
 metadata:
-  runsOn: "none"
+  runsOn: none
+environment:
+  staging:
+    source:
+      git:
+        ref: v1.0.0
+  production:
+    source:
+      git:
+        ref: v1.0.0

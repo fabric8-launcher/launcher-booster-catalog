@@ -4,3 +4,12 @@ source:
     ref: master
 name: Node.js - Circuit Breaker
 description: Demonstrates Circuit Breaker in Node.js
+environment:
+  staging:
+    source:
+      git:
+        ref: v0.6.0
+  production:
+    source:
+      git:
+        ref: v0.5.0

@@ -5,3 +5,12 @@ source:
 metadata:
   version:
     name: 2017.10.0 (Community)
+environment:
+  staging:
+    source:
+      git:
+        ref: '11'
+  production:
+    source:
+      git:
+        ref: '11'

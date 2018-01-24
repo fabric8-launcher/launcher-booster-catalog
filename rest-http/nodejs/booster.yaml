@@ -4,3 +4,12 @@ source:
     ref: master
 name: Node.js - HTTP
 description: Runs a Node.js HTTP application
+environment:
+  staging:
+    source:
+      git:
+        ref: v1.1.0
+  production:
+    source:
+      git:
+        ref: v1.0.3

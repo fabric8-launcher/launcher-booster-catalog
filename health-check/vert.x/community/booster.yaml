@@ -4,4 +4,16 @@ source:
     ref: master
 metadata:
   version:
-    name: 3.4.2.Final (Community)
+    name: 3.5.0.Final (Community)
+environment:
+  staging:
+    source:
+      git:
+        ref: v17
+  production:
+    source:
+      git:
+        ref: v15
+    metadata:
+      version:
+        name: 3.4.2.Final (Community)

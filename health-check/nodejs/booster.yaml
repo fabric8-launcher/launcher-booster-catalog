@@ -4,3 +4,12 @@ source:
     ref: master
 name: Node.js - Health Checks
 description: Demonstrates Health Checks in Node.js
+environment:
+  staging:
+    source:
+      git:
+        ref: v1.1.0
+  production:
+    source:
+      git:
+        ref: v1.0.4
