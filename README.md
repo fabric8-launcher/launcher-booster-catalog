@@ -32,5 +32,5 @@ Often separate Boosters will share the same information. For example both the co
 
 ### Additional information
 
-For an in-depth explanation of how to declare runtime versions see [HOWTO Add Runtime Versions to Boosters](https://github.com/fabric8-launcher/launcher-booster-catalog/wiki/HOWTO-Add-Runtime-Versions-to-Boosters)
+For a more in-depth explanation on how to create a Booster Catalog see [HOWTO Create a Booster-Catalog](https://github.com/fabric8-launcher/launcher-booster-catalog/wiki/HOWTO-Create-a-Booster-Catalog-(Generic)) or how to declare runtime versions [HOWTO Add Runtime Versions to Boosters](https://github.com/fabric8-launcher/launcher-booster-catalog/wiki/HOWTO-Add-Runtime-Versions-to-Boosters)
 
