@@ -4,6 +4,8 @@ source:
     ref: master
 name: Node.js - HTTP
 description: Runs a Node.js HTTP application
+metadata:
+  runsOn: "!osio"
 environment:
   staging:
     source:

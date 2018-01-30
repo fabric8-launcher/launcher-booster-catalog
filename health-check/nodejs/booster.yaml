@@ -4,6 +4,8 @@ source:
     ref: master
 name: Node.js - Health Checks
 description: Demonstrates Health Checks in Node.js
+metadata:
+  runsOn: "!osio"
 environment:
   staging:
     source:

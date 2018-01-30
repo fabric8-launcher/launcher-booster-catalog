@@ -1,0 +1,4 @@
+metadata:
+   runsOn:
+      - starter
+      - osio
