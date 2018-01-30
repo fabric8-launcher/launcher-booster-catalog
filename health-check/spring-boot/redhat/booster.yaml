@@ -1,0 +1,16 @@
+source:
+  git:
+    url: https://github.com/snowdrop/spring-boot-health-check-booster
+    ref: redhat
+metadata:
+  version:
+    name: 1.5.8.RELEASE (RHOAR)
+environment:
+  staging:
+    source:
+      git:
+        ref: v7-redhat
+  production:
+    source:
+      git:
+        ref: v7-redhat

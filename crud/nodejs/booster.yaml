@@ -1,0 +1,15 @@
+source:
+  git:
+    url: https://github.com/bucharest-gold/nodejs-rest-http-crud
+    ref: master
+name: Node.js - CRUD Example
+description: Runs a Node.js application exposing a HTTP endpoint proposing CRUD operations
+environment:
+  staging:
+    source:
+      git:
+        ref: v1.1.0
+  production:
+    source:
+      git:
+        ref: v1.0.3

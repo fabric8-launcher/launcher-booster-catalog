@@ -1,0 +1,2 @@
+name: Secured Spring Boot - HTTP & Red Hat SSO Example
+description: Application to expose a HTTP Greeting endpoint using SpringBoot & Secured by Red Hat SSO

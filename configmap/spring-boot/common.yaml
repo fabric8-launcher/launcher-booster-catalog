@@ -1,0 +1,2 @@
+name: Spring Boot - ConfigMap Example
+description: Booster to expose an HTTP Greeting endpoint using Spring Boot where the message is defined as a Kubernetes ConfigMap property

@@ -1,0 +1,17 @@
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-secured
+    ref: master
+metadata:
+  version:
+    name: 2017.10.0 (Community)
+  runsOn: none
+environment:
+  staging:
+    source:
+      git:
+        ref: '5'
+  production:
+    source:
+      git:
+        ref: '5'

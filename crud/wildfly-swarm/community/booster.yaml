@@ -1,0 +1,16 @@
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-crud
+    ref: master
+metadata:
+  version:
+    name: 2017.10.0 (Community)
+environment:
+  staging:
+    source:
+      git:
+        ref: '8'
+  production:
+    source:
+      git:
+        ref: '8'

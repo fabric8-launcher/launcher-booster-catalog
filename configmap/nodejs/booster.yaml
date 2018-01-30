@@ -1,0 +1,15 @@
+source:
+  git:
+    url: https://github.com/bucharest-gold/nodejs-configmap
+    ref: master
+name: Node.js - HTTP & Config Map
+description: Simple HTTP endpoint where the Node.js application uses OpenShift ConfigMap to get the application parameters.
+environment:
+  staging:
+    source:
+      git:
+        ref: v1.1.0
+  production:
+    source:
+      git:
+        ref: v1.0.2
