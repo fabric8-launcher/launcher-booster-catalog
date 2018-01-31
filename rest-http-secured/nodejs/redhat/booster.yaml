@@ -1,9 +1,10 @@
 source:
   git:
-    url: https://github.com/bucharest-gold/nodejs-circuit-breaker
+    url: https://github.com/bucharest-gold/nodejs-rest-http-secured-redhat
     ref: master
-name: Node.js - Circuit Breaker
-description: Demonstrates Circuit Breaker in Node.js
+metadata:
+  version:
+    name: 8.x (RHOAR)
 environment:
   staging:
     source:
