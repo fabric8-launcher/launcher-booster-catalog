@@ -5,7 +5,6 @@ source:
 metadata:
   version:
     name: 7.0.0.redhat-8 (RHOAR)
-  runsOn: none
 environment:
   staging:
     source:

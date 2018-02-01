@@ -5,7 +5,6 @@ source:
 metadata:
   version:
     name: 2017.10.0 (Community)
-  runsOn: none
 environment:
   staging:
     source:
