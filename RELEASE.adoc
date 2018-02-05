@@ -2,12 +2,10 @@
 
 Just tag the repository. There is no need to change master during release. Please keep tags to form `vX` where `v` is always a `v` and `X` is the release number.
 
-IMPORTANT: *Boosters that point to master MUST  be removed.*
+IMPORTANT: *Boosters that point to master MUST be removed.*
 
 ```
 git checkout -B release
-# Remove all YAML files that point to master
-find . -name "*.yaml" -type f -exec grep -q 'ref: master' {} \; -exec rm {} \;
 git commit -m "Updating to v1"
 git tag v1
 git push --tags
