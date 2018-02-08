@@ -1,6 +1,5 @@
 source:
   git:
-    url: https://github.com/snowdrop/spring-boot-http-secured-booster
     ref: master
 metadata:
   version:
