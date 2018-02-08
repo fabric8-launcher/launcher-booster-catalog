@@ -1,6 +1,5 @@
 source:
   git:
-    url: https://github.com/snowdrop/spring-boot-circuit-breaker-booster
     ref: master
 metadata:
   version:
@@ -9,8 +8,8 @@ environment:
   staging:
     source:
       git:
-        ref: v11
+        ref: v12
   production:
     source:
       git:
-        ref: v11
+        ref: v12

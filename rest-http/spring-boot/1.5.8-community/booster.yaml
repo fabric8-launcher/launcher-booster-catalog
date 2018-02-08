@@ -1,6 +1,5 @@
 source:
   git:
-    url: https://github.com/snowdrop/spring-boot-crud-booster
     ref: master
 metadata:
   version:
@@ -9,8 +8,8 @@ environment:
   staging:
     source:
       git:
-        ref: v15
+        ref: v13
   production:
     source:
       git:
-        ref: v15
+        ref: v13

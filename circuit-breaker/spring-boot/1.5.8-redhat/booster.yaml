@@ -1,6 +1,5 @@
 source:
   git:
-    url: https://github.com/snowdrop/spring-boot-http-booster
     ref: redhat
 metadata:
   version:

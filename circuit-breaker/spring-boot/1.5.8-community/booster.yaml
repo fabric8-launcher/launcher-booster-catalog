@@ -1,6 +1,5 @@
 source:
   git:
-    url: https://github.com/snowdrop/spring-boot-http-booster
     ref: master
 metadata:
   version:
@@ -9,8 +8,8 @@ environment:
   staging:
     source:
       git:
-        ref: v13
+        ref: v11
   production:
     source:
       git:
-        ref: v13
+        ref: v11
