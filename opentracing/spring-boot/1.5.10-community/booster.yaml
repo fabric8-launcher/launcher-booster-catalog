@@ -1,5 +1,5 @@
-name: Spring Boot Opentracing
-description: A booster that demonstrates how to configure and deploy a Spring Boot app instrumented using Opentracing.
+name: Spring Boot OpenTracing
+description: A booster that demonstrates how to configure and deploy a Spring Boot app instrumented using OpenTracing.
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-opentracing-booster
