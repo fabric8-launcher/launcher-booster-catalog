@@ -1,5 +1,6 @@
 .boosters/
 .idea/
+target/
 
 # Eclipse
 .project
