@@ -1,6 +1,6 @@
 source:
   git:
-    ref: sb-1.5.10
+    ref: 1.5.10-1
 metadata:
   version:
-    name: 1.5.10.RELEASE (Community Beta)
+    name: 1.5.10.RELEASE (Community)
