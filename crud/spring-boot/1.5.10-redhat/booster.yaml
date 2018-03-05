@@ -4,3 +4,6 @@ source:
 metadata:
   version:
     name: 1.5.10.RELEASE (RHOAR)
+environment:
+  production:
+    ignore: true
