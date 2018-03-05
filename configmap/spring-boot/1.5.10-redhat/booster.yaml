@@ -4,3 +4,10 @@ source:
 metadata:
   version:
     name: 1.5.10.RELEASE (RHOAR)
+environment:
+  staging:
+    source:
+      git:
+        ref: 1.5.10-2-redhat
+  production:
+    ignore: true
