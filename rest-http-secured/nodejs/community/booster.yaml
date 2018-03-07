@@ -4,13 +4,13 @@ source:
     ref: master
 metadata:
   version:
-    name: 8.x (RHOAR)
+    name: 8.x (Community)
 environment:
   staging:
     source:
       git:
-        ref: v1.0.1
+        ref: v1.1.1
   production:
     source:
       git:
-        ref: v1.0.1
+        ref: v1.1.1

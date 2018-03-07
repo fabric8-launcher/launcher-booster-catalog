@@ -3,16 +3,15 @@ source:
     url: https://github.com/bucharest-gold/nodejs-health-check-redhat
     ref: master
 metadata:
+  runsOn: "!osio"
   version:
     name: 8.x (RHOAR)
-metadata:
-  runsOn: "!osio"
 environment:
   staging:
     source:
       git:
-        ref: v1.1.0
+        ref: v1.2.0
   production:
     source:
       git:
-        ref: v1.1.0
+        ref: v1.2.0
