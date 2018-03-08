@@ -1,0 +1,17 @@
+metadata:
+  runsOn: '!osio'
+name: WildFly Swarm - Config Map
+description: Simple HTTP endpoint where the WildFly Swarm application uses OpenShift ConfigMap to retrieve application parameters.
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-configmap-redhat
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: 7.0.0-redhat-7
+  production:
+    source:
+      git:
+        ref: 7.0.0-redhat-7

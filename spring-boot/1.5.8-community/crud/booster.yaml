@@ -1,0 +1,17 @@
+metadata:
+  runsOn: '!starter'
+name: Spring Boot - CRUD Example
+description: Booster to expose an HTTP endpoint with CRUD operations on fruits database.
+source:
+  git:
+    url: https://github.com/snowdrop/spring-boot-crud-booster
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v15
+  production:
+    source:
+      git:
+        ref: v15

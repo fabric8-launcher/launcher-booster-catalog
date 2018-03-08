@@ -1,3 +1,0 @@
-name: Node.js - HTTP & Config Map
-description: Simple HTTP endpoint where the Node.js application uses OpenShift ConfigMap to get the application parameters.
-

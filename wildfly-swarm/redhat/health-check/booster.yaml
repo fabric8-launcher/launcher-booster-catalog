@@ -1,0 +1,15 @@
+name: WildFly Swarm - Health Checks
+description: Demonstrates Health Checks in Wildfly Swarm
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-health-check-redhat
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: 7.0.0-redhat-6
+  production:
+    source:
+      git:
+        ref: 7.0.0-redhat-6
