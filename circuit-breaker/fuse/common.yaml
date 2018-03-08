@@ -1,5 +1,0 @@
-name: Fuse Circuit Breaker Example
-description: Quickstart to demonstrate Circuit Breaker pattern with Apache Camel.
-source:
-  git:
-    url: https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster
