@@ -2,14 +2,15 @@ source:
   git:
     url: https://github.com/bucharest-gold/nodejs-circuit-breaker
     ref: master
-name: Node.js - Circuit Breaker
-description: Demonstrates Circuit Breaker in Node.js
+metadata:
+  version:
+    name: 8.x (Community)
 environment:
   staging:
     source:
       git:
-        ref: v1.0.0
+        ref: v1.1.1
   production:
     source:
       git:
-        ref: v1.0.0
+        ref: v1.1.1
