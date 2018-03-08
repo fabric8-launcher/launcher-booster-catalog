@@ -1,2 +1,0 @@
-name: Vert.x - HTTP & Config Map
-description: Simple HTTP endpoint where the Vert.x application uses OpenShift ConfigMap to get the application parameters.

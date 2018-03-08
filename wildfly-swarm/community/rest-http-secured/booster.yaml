@@ -1,0 +1,17 @@
+metadata:
+  runsOn: none
+name: WildFly Swarm - REST and RH SSO
+description: A simple HTTP application using Wildfly Swarm secured by RH SSO
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-rest-http-secured
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: '7'
+  production:
+    source:
+      git:
+        ref: '7'

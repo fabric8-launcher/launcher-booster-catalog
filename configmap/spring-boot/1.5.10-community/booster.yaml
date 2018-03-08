@@ -1,6 +1,0 @@
-source:
-  git:
-    ref: 1.5.10-2
-metadata:
-  version:
-    name: 1.5.10.RELEASE (Community)

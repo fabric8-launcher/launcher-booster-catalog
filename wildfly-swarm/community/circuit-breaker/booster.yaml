@@ -1,0 +1,17 @@
+metadata:
+  runsOn: '!starter'
+name: WildFly Swarm - Circuit Breaker
+description: Demonstrates Circuit Breaker in Wildfly Swarm
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-circuit-breaker
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: '5'
+  production:
+    source:
+      git:
+        ref: '5'

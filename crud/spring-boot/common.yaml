@@ -1,5 +1,0 @@
-name: Spring Boot - CRUD Example
-description: Booster to expose an HTTP endpoint with CRUD operations on fruits database.
-source:
-  git:
-    url: https://github.com/snowdrop/spring-boot-crud-booster

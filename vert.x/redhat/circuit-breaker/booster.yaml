@@ -1,0 +1,17 @@
+metadata:
+  runsOn: '!starter'
+name: Vert.x Circuit Breaker Booster
+description: Runs a Vert.x application using a circuit breaker
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-circuit-breaker-booster-redhat
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v7
+  production:
+    source:
+      git:
+        ref: v6

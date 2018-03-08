@@ -1,0 +1,17 @@
+metadata:
+  runsOn: '!starter'
+name: Vert.x CRUD Example using JDBC
+description: Runs a Vert.x application exposing a HTTP endpoint proposing CRUD operations implemented on top of JDBC
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-crud-booster-redhat
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v7
+  production:
+    source:
+      git:
+        ref: v6

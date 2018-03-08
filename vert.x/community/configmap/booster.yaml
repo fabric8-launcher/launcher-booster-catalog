@@ -1,0 +1,20 @@
+metadata:
+  runsOn: '!osio'
+name: Vert.x - HTTP & Config Map
+description: Simple HTTP endpoint where the Vert.x application uses OpenShift ConfigMap to get the application parameters.
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-configmap-booster
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v22
+  production:
+    source:
+      git:
+        ref: v19
+    metadata:
+      version:
+        name: 3.4.2.Final (Community)
