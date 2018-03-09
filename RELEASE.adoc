@@ -1,17 +1,12 @@
 == Release Instructions
 
-Just tag the repository. There is no need to change master during release. Please keep tags to form `vX` where `v` is always a `v` and `X` is the release number.
+Create a new release using the GitHub UI (which will automatically create a tag). There is no need to change master during release. Please keep releases to form `vX` where `v` is always a `v` and `X` is the release number.
 
-IMPORTANT: *Boosters that point to master MUST be removed.*
-
-```
-git checkout -B release
-git commit -m "Updating to v1"
-git tag v1
-git push --tags
-git checkout master 
-git branch -D release
-```
+. Navigate to the releases page: https://github.com/fabric8-launcher/launcher-booster-catalog/releases
+. Click em `Draft a new Release`
+. Tag the release following the pattern `vX` where `v` is always a `v` and `X` is the release number.
+. Choose the specific commit you want to release (or use master)
+. Click Publish Release
 
 == How to make the release effective in production?
 
