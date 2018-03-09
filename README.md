@@ -3,17 +3,54 @@ Set of known example applications (Boosters) conforming to the minimal set of re
 
 ### Metadata
 
-The repository has a `metadata.json` file in the root containing a list of the supported missions and runtimes along with their human-readable names.
+The repository has a `metadata.yaml` file in the root containing a list of the supported missions and runtimes along with their human-readable names and other information. The basic format is like this:
 
-IMPORTANT: If a new mission or runtime is introduced, you MUST change the `metadata.json` file too. 
+```yaml
+missions:
+- id: crud
+  name: CRUD
+- id: circuit-breaker
+  name: Circuit Breaker
+runtimes:
+- id: vert.x
+  name: Eclipse Vert.x
+  icon: data:image/svg+xml;...
+  metadata:
+    pipelinePlatform: maven
+  versions:
+  - id: redhat
+    name: 3.4.2.redhat-006 (RHOAR)
+  - id: community
+    name: 3.5.0.Final (Community)
+```
+
+Where you have a list of `missions` and a list of `runtimes` and each runtime has a list of `versions`. Each of those can have the following standard attributes:
+
+Name   | Description 
+------ | -----------
+id | The id of the mission, runtime or version. Must coincide with the folder name
+name | The name of the mission, runtime or version as shown in the UI
+description | (Optional) A longer description for the mission, runtime or version
+icon | (Optional) The icon to be shown in the UI (only for runtimes)
+metadata | (Optional) A free section where booster authors can put their own information which will be passed on to REST endpoints and the UI
+
+Known entries for the `metadata` section are:
+
+Path   | Description 
+------ | -----------
+pipelinePlatform | (Optional) The Jenkins pipeline template to use for the boosters (only for runtimes)
+suggested | (Optional) Will be marked in the UI as a suggested option
+prerequisite | (Optional) The UI will mark this booster as needing special attention from the user
+
+IMPORTANT: If a new mission or runtime is introduced, you MUST change the `metadata.yaml` file too. 
 
 ### Catalog structure
 
-This repository is organized by `{mission}/{runtime}/booster.yaml` or  `{mission}/{runtime}/{version}/{name}.yaml` depending if your booster supports runtime versions or not:
+This repository is organized by `{runtime}/{version}/{mission}/booster.yaml`. Regardless if your booster supports runtime versions or not you'll have to specify at least a single `{version}` folder. If you don't know what to call it use `default`.
 
 ### Booster descriptor
 
-For each Booster, create a YAML file in the respective `{mission}/{runtime}` (or  `{mission}/{runtime}/{version}`) directory named `booster.yaml` (although it can have any name you want, except `common.yaml`). In it should be the following information:
+For each Booster, create a YAML file in the respective `{mission}/{runtime}/{version}` directory named `booster.yaml` (it can have other names, but it shuld at least end with `booster.yaml`). In it should be the following information:
 
 Name   | Description 
 ------ | -----------
@@ -22,9 +59,15 @@ description | (Optional) A longer description for the Booster
 ignore | (Optional) Set this to "true" to have the Booster be ignored by the Launcher
 source/git/url | The Git repository location URL
 source/git/ref | The Git reference (tag/branch/SHA1)
-metadata/version/name | If the Booster supports versions then this is the name that will be shown in the UI
-metadata/runsOn | (Optional) A single cluster type or a list of cluster types where this booster can run. A type can be prefixed with `!` to negate the option: the booster will _not_ run on clusters of that type. Special values `all` and `none` indicate the booster will run everywhere or nowhere respectively. Important: when using the `!` to negate you _must_ surround it and the cluster type name with double quotes.
-metadata/buildProfile | (Optional) The Maven profile that should be activated in the booster's `pom.xml` file
+metadata | (Optional) A free section where booster authors can put their own information which will be passed on to REST endpoints and the UI
+
+Known entries for the `metadata` section are:
+
+Path   | Description 
+------ | -----------
+runsOn | (Optional) A single cluster type or a list of cluster types where this booster can run. A type can be prefixed with `!` to negate the option: the booster will _not_ run on clusters of that type. Special values `all` and `none` indicate the booster will run everywhere or nowhere respectively. Important: when using the `!` to negate you _must_ surround it and the cluster type name with double quotes.
+buildProfile | (Optional) The Maven profile that should be activated in the booster's `pom.xml` file
+worksWithLegacyOsio | (Optional) If set to `true` the booster will be available for the legacy OSIO application
 
 ### Common values
 
