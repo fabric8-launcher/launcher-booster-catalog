@@ -6,8 +6,10 @@ Create a new release using the GitHub UI (which will automatically create a tag)
 . Click in `Draft a new Release`
 . Tag the release following the pattern `vX` where `v` is always a `v` and `X` is the release number.
 . Choose the specific commit you want to release (or use master)
-. Click Publish Release
+. Click `Publish Release` to immediately update production
 
 == How to make the release effective in production?
 
-File an issue in https://gitlab.cee.redhat.com/dtsd/housekeeping/issues to have the Service Delivery team perform the necessary changes in the production env (example in https://gitlab.cee.redhat.com/dtsd/housekeeping/issues/643).
+The release will be automatically effective in production once it is published. Saving as a Draft or publishing pre-release builds do not affect production. 
+
+In short, if you don't want the release to be effective in production immediately, then make sure that the `This is a pre-release` checkbox is marked.
