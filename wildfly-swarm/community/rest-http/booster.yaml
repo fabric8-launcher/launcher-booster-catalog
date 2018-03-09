@@ -4,6 +4,8 @@ source:
   git:
     url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-rest-http
     ref: master
+metadata:
+  worksWithLegacyOsio: true
 environment:
   staging:
     source:

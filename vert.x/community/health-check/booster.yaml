@@ -4,6 +4,8 @@ source:
   git:
     url: https://github.com/openshiftio-vertx-boosters/vertx-health-checks-booster
     ref: master
+metadata:
+  worksWithLegacyOsio: true
 environment:
   staging:
     source:
