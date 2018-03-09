@@ -1,0 +1,17 @@
+source:
+  git:
+    url: https://github.com/bucharest-gold/nodejs-rest-http-redhat
+    ref: master
+metadata:
+  runsOn: "!osio"
+  version:
+    name: 8.x (RHOAR)
+environment:
+  staging:
+    source:
+      git:
+        ref: v1.2.0
+  production:
+    source:
+      git:
+        ref: v1.2.0

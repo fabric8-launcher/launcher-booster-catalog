@@ -1,0 +1,16 @@
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-http-booster-redhat
+    ref: master
+metadata:
+  version:
+    name: 3.4.2.redhat-006 (RHOAR)
+environment:
+  staging:
+    source:
+      git:
+        ref: v8
+  production:
+    source:
+      git:
+        ref: v7

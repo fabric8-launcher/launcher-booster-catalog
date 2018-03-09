@@ -1,0 +1,6 @@
+source:
+  git:
+    ref: master
+metadata:
+  version:
+    name: 1.5.8.RELEASE (RHOAR)

@@ -1,0 +1,15 @@
+source:
+  git:
+    ref: master
+metadata:
+  version:
+    name: 1.5.8.RELEASE (Community)
+environment:
+  staging:
+    source:
+      git:
+        ref: v11
+  production:
+    source:
+      git:
+        ref: v11

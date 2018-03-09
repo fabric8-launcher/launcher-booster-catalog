@@ -1,0 +1,9 @@
+source:
+  git:
+    ref: 1.5.10-1-redhat
+metadata:
+  version:
+    name: 1.5.10.RELEASE (RHOAR)
+environment:
+  production:
+    ignore: true

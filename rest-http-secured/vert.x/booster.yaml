@@ -1,0 +1,6 @@
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-secured-http-booster
+    ref: master
+name: Secured Vertx - Rest & Red Hat SSO
+description: Quickstart to expose a REST Greeting endpoint using Eclipse Vert.x & Secured by Red Hat SSO

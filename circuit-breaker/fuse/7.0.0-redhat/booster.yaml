@@ -1,0 +1,15 @@
+source:
+  git:
+    ref: redhat
+metadata:
+  version:
+    name: 7.0.0-tp (Red Hat Fuse - Tech preview)
+environment:
+  staging:
+    source:
+      git:
+        ref: v1.1-redhat
+  production:
+    source:
+      git:
+        ref: v1.1-redhat

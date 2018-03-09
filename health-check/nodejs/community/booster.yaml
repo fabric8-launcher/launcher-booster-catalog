@@ -1,0 +1,17 @@
+source:
+  git:
+    url: https://github.com/bucharest-gold/nodejs-health-check
+    ref: master
+metadata:
+  runsOn: "!osio"
+  version:
+    name: 8.x (Community)
+environment:
+  staging:
+    source:
+      git:
+        ref: v1.2.1
+  production:
+    source:
+      git:
+        ref: v1.2.1

@@ -1,0 +1,19 @@
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-crud-booster
+    ref: master
+metadata:
+  version:
+    name: 3.5.0.Final (Community)
+environment:
+  staging:
+    source:
+      git:
+        ref: v21
+  production:
+    source:
+      git:
+        ref: v19
+    metadata:
+      version:
+        name: 3.4.2.Final (Community)
