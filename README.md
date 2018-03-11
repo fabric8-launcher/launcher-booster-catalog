@@ -50,7 +50,7 @@ This repository is organized by `{runtime}/{version}/{mission}/booster.yaml`. Re
 
 ### Booster descriptor
 
-For each Booster, create a YAML file in the respective `{mission}/{runtime}/{version}` directory named `booster.yaml` (it can have other names, but it shuld at least end with `booster.yaml`). In it should be the following information:
+For each Booster, create a YAML file in the respective `{mission}/{runtime}/{version}` directory named `booster.yaml` (it can have other names, but it should at least end with `booster.yaml`). In it should be the following information:
 
 Name   | Description 
 ------ | -----------
