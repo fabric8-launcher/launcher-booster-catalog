@@ -10,11 +10,11 @@ environment:
   staging:
     source:
       git:
-        ref: v17
+        ref: v18
   production:
     source:
       git:
-        ref: v15
+        ref: v18
     metadata:
       version:
-        name: 3.4.2.Final (Community)
+        name: 3.5.0.Final (Community)
