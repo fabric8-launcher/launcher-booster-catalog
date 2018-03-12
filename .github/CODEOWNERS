@@ -1,0 +1,14 @@
+# Fuse
+/fuse/ @launcher-booster-catalog/fuse-runtime
+
+# Node.js
+/nodejs/ @launcher-booster-catalog/node.js-runtime
+
+# Spring Boot
+/spring-boot/ @launcher-booster-catalog/spring-boot-runtime
+
+# Eclipse Vert.x
+/vert.x/ @launcher-booster-catalog/runtime-vert.x
+
+# Eclipse Vert.x
+/wildfly-swarm/ @launcher-booster-catalog/wildfly-swarm
