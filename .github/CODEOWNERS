@@ -10,5 +10,5 @@
 # Eclipse Vert.x
 /vert.x/ @launcher-booster-catalog/runtime-vert.x
 
-# Eclipse Vert.x
+# WildFly Swarm
 /wildfly-swarm/ @launcher-booster-catalog/runtime-wildfly-swarm
