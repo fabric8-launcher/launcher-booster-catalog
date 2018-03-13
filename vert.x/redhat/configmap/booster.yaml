@@ -10,8 +10,8 @@ environment:
   staging:
     source:
       git:
-        ref: v9
+        ref: v10
   production:
     source:
       git:
-        ref: v9
+        ref: v10
