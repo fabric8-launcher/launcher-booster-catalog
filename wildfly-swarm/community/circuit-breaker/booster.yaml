@@ -10,8 +10,8 @@ environment:
   staging:
     source:
       git:
-        ref: '6'
+        ref: '7'
   production:
     source:
       git:
-        ref: '6'
+        ref: '7'
