@@ -1,5 +1,7 @@
 metadata:
-  runsOn: '!starter'
+  runsOn: 
+    - '!starter'
+    - '!osio'
 name: HTTP CRUD - Wildfly Swarm
 description: A simple CRUD applicaiton using Wildfly Swarm
 source:
