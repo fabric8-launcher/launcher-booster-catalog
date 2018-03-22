@@ -1,5 +1,7 @@
 metadata:
-  runsOn: '!starter'
+  runsOn: 
+    - '!starter'
+    - '!osio'
 name: Fuse Circuit Breaker Example
 description: Quickstart to demonstrate Circuit Breaker pattern with Apache Camel.
 source:
