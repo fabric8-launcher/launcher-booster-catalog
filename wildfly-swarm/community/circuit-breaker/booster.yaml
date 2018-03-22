@@ -1,5 +1,7 @@
 metadata:
-  runsOn: '!starter'
+  runsOn: 
+    - '!starter'
+    - '!osio'
 name: WildFly Swarm - Circuit Breaker
 description: Demonstrates Circuit Breaker in Wildfly Swarm
 source:
