@@ -12,8 +12,8 @@ environment:
   staging:
     source:
       git:
-        ref: 7.0.0-redhat-6
+        ref: 7.0.1-redhat-1
   production:
     source:
       git:
-        ref: 7.0.0-redhat-6
+        ref: 7.0.1-redhat-1
