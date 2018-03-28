@@ -3,7 +3,7 @@ metadata:
     - '!starter'
     - '!osio'
 name: Spring Boot - Circuit Breaker Example
-description: Application to demonstrate Circuit Breaker pattern with Spring Boot.
+description: Booster to demonstrate Circuit Breaker pattern with Spring Boot.
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-circuit-breaker-booster
