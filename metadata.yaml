@@ -4,11 +4,6 @@ missions:
   description: The Cache mission demonstrates how to use a cache to improve the response time of applications.
   metadata:
     level: advanced
-- id: crud
-  name: CRUD
-  description: The Relational Database Backend mission expands on the REST API Level 0 mission to provide a basic example of performing create, read, update and delete (CRUD) operations on a PostgreSQL database using a simple HTTP API. CRUD operations are the four basic functions of persistent storage, widely used when developing an HTTP API dealing with a database.
-  metadata:
-    level: foundational
 - id: circuit-breaker
   name: Circuit Breaker
   description: The Circuit Breaker mission demonstrates a generic pattern for reporting the failure of a service and then limiting access to the failed service until it becomes available to handle requests. This helps prevent cascading failure in other services that depend on the failed services for functionality.
@@ -17,6 +12,11 @@ missions:
 - id: configmap
   name: Externalized Configuration
   description: The Externalized Configuration mission provides a basic example of using a ConfigMap to externalize configuration. ConfigMap is an object used by OpenShift to inject configuration data as simple key and value pairs into one or more Linux containers while keeping the containers independent of OpenShift.
+  metadata:
+    level: foundational
+- id: crud
+  name: CRUD
+  description: The Relational Database Backend mission expands on the REST API Level 0 mission to provide a basic example of performing create, read, update and delete (CRUD) operations on a PostgreSQL database using a simple HTTP API. CRUD operations are the four basic functions of persistent storage, widely used when developing an HTTP API dealing with a database.
   metadata:
     level: foundational
 - id: health-check
@@ -32,7 +32,7 @@ missions:
     istio: true
 - id: istio-distributed-tracing
   name: Istio - Distributed Tracing
-  description: The Istio Distributed Tracing mission demonstrates how to integrate tracing into services running on Istio.
+  description: The Istio Distributed Tracing mission demonstrates how simple distributed tracing can be integrated with an application running on an Istio-enabled cluster.
   metadata:
     level: expert
     istio: true
@@ -44,7 +44,7 @@ missions:
     istio: true
 - id: istio-routing
   name: Istio - Routing
-  description: The Istio Routing mission demonstrates how to split the load between different versions of the same service.
+  description: The Istio Routing mission demonstrates how Istio can be used to route traffic to/from services, including load balancing traffic to different versions of the same service. This can be used to set up A/B tests, canary deployments, or simply do rolling deployments during a production release.
   metadata:
     level: expert
     istio: true

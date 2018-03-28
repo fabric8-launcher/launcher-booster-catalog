@@ -3,7 +3,7 @@ metadata:
     - '!starter'
     - '!osio'
 name: Spring Boot - Cache Example
-description: Demonstrate how to use a cache server Spring Boot on OpenShift
+description: Booster to demonstrate how to use a cache server Spring Boot on OpenShift.
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-cache-booster
