@@ -5,6 +5,8 @@ source:
     url: https://github.com/openshiftio-vertx-boosters/vertx-http-booster
     ref: master
 metadata:
+  runsOn:
+    - '!osio'
   worksWithLegacyOsio: true
 environment:
   staging:
