@@ -1,5 +1,3 @@
-metadata:
-  runsOn: '!osio'
 name: WildFly Swarm - Config Map
 description: Simple HTTP endpoint where the WildFly Swarm application uses OpenShift ConfigMap to retrieve application parameters.
 source:
