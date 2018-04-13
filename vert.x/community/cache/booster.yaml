@@ -1,0 +1,22 @@
+metadata:
+  runsOn: 
+    - '!starter'
+    - '!osio'
+name: Vert.x Cache Booster
+description: Demonstrate how to use a cache server from an Eclipse Vert.x application
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-cache-booster
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v1
+  production:
+    source:
+      git:
+        ref: v1
+    metadata:
+      version:
+        name: 3.5.0.Final (Community)
