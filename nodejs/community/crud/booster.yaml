@@ -1,5 +1,5 @@
 metadata:
-  runsOn: 
+  runsOn:
     - '!starter'
     - '!osio'
 name: Node.js - CRUD Example
@@ -12,8 +12,8 @@ environment:
   staging:
     source:
       git:
-        ref: v1.2.1
+        ref: v1.2.2
   production:
     source:
       git:
-        ref: v1.2.1
+        ref: v1.2.2
