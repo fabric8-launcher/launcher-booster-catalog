@@ -1,4 +1,9 @@
 missions:
+- id: cache
+  name: Cache
+  description: The Cache mission demonstrates how to use a cache to improve the response time of applications. 
+  metadata:
+    level: advanced
 - id: crud
   name: CRUD
   description: The Relational Database Backend mission expands on the REST API Level 0 mission to provide a basic example of performing create, read, update and delete (CRUD) operations on a PostgreSQL database using a simple HTTP API. CRUD operations are the four basic functions of persistent storage, widely used when developing an HTTP API dealing with a database.

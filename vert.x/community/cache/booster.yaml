@@ -1,0 +1,17 @@
+metadata:
+  runsOn: 
+    - '!starter'
+    - '!osio'
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-cache-booster
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v1
+  production:
+    source:
+      git:
+        ref: v1
