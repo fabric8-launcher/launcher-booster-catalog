@@ -1,0 +1,19 @@
+metadata:
+  runsOn: 
+    - '!starter'
+    - '!osio'
+name: WildFly Swarm - Cache
+description: Demonstrate how to use a cache server in Wildfly Swarm
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-cache
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: '1'
+  production:
+    source:
+      git:
+        ref: '1'
