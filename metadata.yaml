@@ -23,7 +23,7 @@ missions:
   name: Health Check
   description: The Health Check mission demonstrates the health check pattern. When you deploy an application, its important to know if it is available and if it can start handling incoming requests. Implementing the health check pattern allows you to monitor the health of an application, which includes if an application is available and whether it is able to service requests.
   metadata:
-    level: foundational    
+    level: foundational
 - id: rest-http
   name: REST API Level 0
   description: The REST API Level 0 mission shows how to map business operations to a remote procedure call endpoint over HTTP using a REST framework. This corresponds to Level 0 in the Richardson Maturity Model. Creating an HTTP endpoint using REST and its underlying principles to define your API lets you quickly prototype and design the API flexibly.
