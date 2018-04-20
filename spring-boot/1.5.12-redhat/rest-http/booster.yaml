@@ -1,5 +1,5 @@
 name: Spring Boot - HTTP Example
-description: Quickstart to expose a HTTP Greeting endpoint using Spring Boot and Apache Tomcat in embedded mode
+description: Application to expose a HTTP Greeting endpoint using Spring Boot and Apache Tomcat in embedded mode
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-http-booster

@@ -1,5 +1,5 @@
-name: Spring Boot Health Check Example
-description: Quickstart to demonstrate OpenShift health probes working with Spring Boot Actuator
+name: Spring Boot - Health Check Example
+description: Application to demonstrate OpenShift health probes working with Spring Boot Actuator
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-health-check-booster
