@@ -86,9 +86,9 @@ runtimes:
   metadata:
     pipelinePlatform: maven
   versions:
-  - id: 1.5.12-community
+  - id: current-community
     name: 1.5.12.RELEASE (Community)
-  - id: 1.5.12-redhat
+  - id: current-redhat
     name: 1.5.12.RELEASE (RHOAR)
 - id: wildfly-swarm
   name: WildFly Swarm
