@@ -3,6 +3,8 @@ description: Quickstart to demonstrate OpenShift health probes working with Spri
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-health-check-booster
-    ref: 1.5.10-4-redhat
+    ref: 1.5.12-3
 metadata:
+  runsOn:
+    - '!osio'
   worksWithLegacyOsio: true

@@ -86,10 +86,10 @@ runtimes:
   metadata:
     pipelinePlatform: maven
   versions:
-  - id: 1.5.10-community
-    name: 1.5.10.RELEASE (Community)
-  - id: 1.5.10-redhat
-    name: 1.5.10.RELEASE (RHOAR)
+  - id: 1.5.12-community
+    name: 1.5.12.RELEASE (Community)
+  - id: 1.5.12-redhat
+    name: 1.5.12.RELEASE (RHOAR)
 - id: wildfly-swarm
   name: WildFly Swarm
   description: An innovative approach to packaging and running Java EE applications, packaging them with just enough of the server runtime to "java -jar" your application.  
