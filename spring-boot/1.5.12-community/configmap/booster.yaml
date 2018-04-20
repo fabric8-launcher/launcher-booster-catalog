@@ -1,6 +1,8 @@
+metadata:
+  runsOn: '!osio'
 name: Spring Boot - ConfigMap Example
 description: Booster to expose an HTTP Greeting endpoint using Spring Boot where the message is defined as a Kubernetes ConfigMap property
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-configmap-booster
-    ref: 1.5.10-5-redhat
+    ref: 1.5.12-3
