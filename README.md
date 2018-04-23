@@ -59,7 +59,13 @@ description | (Optional) A longer description for the Booster
 ignore | (Optional) Set this to "true" to have the Booster be ignored by the Launcher
 source/git/url | The Git repository location URL
 source/git/ref | The Git reference (tag/branch/SHA1)
+environment | (Optional) The configuration for this booster in a specific environment to be overriden from the default configuration
 metadata | (Optional) A free section where booster authors can put their own information which will be passed on to REST endpoints and the UI
+
+> A note about environments:
+> - https://launch.prod-preview.openshift.io consumes the configuration set in the `staging` environment tag
+> - https://developers.redhat.com/launch consumes the configuration set in the `production`environment tag
+
 
 Known entries for the `metadata` section are:
 
