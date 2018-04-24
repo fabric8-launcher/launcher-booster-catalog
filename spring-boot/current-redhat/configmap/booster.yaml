@@ -3,4 +3,13 @@ description: Booster to expose an HTTP Greeting endpoint using Spring Boot where
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-configmap-booster
-    ref: 1.5.12-2-redhat
+    ref: redhat
+environment:
+  staging:
+    source:
+      git:
+        ref: 1.5.12-2-redhat
+  production:
+    source:
+      git:
+        ref: 1.5.10-5-redhat

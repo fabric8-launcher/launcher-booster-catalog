@@ -7,4 +7,13 @@ description: Application to demonstrate Circuit Breaker pattern with Spring Boot
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-circuit-breaker-booster
-    ref: 1.5.12-2-redhat
+    ref: redhat
+environment:
+  staging:
+    source:
+      git:
+        ref: 1.5.12-2-redhat
+  production:
+    source:
+      git:
+        ref: 1.5.10-4-redhat
