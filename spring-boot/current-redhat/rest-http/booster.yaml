@@ -3,6 +3,15 @@ description: Application to expose a HTTP Greeting endpoint using Spring Boot an
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-http-booster
-    ref: 1.5.12-2-redhat
+    ref: redhat
+environment:
+  staging:
+    source:
+      git:
+        ref: 1.5.12-2-redhat
+  production:
+    source:
+      git:
+        ref: 1.5.10-4-redhat
 metadata:
   worksWithLegacyOsio: true

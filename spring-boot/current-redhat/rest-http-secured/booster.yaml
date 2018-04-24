@@ -5,4 +5,13 @@ description: Application to expose a HTTP Greeting endpoint using SpringBoot & S
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-http-secured-booster
-    ref: 1.5.12-2-redhat
+    ref: redhat
+environment:
+  staging:
+    source:
+      git:
+        ref: 1.5.12-2-redhat
+  production:
+    source:
+      git:
+        ref: 1.5.10-5-redhat
