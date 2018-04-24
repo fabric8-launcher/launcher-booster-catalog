@@ -3,15 +3,6 @@ description: Booster to demonstrate OpenShift health probes working with Spring 
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-health-check-booster
-    ref: redhat
-environment:
-  staging:
-    source:
-      git:
-        ref: 1.5.10-4-redhat
-  production:
-    source:
-      git:
-        ref: 1.5.10-4-redhat
+    ref: 1.5.12-2-redhat
 metadata:
   worksWithLegacyOsio: true
