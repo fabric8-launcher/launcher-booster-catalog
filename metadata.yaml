@@ -88,6 +88,8 @@ runtimes:
   versions:
   - id: current-community
     name: 1.5.12.RELEASE (Community)
+  - id: osio-community
+    name: 1.5.12.RELEASE (OSIO Community)
   - id: current-redhat
     name: 1.5.10.RELEASE (RHOAR)
 - id: wildfly-swarm
