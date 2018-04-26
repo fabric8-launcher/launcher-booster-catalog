@@ -26,24 +26,28 @@ missions:
     level: foundational
 - id: istio-circuit-breaker
   name: Istio - Circuit Breaker
-  description: The Istio Circuit Breaker mission demonstrates limiting access to a degraded service until it becomes available to handle requests. This helps prevent cascading failure in other services that depend on the failed services for functionality.
+  description: The Istio Circuit Breaker mission demonstrates limiting access to a degraded service until it becomes available to handle requests. This helps prevent cascading failures in other services that depend on the failed services for functionality.
   metadata:
     level: expert
+    istio: true
 - id: istio-distributed-tracing
   name: Istio - Distributed Tracing
   description: The Istio Distributed Tracing mission demonstrates how to integrate tracing into services running on Istio.
   metadata:
     level: expert
-- id: istio-mutual-tls-acl
-  name: Istio - Mutual TLS and ACL
-  description: Ths Istio Mutual TLS and ACL mission demonstrates how Istio secures communication between microservices with Mutual TLS, and how services can be allowed or denied access to other services using ACL.
+    istio: true
+- id: istio-security
+  name: Istio - Security
+  description: Ths Istio Security mission demonstrates how Istio secures communication between microservices with Mutual TLS, and how services can be allowed or denied access to other services using ACL.
   metadata:
     level: expert
+    istio: true
 - id: istio-routing
   name: Istio - Routing
   description: The Istio Routing mission demonstrates how to split the load between different versions of the same service.
   metadata:
     level: expert
+    istio: true
 - id: rest-http
   name: REST API Level 0
   description: The REST API Level 0 mission shows how to map business operations to a remote procedure call endpoint over HTTP using a REST framework. This corresponds to Level 0 in the Richardson Maturity Model. Creating an HTTP endpoint using REST and its underlying principles to define your API lets you quickly prototype and design the API flexibly.
