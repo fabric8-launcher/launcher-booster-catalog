@@ -81,7 +81,7 @@ The values you put on `runsOn` will depend on the same values configured in the 
 - `starter`: If this booster runs in a Starter cluster; 
 - `pro`: If this booster runs in a Pro cluster;
 - `osio`: If this booster runs in openshift.io;
-- `none`: If this booster should only be available as a ZIP download; 
+- `none`: If this booster should only be available as a ZIP download.
 
 ### Common values
 
