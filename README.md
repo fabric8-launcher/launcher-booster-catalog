@@ -75,6 +75,14 @@ runsOn | (Optional) A single cluster type or a list of cluster types where this 
 buildProfile | (Optional) The Maven profile that should be activated in the booster's `pom.xml` file
 worksWithLegacyOsio | (Optional) If set to `true` the booster will be available for the legacy OSIO application
 
+#### Common values for `runsOn`
+The values you put on `runsOn` will depend on the same values configured in the `type` tag [inside the openshift-clusters.yaml in the launcher-backend installation](https://github.com/fabric8-launcher/launcher-openshift-templates/blob/6b76e6f7c4fe9f86e8d820824b50e3743e3108ee/openshift/launcher-template.yaml#L200-L233), with the exception of the `local` value (which is a special case when the launcher-backend installation is configured to use the same cluster as it is deployed). Common used values are:
+- `local`: If this booster only runs in the local OpenShift cluster;
+- `starter`: If this booster runs in a Starter cluster; 
+- `pro`: If this booster runs in a Pro cluster;
+- `osio`: If this booster runs in openshift.io;
+- `none`: If this booster should only be available as a ZIP download; 
+
 ### Common values
 
 Often separate Boosters will share the same information. For example both the community and officially supported versions of a Booster will most likely have the same name and description. To avoid duplication you can put those items in a `common.yaml` file instead. When the Launcher encounters a `common.yaml` file in the catalog _all_ Boosters in the same folder and in all sub folders will be based on the information found in that file. The file can contain the exact same information as a `booster.yaml` file. Any information in the `booster.yaml` files will merge with or overwrite the information found in the `common.yaml` file. Application of `common.yaml` files is recursive, so `common.yaml` files in sub folders will overwrite values found in `common.yaml` files in parent folders.
