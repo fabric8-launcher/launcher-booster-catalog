@@ -67,7 +67,7 @@ runtimes:
     pipelinePlatform: maven
   versions:
   - id: redhat
-    name: 3.4.2.redhat-009 (RHOAR)
+    name: 3.5.1.redhat-003 (RHOAR)
   - id: community
     name: 3.5.0.Final (Community)
 - id: fuse
