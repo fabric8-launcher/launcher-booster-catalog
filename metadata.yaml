@@ -1,7 +1,7 @@
 missions:
 - id: cache
   name: Cache
-  description: The Cache mission demonstrates how to use a cache to improve the response time of applications
+  description: Use a cache to improve the response time of applications
   metadata:
     level: advanced
 - id: circuit-breaker
