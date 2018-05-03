@@ -125,6 +125,6 @@ runtimes:
     pipelinePlatform: maven
   versions:
   - id: community
-    name: 2018.3.3 (Community)
+    name: 2018.5.0 (Community)
   - id: redhat
     name: 7.0.1.redhat-20 (RHOAR)
