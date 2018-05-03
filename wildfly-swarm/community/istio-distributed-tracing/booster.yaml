@@ -1,0 +1,9 @@
+name: WildFly Swarm - Istio - Distributed Tracing
+description: Runs a WildFly Swarm application that utilizes Tracing with Jaeger on Istio
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-istio-tracing
+    ref: '1'
+metadata:
+  runsOn:
+    - 'local'

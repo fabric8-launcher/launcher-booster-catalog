@@ -1,0 +1,9 @@
+name: WildFly Swarm - Istio - Security
+description: Runs a WildFly Swarm application that showcases security through Mutual TLS and ACL on Istio
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-istio-security
+    ref: '1'
+metadata:
+  runsOn:
+    - 'local'

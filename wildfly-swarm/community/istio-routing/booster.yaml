@@ -1,0 +1,9 @@
+name: WildFly Swarm - Istio - Routing
+description: Runs a WildFly Swarm application that utilizes Routing on Istio
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-istio-routing
+    ref: '1'
+metadata:
+  runsOn:
+    - 'local'
