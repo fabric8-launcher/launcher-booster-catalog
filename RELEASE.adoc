@@ -4,9 +4,12 @@ Create a new release using the GitHub UI (which will automatically create a tag)
 
 . Navigate to the releases page: https://github.com/fabric8-launcher/launcher-booster-catalog/releases
 . Click in `Draft a new Release`
+.. Check if a draft release doesn't already exist first - see the Optional step below
 . Tag the release following the pattern `vX` where `v` is always a `v` and `X` is the release number.
 . Choose the specific commit you want to release (or use master)
 . Click `Publish Release` to immediately update production
+. (Optional) Create a new draft release with the next version
+.. This will save you from having to remember the next version name next time you release the catalog)
 
 == How to make the release effective in production?
 
