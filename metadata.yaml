@@ -115,7 +115,7 @@ runtimes:
   - id: current-redhat
     name: 1.5.10.RELEASE (RHOAR)
   - id: current-osio
-    name: 1.5.12.RELEASE (OSIO)
+    name: 1.5.10.RELEASE (OSIO)
 - id: wildfly-swarm
   name: WildFly Swarm
   description: An innovative approach to packaging and running Java EE applications, packaging them with just enough of the server runtime to "java -jar" your application.
