@@ -21,7 +21,7 @@ missions:
     level: foundational
 - id: health-check
   name: Health Check
-  description: Monitor the ability of an application to service requests
+  description: Monitor an application's ability to service requests
   metadata:
     level: foundational
 - id: istio-circuit-breaker
