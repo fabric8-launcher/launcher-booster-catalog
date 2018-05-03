@@ -16,7 +16,7 @@ missions:
     level: foundational
 - id: crud
   name: CRUD
-  description: Perform operations on a PostgreSQL database using a simple HTTP API
+  description: Expand on the REST API Level 0 to perform CRUD operations on a PostgreSQL database using a simple HTTP REST API
   metadata:
     level: foundational
 - id: health-check
