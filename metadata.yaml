@@ -55,7 +55,7 @@ missions:
     level: foundational
 - id: rest-http-secured
   name: Secured
-  description: Expands on REST API Level 0 - secure a REST endpoint using Red Hat SSO to add security to your applications while centralizing security configuration
+  description: Expands on REST API Level 0 to secure the REST endpoint using Red Hat SSO which adds security to your applications while centralizing the security configuration
   metadata:
     level: advanced
 runtimes:
