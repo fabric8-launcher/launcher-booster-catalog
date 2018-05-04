@@ -1,5 +1,5 @@
 name: WildFly Swarm - Health Checks
-description: Demonstrates Health Checks in Wildfly Swarm
+description: Demonstrates Health Checks in Wildfly Swarm DO NOT MERGE
 source:
   git:
     url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-health-check
