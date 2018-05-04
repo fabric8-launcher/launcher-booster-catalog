@@ -2,16 +2,16 @@
 * @launcher-devs
 
 # Fuse
-/fuse/  @runtime-fuse
+fuse/  @runtime-fuse
 
 # Node.js
-/nodejs/  @runtime-node.js
+nodejs/  @runtime-node.js
 
 # Spring Boot
-/spring-boot/ @runtime-spring-boot
+spring-boot/ @runtime-spring-boot
 
 # Eclipse Vert.x
-/vert.x/  @runtime-vert.x
+vert.x/  @runtime-vert.x
 
 # WildFly Swarm
-/wildfly-swarm/ @runtime-wildfly-swarm
+wildfly-swarm/ @runtime-wildfly-swarm
