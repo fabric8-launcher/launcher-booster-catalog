@@ -2,16 +2,16 @@
 * @launcher-devs
 
 # Fuse
-/fuse/  @fabric8-launcher/runtime-fuse
+/fuse/  @runtime-fuse
 
 # Node.js
-/nodejs/  @fabric8-launcher/runtime-node.js
+/nodejs/  @runtime-node.js
 
 # Spring Boot
-/spring-boot/ @fabric8-launcher/runtime-spring-boot
+/spring-boot/ @runtime-spring-boot
 
 # Eclipse Vert.x
-/vert.x/  @fabric8-launcher/runtime-vert.x
+/vert.x/  @runtime-vert.x
 
 # WildFly Swarm
-/wildfly-swarm/ @fabric8-launcher/runtime-wildfly-swarm
+/wildfly-swarm/ @runtime-wildfly-swarm
