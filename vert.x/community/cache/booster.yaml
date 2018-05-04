@@ -10,7 +10,7 @@ environment:
   staging:
     source:
       git:
-        ref: v1
+        ref: v122
   production:
     source:
       git:
