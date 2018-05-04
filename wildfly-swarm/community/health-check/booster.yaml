@@ -6,7 +6,7 @@ source:
     ref: master
 metadata:
   runsOn:
-    - '!osio'
+    - 'all'
   worksWithLegacyOsio: true
 environment:
   staging:
