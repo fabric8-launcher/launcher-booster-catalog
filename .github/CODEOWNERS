@@ -1,17 +1,17 @@
 # Anyone from Core team should be able to approve a PR
-* @launcher-devs
+* @fabric8-launcher/launcher-devs
 
 # Fuse
-fuse/  @runtime-fuse
+fuse/  @fabric8-launcher/runtime-fuse
 
 # Node.js
-nodejs/  @runtime-node.js
+nodejs/  @fabric8-launcher/runtime-node.js
 
 # Spring Boot
-spring-boot/ @runtime-spring-boot
+spring-boot/ @fabric8-launcher/runtime-spring-boot
 
 # Eclipse Vert.x
-vert.x/  @runtime-vert.x
+vert.x/  @fabric8-launcher/runtime-vert.x
 
 # WildFly Swarm
-wildfly-swarm/ @runtime-wildfly-swarm
+wildfly-swarm/ @fabric8-launcher/runtime-wildfly-swarm
