@@ -6,4 +6,4 @@ description: Booster to demonstrate Istio's Circuit Breaker pattern with Spring 
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-istio-circuit-breaker-booster
-    ref: master
+    ref: 1.5.12-1
