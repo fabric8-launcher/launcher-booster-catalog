@@ -99,9 +99,11 @@ runtimes:
   metadata:
     pipelinePlatform: node
   versions:
-  - id: community
+  - id: v8-community
     name: 8.x (Community)
-  - id: redhat
+  - id: v10-community
+    name: 10.x (Community)
+  - id: v8-redhat
     name: 8.x (RHOAR)
 - id: spring-boot
   name: Spring Boot

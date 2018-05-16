@@ -1,0 +1,19 @@
+metadata:
+  runsOn:
+    - '!starter'
+    - '!osio'
+name: Node.js - Circuit Breaker
+description: Demonstrates Circuit Breaker in Node.js
+source:
+  git:
+    url: https://github.com/bucharest-gold/nodejs-circuit-breaker
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v2.0.0
+  production:
+    source:
+      git:
+        ref: v2.0.0
