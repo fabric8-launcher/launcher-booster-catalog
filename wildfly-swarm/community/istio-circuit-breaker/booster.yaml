@@ -1,0 +1,9 @@
+name: WildFly Swarm - Istio - Circuit Breaker
+description: Runs a WildFly Swarm application that utilizes Circuit Breakers on Istio
+source:
+  git:
+    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-istio-circuit-breaker
+    ref: 'master'
+metadata:
+  runsOn:
+    - 'local'
