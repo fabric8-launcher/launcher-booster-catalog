@@ -3,7 +3,7 @@ description: Runs a WildFly Swarm application that utilizes Circuit Breakers on 
 source:
   git:
     url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-istio-circuit-breaker
-    ref: 'master'
+    ref: '1'
 metadata:
   runsOn:
     - 'local'
