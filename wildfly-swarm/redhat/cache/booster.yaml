@@ -1,5 +1,5 @@
 metadata:
-  runsOn: 
+  runsOn:
     - '!starter'
     - '!osio'
 name: WildFly Swarm - Cache
@@ -12,8 +12,8 @@ environment:
   staging:
     source:
       git:
-        ref: 7.0.1-redhat-1
+        ref: 7.1.0-redhat-1
   production:
     source:
       git:
-        ref: 7.0.1-redhat-1
+        ref: 7.1.0-redhat-1
