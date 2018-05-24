@@ -7,7 +7,6 @@ source:
 metadata:
   runsOn:
     - 'all'
-  worksWithLegacyOsio: true
 environment:
   staging:
     source:
