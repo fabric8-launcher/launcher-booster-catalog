@@ -131,4 +131,4 @@ runtimes:
   - id: community
     name: 2018.5.0 (Community)
   - id: redhat
-    name: 7.0.1.redhat-20 (RHOAR)
+    name: 7.1.0.redhat-77 (RHOAR)
