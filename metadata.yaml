@@ -80,7 +80,7 @@ runtimes:
   - id: 2.21.0-community
     name: 2.21.0 (Community)
   - id: 7.0.0-redhat
-    name: 7.0.0-tp (Red Hat Fuse - Tech preview)
+    name: 7.0.0 (Red Hat Fuse)
 - id: nodejs
   name: Node.js
   description: A JavaScript runtime built on Chrome's V8 JavaScript engine, using an event-driven, non-blocking I/O model for lightweight efficiency.

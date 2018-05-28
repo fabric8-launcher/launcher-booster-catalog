@@ -1,9 +1,9 @@
 metadata:
-  runsOn: 
+  runsOn:
     - '!starter'
     - '!osio'
-name: Fuse Circuit Breaker Example
-description: Quickstart to demonstrate Circuit Breaker pattern with Apache Camel.
+name: Red Hat Fuse - Circuit Breaker Example
+description: Booster to demonstrate Circuit Breaker pattern with Apache Camel.
 source:
   git:
     url: https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster
@@ -12,8 +12,8 @@ environment:
   staging:
     source:
       git:
-        ref: v1.1
+        ref: v7.0.0
   production:
     source:
       git:
-        ref: v1.1
+        ref: v7.0.0
