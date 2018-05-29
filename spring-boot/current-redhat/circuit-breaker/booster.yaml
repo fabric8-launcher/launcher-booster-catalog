@@ -1,7 +1,6 @@
 metadata:
   runsOn: 
     - '!starter'
-    - '!osio'
 name: Spring Boot - Circuit Breaker Example
 description: Booster to demonstrate Circuit Breaker pattern with Spring Boot.
 source:

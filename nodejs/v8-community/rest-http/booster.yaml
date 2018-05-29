@@ -1,5 +1,3 @@
-metadata:
-  runsOn: '!osio'
 name: Node.js - HTTP
 description: Runs a Node.js HTTP application
 source:

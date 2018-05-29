@@ -1,5 +1,3 @@
-metadata:
-  runsOn: '!osio'
 name: Node.js - Health Checks
 description: Demonstrates Health Checks in Node.js
 source:

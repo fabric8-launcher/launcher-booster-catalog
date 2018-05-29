@@ -1,7 +1,6 @@
 metadata:
   runsOn:
     - '!starter'
-    - '!osio'
 name: Spring Boot - Cache Example
 description: Booster to demonstrate how to use a cache server Spring Boot on OpenShift.
 source:

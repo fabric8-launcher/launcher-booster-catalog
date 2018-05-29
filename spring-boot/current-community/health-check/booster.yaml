@@ -5,5 +5,6 @@ source:
     url: https://github.com/snowdrop/spring-boot-health-check-booster
     ref: 1.5.12-3
 metadata:
-  runsOn:
-    - '!osio'
+  osio:
+    enabled: false
+

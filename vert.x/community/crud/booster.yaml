@@ -1,7 +1,6 @@
 metadata:
   runsOn: 
     - '!starter'
-    - '!osio'
 name: Vert.x CRUD Example using JDBC
 description: Runs a Vert.x application exposing a HTTP endpoint proposing CRUD operations implemented on top of JDBC
 source:

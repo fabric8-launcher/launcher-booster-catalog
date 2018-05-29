@@ -1,7 +1,6 @@
 metadata:
   runsOn:
     - '!starter'
-    - '!osio'
 name: WildFly Swarm - Cache
 description: Demonstrate how to use a cache server in WildFly Swarm
 source:

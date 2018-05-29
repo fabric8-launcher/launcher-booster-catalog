@@ -1,7 +1,6 @@
 metadata:
   runsOn: 
     - '!starter'
-    - '!osio'
 name: Vert.x Circuit Breaker Booster
 description: Runs a Vert.x application using a circuit breaker
 source:
