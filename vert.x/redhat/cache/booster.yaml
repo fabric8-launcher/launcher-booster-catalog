@@ -1,7 +1,8 @@
 metadata:
   runsOn: 
     - '!starter'
-    - '!osio'
+  osio:
+    enabled: false
 name: Eclipse Vert.x - Cache
 description: Demonstrate how to use a cache server in Eclipse Vert.x
 source:

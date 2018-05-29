@@ -1,6 +1,3 @@
-metadata:
-  runsOn:
-    - '!osio'
 name: WildFly Swarm - HTTP
 description: Runs a WildFly Swarm HTTP application
 source:

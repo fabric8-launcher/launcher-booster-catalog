@@ -1,5 +1,3 @@
-metadata:
-  runsOn: '!osio'
 name: Red Hat Fuse - ConfigMap Example
 description: Booster to expose an HTTP REST endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.
 source:

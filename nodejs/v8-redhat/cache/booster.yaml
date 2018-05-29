@@ -1,7 +1,6 @@
 metadata:
   runsOn:
     - '!starter'
-    - '!osio'
 name: Node.js Cache Booster
 description: Demonstrate how to use a cache server from a Node.js application
 source:

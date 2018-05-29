@@ -1,5 +1,3 @@
-metadata:
-  runsOn: '!osio'
 name: Red Hat Fuse - Health Check Example
 description: Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.
 source:

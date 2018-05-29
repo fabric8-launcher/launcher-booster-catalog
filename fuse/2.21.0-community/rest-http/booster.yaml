@@ -1,5 +1,3 @@
-metadata:
-  runsOn: '!osio'
 name: Red Hat Fuse - HTTP Example
 description: Booster to expose a HTTP Greeting endpoint using Apache camel, Spring Boot and Undertow.
 source:
