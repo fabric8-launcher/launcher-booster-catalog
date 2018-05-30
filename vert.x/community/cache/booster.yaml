@@ -1,6 +1,8 @@
 metadata:
-  runsOn: 
-    - '!starter'
+  app:
+    launcher:
+      runsOn: 
+        - '!starter'
 source:
   git:
     url: https://github.com/openshiftio-vertx-boosters/vertx-cache-booster

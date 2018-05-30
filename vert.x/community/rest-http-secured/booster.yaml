@@ -1,5 +1,7 @@
 metadata:
-  runsOn: none
+  app:
+    launcher:
+      runsOn: none
 source:
   git:
     url: https://github.com/openshiftio-vertx-boosters/vertx-secured-http-booster

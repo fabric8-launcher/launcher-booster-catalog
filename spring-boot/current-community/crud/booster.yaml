@@ -1,6 +1,8 @@
 metadata:
-  runsOn: 
-    - '!starter'
+  app:
+    launcher:
+      runsOn: 
+        - '!starter'
 name: Spring Boot - CRUD Example
 description: Booster to expose an HTTP endpoint with CRUD operations on fruits database.
 source:

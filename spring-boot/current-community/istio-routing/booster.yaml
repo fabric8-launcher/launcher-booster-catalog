@@ -1,6 +1,8 @@
 metadata:
-  runsOn:
-    - 'local'
+  app:
+    launcher:
+      runsOn:
+        - 'local'
 name: Istio - Spring Boot - Routing
 description: Booster to demonstrate how Istio can be used to route traffic to/from services, including load balancing multiple different versions of the same service.
 source:

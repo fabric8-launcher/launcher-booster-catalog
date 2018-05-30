@@ -1,6 +1,8 @@
 metadata:
-  runsOn:
-    - 'local'
+  app:
+    launcher:
+      runsOn:
+        - 'local'
 name: Istio - Spring Boot - Security
 description: Booster to demonstrate Istio Mutual TLS and ACL functionality.
 source:

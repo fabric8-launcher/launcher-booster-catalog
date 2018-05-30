@@ -1,3 +1,5 @@
 metadata:
-  runsOn: none
+  app:
+    launcher:
+      enabled: false
 
