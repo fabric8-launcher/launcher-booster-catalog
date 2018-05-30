@@ -5,5 +5,7 @@ source:
     url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-istio-circuit-breaker
     ref: '1'
 metadata:
-  runsOn:
-    - 'local'
+  app:
+    launcher:
+      runsOn:
+        - 'local'

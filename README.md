@@ -71,9 +71,10 @@ Known entries for the `metadata` section are:
 
 Path   | Description 
 ------ | -----------
-runsOn | (Optional) A single cluster type or a list of cluster types where this booster can run. A type can be prefixed with `!` to negate the option: the booster will _not_ run on clusters of that type. Special values `all` and `none` indicate the booster will run everywhere or nowhere respectively. Important: when using the `!` to negate you _must_ surround it and the cluster type name with double quotes.
+app/launcher/enabled | (Optional) Determines if the booster should be shown in OSIO (defaults to `true`)
+app/launcher/runsOn | (Optional) A single cluster type or a list of cluster types where this booster can run. A type can be prefixed with `!` to negate the option: the booster will _not_ run on clusters of that type. Special values `all` and `none` indicate the booster will run everywhere or nowhere respectively. Important: when using the `!` to negate you _must_ surround it and the cluster type name with double quotes.
+app/osio/enabled | (Optional) Determines if the booster should be shown in OSIO (defaults to `true`)
 buildProfile | (Optional) The Maven profile that should be activated in the booster's `pom.xml` file
-osio/enabled | (Optional) Determines if the booster should be shown in OSIO (defaults to `true`)
 
 #### Common values for `runsOn`
 The values you put on `runsOn` will depend on the same values configured in the `type` tag [inside the openshift-clusters.yaml in the launcher-backend installation](https://github.com/fabric8-launcher/launcher-openshift-templates/blob/6b76e6f7c4fe9f86e8d820824b50e3743e3108ee/openshift/launcher-template.yaml#L200-L233), with the exception of the `local` value (which is a special case when the launcher-backend installation is configured to use the same cluster as it is deployed). Common used values are:

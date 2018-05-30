@@ -1,5 +1,7 @@
 metadata:
-  runsOn: none
+  app:
+    launcher:
+      runsOn: none
 name: Secured Spring Boot - HTTP & Red Hat SSO Example
 description: Booster to expose a HTTP Greeting endpoint using SpringBoot & Secured by Red Hat SSO.
 source:

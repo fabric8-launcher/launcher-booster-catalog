@@ -5,5 +5,7 @@ source:
     url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-istio-routing
     ref: '2'
 metadata:
-  runsOn:
-    - 'local'
+  app:
+    launcher:
+      runsOn:
+        - 'local'

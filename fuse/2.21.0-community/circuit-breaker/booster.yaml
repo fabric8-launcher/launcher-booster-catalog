@@ -1,6 +1,8 @@
 metadata:
-  runsOn:
-    - '!starter'
+  app:
+    launcher:
+      runsOn:
+        - '!starter'
 name: Red Hat Fuse - Circuit Breaker Example
 description: Booster to demonstrate Circuit Breaker pattern with Apache Camel.
 source:

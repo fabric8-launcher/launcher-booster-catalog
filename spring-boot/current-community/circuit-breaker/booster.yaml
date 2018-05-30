@@ -1,6 +1,8 @@
 metadata:
-  runsOn: 
-    - '!starter'
+  app:
+    launcher:
+      runsOn: 
+        - '!starter'
 name: Spring Boot - Circuit Breaker Example
 description: Booster to demonstrate Circuit Breaker pattern with Spring Boot.
 source:
