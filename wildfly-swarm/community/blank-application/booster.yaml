@@ -1,0 +1,18 @@
+name: WildFly Swarm -Generic Application
+description: A generic wildfly application.
+source:
+  git:
+    url: https://github.com/fabric8-analytics/wfswarm-blank-booster.git
+    ref: master
+metadata:
+  runsOn:
+    - 'all'
+environment:
+  staging:
+    source:
+      git:
+        ref: master
+  production:
+    source:
+      git:
+        ref: master
