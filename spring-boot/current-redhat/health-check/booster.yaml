@@ -7,4 +7,4 @@ metadata:
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-health-check-booster
-    ref: 1.5.12-2-redhat
+    ref: 1.5.13-1-redhat
