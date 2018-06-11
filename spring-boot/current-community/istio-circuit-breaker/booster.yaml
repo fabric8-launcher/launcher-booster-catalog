@@ -2,7 +2,7 @@ metadata:
   app:
     launcher:
       runsOn:
-        - 'local'
+      - local
 name: Istio - Spring Boot - Circuit Breaker Example
 description: Booster to demonstrate Istio's Circuit Breaker pattern with Spring Boot.
 source:
