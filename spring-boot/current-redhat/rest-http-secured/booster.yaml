@@ -3,8 +3,9 @@ metadata:
     launcher:
       runsOn: none
 name: Secured Spring Boot - HTTP & Red Hat SSO Example
-description: Booster to expose a HTTP Greeting endpoint using SpringBoot & Secured by Red Hat SSO.
+description: Booster to expose a HTTP Greeting endpoint using SpringBoot & Secured
+  by Red Hat SSO.
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-http-secured-booster
-    ref: 1.5.13-1-redhat
+    ref: 1.5.14-3-imaginary
