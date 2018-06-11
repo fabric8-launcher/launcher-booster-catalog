@@ -8,13 +8,4 @@ description: Booster to demonstrate how to use a cache server Spring Boot on Ope
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-cache-booster
-    ref: redhat
-environment:
-  staging:
-    source:
-      git:
-        ref: 1.5.13-1-redhat
-  production:
-    source:
-      git:
-        ref: 1.5.13-1-redhat
+    ref: 1.5.13-1-redhat
