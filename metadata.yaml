@@ -48,6 +48,11 @@ missions:
   metadata:
     level: expert
     istio: true
+- id: opentracing
+  name: OpenTracing - Instrumentation
+  description: This mission demonstrates how to configure and deploy OpenTracing to instrument applications deployed on OpenShift.
+  metadata:
+    level: advanced
 - id: rest-http
   name: REST API Level 0
   description: Map business operations to a remote procedure call endpoint over HTTP using a REST framework
@@ -58,6 +63,11 @@ missions:
   description: Expands on REST API Level 0 to secure the REST endpoint using Red Hat SSO which adds security to your applications while centralizing the security configuration
   metadata:
     level: advanced
+- id: tomcat-request-logging
+  name: Embedded Tomcat - Request Logging
+  description: The main goal of this mission is to send Tomcat’s access logging to stdout, which, in the context of an application running on OpenShift, means appending access logs to the OpenShift console, thus enabling administrators to use the central logging facility to monitor Tomcat’s activity.
+  metadata:
+    level: foundational
 runtimes:
 - id: vert.x
   name: Eclipse Vert.x

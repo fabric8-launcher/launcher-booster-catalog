@@ -1,0 +1,6 @@
+name: OpenTracing - Instrumentation
+description: Booster to demonstrate configuration of OpenTracing instrumentation.
+source:
+  git:
+    url: https://github.com/snowdrop/spring-boot-opentracing-booster
+    ref: 1.5.13-1
