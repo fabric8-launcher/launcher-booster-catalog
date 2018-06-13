@@ -1,0 +1,6 @@
+name: Embedded Tomcat - Request Logging
+description: Booster to send Tomcat's logging to the OpenShift console.
+source:
+  git:
+    url: https://github.com/snowdrop/spring-boot-tomcat-logging-booster
+    ref: 1.5.13-1
