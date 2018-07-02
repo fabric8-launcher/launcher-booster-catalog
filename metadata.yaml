@@ -69,7 +69,7 @@ runtimes:
   - id: redhat
     name: 3.5.1.redhat-004 (RHOAR)
   - id: community
-    name: 3.5.0.Final (Community)
+    name: 3.5.2.Final (Community)
 - id: fuse
   name: Fuse
   description: The Fuse runtime enables you to deploy Spring Boot applications on OpenShift while leveraging the Fuse technology stack for middleware integration. The core technology provided by Fuse is Apache Camel for application integration including Spring Boot starters for the Camel components. The technology stack also provides transactions, Web services, security, management, and messaging clients.

@@ -11,8 +11,8 @@ environment:
   staging:
     source:
       git:
-        ref: v1
+        ref: v2
   production:
     source:
       git:
-        ref: v1
+        ref: v2
