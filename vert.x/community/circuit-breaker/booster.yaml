@@ -13,11 +13,8 @@ environment:
   staging:
     source:
       git:
-        ref: v16
+        ref: v17
   production:
     source:
       git:
-        ref: v16
-    metadata:
-      version:
-        name: 3.5.0.Final (Community)
+        ref: v17    

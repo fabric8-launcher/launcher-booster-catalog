@@ -8,11 +8,8 @@ environment:
   staging:
     source:
       git:
-        ref: v26
+        ref: v27
   production:
     source:
       git:
-        ref: v26
-    metadata:
-      version:
-        name: 3.5.0.Final (Community)
+        ref: v27
