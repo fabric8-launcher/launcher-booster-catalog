@@ -1,9 +1,9 @@
-name: WildFly Swarm - Istio - Routing
-description: Runs a WildFly Swarm application that utilizes Routing on Istio
+name: Thorntail - Istio - Routing
+description: Runs a Thorntail application that utilizes Routing on Istio
 source:
   git:
     url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-istio-routing
-    ref: '2'
+    ref: '3'
 metadata:
   app:
     launcher:
