@@ -1,0 +1,20 @@
+name: Eclipse Vert.x - Istio - Routing
+description: Runs a Eclipse Vert.x application that utilizes Routing on Istio
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-istio-routing-booster
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v2
+  production:
+    source:
+      git:
+        ref: v2
+metadata:
+  app:
+    launcher:
+      runsOn:
+        - 'local'
