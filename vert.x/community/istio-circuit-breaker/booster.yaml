@@ -1,0 +1,20 @@
+name: Eclipse Vert.x - Istio - Circuit Breaker
+description: Runs a Eclipse Vert.x application that utilizes Circuit Breakers on Istio
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-istio-circuit-breaker-booster
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v1
+  production:
+    source:
+      git:
+        ref: v1
+metadata:
+  app:
+    launcher:
+      runsOn:
+        - 'local'

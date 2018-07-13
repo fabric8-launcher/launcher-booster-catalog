@@ -1,0 +1,20 @@
+name: Eckipse Vert.x - Istio - Security
+description: Runs a Eclipse Vert.x application that showcases security through Mutual TLS and ACL on Istio
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-istio-security-booster
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v1
+  production:
+    source:
+      git:
+        ref: v1
+metadata:
+  app:
+    launcher:
+      runsOn:
+        - 'local'

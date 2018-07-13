@@ -1,0 +1,20 @@
+name: Eclipse Vert.x - Istio - Distributed Tracing
+description: Runs a Eclipse Vert.x application that utilizes Tracing on Istio
+source:
+  git:
+    url: https://github.com/openshiftio-vertx-boosters/vertx-istio-distributed-tracing-booster
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v1.0
+  production:
+    source:
+      git:
+        ref: v1.0
+metadata:
+  app:
+    launcher:
+      runsOn:
+        - 'local'
