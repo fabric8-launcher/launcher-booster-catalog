@@ -13,5 +13,6 @@ spring-boot/    @fabric8-launcher/runtime-spring-boot @fabric8-launcher/launcher
 # Eclipse Vert.x
 vert.x/    @fabric8-launcher/runtime-vert-x @fabric8-launcher/launcher-devs
 
-# WildFly Swarm
+# Thorntail
+thorntail/    @fabric8-launcher/runtime-wildfly-swarm @fabric8-launcher/launcher-devs
 wildfly-swarm/    @fabric8-launcher/runtime-wildfly-swarm @fabric8-launcher/launcher-devs
