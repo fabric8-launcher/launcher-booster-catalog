@@ -3,8 +3,8 @@ metadata:
     launcher:
       runsOn: 
         - '!starter'
-name: WildFly Swarm - Cache
-description: Demonstrate how to use a cache server in WildFly Swarm
+name: Thorntail - Cache
+description: Demonstrate how to use a cache server in Thorntail
 source:
   git:
     url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-cache
@@ -13,8 +13,8 @@ environment:
   staging:
     source:
       git:
-        ref: '1'
+        ref: '2'
   production:
     source:
       git:
-        ref: '1'
+        ref: '2'

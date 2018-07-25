@@ -3,8 +3,8 @@ metadata:
     launcher:
       runsOn: 
         - '!starter'
-name: WildFly Swarm - Circuit Breaker
-description: Demonstrates Circuit Breaker in Wildfly Swarm
+name: Thorntail - Circuit Breaker
+description: Demonstrates Circuit Breaker in Thorntail
 source:
   git:
     url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-circuit-breaker
@@ -13,8 +13,8 @@ environment:
   staging:
     source:
       git:
-        ref: '7'
+        ref: '8'
   production:
     source:
       git:
-        ref: '7'
+        ref: '8'
