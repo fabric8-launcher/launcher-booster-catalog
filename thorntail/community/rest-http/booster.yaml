@@ -1,5 +1,5 @@
-name: WildFly Swarm - HTTP
-description: Runs a WildFly Swarm HTTP application
+name: Thorntail - HTTP
+description: Runs a Thorntail HTTP application
 source:
   git:
     url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-rest-http
@@ -12,8 +12,8 @@ environment:
   staging:
     source:
       git:
-        ref: '13'
+        ref: '14'
   production:
     source:
       git:
-        ref: '13'
+        ref: '14'

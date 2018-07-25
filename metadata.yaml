@@ -138,7 +138,5 @@ runtimes:
   metadata:
     pipelinePlatform: maven
   versions:
-  - id: community
-    name: 2018.5.0 (Community)
   - id: redhat
     name: 7.1.0.redhat-77 (RHOAR)

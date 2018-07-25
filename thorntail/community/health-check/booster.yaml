@@ -1,5 +1,5 @@
-name: WildFly Swarm - Health Checks
-description: Demonstrates Health Checks in Wildfly Swarm
+name: Thorntail - Health Checks
+description: Demonstrates Health Checks in Thorntail
 source:
   git:
     url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-health-check
@@ -12,8 +12,8 @@ environment:
   staging:
     source:
       git:
-        ref: '10'
+        ref: '11'
   production:
     source:
       git:
-        ref: '10'
+        ref: '11'
