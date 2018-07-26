@@ -1,5 +1,6 @@
 name: Spring Boot - HTTP Example
-description: Booster to expose a HTTP Greeting endpoint using Spring Boot and Apache Tomcat in embedded mode.
+description: Booster to expose a HTTP Greeting endpoint using Spring Boot and Apache
+  Tomcat in embedded mode.
 metadata:
   app:
     osio:
@@ -7,4 +8,4 @@ metadata:
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-http-booster
-    ref: 1.5.13-1-redhat
+    ref: =1.5.14-1-redhat
