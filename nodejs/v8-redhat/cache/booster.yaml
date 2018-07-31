@@ -13,8 +13,8 @@ environment:
   staging:
     source:
       git:
-        ref: v1.0.2
+        ref: v1.1.0
   production:
     source:
       git:
-        ref: v1.0.2
+        ref: v1.1.0
