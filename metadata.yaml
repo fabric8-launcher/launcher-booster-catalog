@@ -60,6 +60,13 @@ missions:
   metadata:
     level: expert
     istio: true
+- id: messaging
+  name: Messaging Work Queue
+  description: This mission demonstrates how to dispatch tasks to a scalable set of
+    worker services using a message queue. It uses the AMQP 1.0 message protocol to
+    send and receive messages.
+  metadata:
+    level: advanced
 - id: rest-http
   name: REST API Level 0
   description: Map business operations to a remote procedure call endpoint over HTTP
