@@ -1,0 +1,20 @@
+metadata:
+  app:
+    launcher:
+      runsOn:
+        - '!starter'
+name: Node.js Messaging Booster
+description: Demonstrate how to use a Messaging Work Queue from a Node.js application
+source:
+  git:
+    url: https://github.com/bucharest-gold/nodejs-messaging-work-queue
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v1.0.0
+  production:
+    source:
+      git:
+        ref: v1.0.0
