@@ -95,9 +95,9 @@ runtimes:
     pipelinePlatform: maven
   versions:
   - id: redhat
-    name: 3.5.1.redhat-004 (RHOAR)
+    name: 3.5.3.redhat-0001 (RHOAR)
   - id: community
-    name: 3.5.2.Final (Community)
+    name: 3.5.3.Final (Community)
 - id: fuse
   name: Fuse
   description: The Fuse runtime enables you to deploy Spring Boot applications on
