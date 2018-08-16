@@ -1,0 +1,11 @@
+metadata:
+  app:
+    launcher:
+      runsOn:
+        - '!starter'
+name: Node.js Messaging Booster
+description: Demonstrate how to use a Messaging Work Queue from a Node.js application
+source:
+  git:
+    url: https://github.com/integr8ly/nodejs-messaging-work-queue
+    ref: deploy_frontend_only
