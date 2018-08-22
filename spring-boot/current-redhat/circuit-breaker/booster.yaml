@@ -8,4 +8,4 @@ description: Booster to demonstrate Circuit Breaker pattern with Spring Boot.
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-circuit-breaker-booster
-    ref: 1.5.14-1-redhat
+    ref: 1.5.15-2-redhat
