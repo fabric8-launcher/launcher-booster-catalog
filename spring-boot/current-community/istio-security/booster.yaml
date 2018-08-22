@@ -8,4 +8,4 @@ description: Booster to demonstrate Istio Mutual TLS and ACL functionality.
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-istio-security-booster.git
-    ref: 1.5.14-1
+    ref: 1.5.15-2
