@@ -8,4 +8,4 @@ description: Booster to expose an HTTP endpoint with CRUD operations on fruits d
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-crud-booster
-    ref: 1.5.14-1-redhat
+    ref: 1.5.15-2-redhat

@@ -8,4 +8,4 @@ description: Booster to expose a HTTP Greeting endpoint using SpringBoot & Secur
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-http-secured-booster
-    ref: 1.5.14-1-redhat
+    ref: 1.5.15-2-redhat
