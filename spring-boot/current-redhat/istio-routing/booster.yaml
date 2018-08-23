@@ -9,4 +9,4 @@ description: Booster to demonstrate how Istio can be used to route traffic to/fr
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-istio-routing-booster.git
-    ref: 1.5.14-1-redhat
+    ref: 1.5.15-2-redhat
