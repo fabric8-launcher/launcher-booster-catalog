@@ -2,8 +2,8 @@ name: Thorntail - Istio - Circuit Breaker
 description: Runs a Thorntail application that utilizes Circuit Breakers on Istio
 source:
   git:
-    url: https://github.com/wildfly-swarm-openshiftio-boosters/wfswarm-istio-circuit-breaker
-    ref: '2'
+    url: https://github.com/thorntail-examples/istio-circuit-breaker
+    ref: '3'
 metadata:
   app:
     launcher:
