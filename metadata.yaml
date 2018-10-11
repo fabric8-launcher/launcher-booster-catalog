@@ -10,6 +10,11 @@ missions:
     service until it becomes available to handle requests
   metadata:
     level: foundational
+- id: aggregation
+  name: Aggregation
+  description: Aggregate data from 2 services.
+  metadata:
+    level: foundational
 - id: configmap
   name: Externalized Configuration
   description: Use a ConfigMap to externalize configuration. ConfigMap is an object
