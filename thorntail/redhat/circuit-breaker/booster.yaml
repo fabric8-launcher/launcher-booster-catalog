@@ -1,20 +1,20 @@
 metadata:
   app:
     launcher:
-      runsOn: 
+      runsOn:
         - '!starter'
 name: Thorntail - Circuit Breaker
 description: Demonstrates Circuit Breaker in Thorntail
 source:
   git:
-    url: https://github.com/thorntail-examples/circuit-breaker
+    url: https://github.com/thorntail-examples/circuit-breaker-redhat
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: '9'
+        ref: 2.2.0-redhat-1
   production:
     source:
       git:
-        ref: '9'
+        ref: 2.2.0-redhat-1

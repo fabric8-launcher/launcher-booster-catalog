@@ -2,18 +2,14 @@ name: Thorntail - Health Checks
 description: Demonstrates Health Checks in Thorntail
 source:
   git:
-    url: https://github.com/thorntail-examples/health-check
+    url: https://github.com/thorntail-examples/health-check-redhat
     ref: master
-metadata:
-  app:
-    osio:
-      enabled: true
 environment:
   staging:
     source:
       git:
-        ref: '12'
+        ref: 2.2.0-redhat-1
   production:
     source:
       git:
-        ref: '12'
+        ref: 2.2.0-redhat-1
