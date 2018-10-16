@@ -2,18 +2,14 @@ name: Thorntail - HTTP
 description: Runs a Thorntail HTTP application
 source:
   git:
-    url: https://github.com/thorntail-examples/rest-http
+    url: https://github.com/thorntail-examples/rest-http-redhat
     ref: master
-metadata:
-  app:
-    osio:
-      enabled: true
 environment:
   staging:
     source:
       git:
-        ref: '15'
+        ref: 2.2.0-redhat-1
   production:
     source:
       git:
-        ref: '15'
+        ref: 2.2.0-redhat-1

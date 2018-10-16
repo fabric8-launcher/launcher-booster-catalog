@@ -6,14 +6,14 @@ name: Thorntail - REST and RH SSO
 description: A simple HTTP application using Thorntail secured by RH SSO
 source:
   git:
-    url: https://github.com/thorntail-examples/rest-http-secured
+    url: https://github.com/thorntail-examples/rest-http-secured-redhat
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: '11'
+        ref: 2.2.0-redhat-1
   production:
     source:
       git:
-        ref: '11'
+        ref: 2.2.0-redhat-1
