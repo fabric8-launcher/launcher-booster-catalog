@@ -14,8 +14,8 @@ environment:
   staging:
     source:
       git:
-        ref: v23
+        ref: v24
   production:
     source:
       git:
-        ref: v23
+        ref: v24
