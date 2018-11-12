@@ -2,17 +2,17 @@ name: Node.js - Istio - Routing
 description: Runs a Node.js application that utilizes Routing on Istio
 source:
   git:
-    url: https://github.com/bucharest-gold/nodejs-istio-routing
+    url: https://github.com/nodeshift-starters/nodejs-istio-routing
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v2.1.0
+        ref: v2.2.0
   production:
     source:
       git:
-        ref: v2.1.0
+        ref: v2.2.0
 metadata:
   app:
     launcher:

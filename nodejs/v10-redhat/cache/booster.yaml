@@ -7,14 +7,14 @@ name: Node.js Cache Booster
 description: Demonstrate how to use a cache server from a Node.js application
 source:
   git:
-    url: https://github.com/bucharest-gold/nodejs-cache-redhat
+    url: https://github.com/nodeshift-starters/nodejs-cache-redhat
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v2.1.0
+        ref: v2.2.0
   production:
     source:
       git:
-        ref: v2.1.0
+        ref: v2.2.0

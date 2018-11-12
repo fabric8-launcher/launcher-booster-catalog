@@ -2,14 +2,14 @@ name: Node.js - Health Checks
 description: Demonstrates Health Checks in Node.js
 source:
   git:
-    url: https://github.com/bucharest-gold/nodejs-health-check-redhat
+    url: https://github.com/nodeshift-starters/nodejs-health-check-redhat
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v2.0.0
+        ref: v2.0.1
   production:
     source:
       git:
-        ref: v2.0.0
+        ref: v2.0.1

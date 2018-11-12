@@ -7,14 +7,14 @@ name: Node.js - CRUD Example
 description: Runs a Node.js application exposing a HTTP endpoint proposing CRUD operations
 source:
   git:
-    url: https://github.com/bucharest-gold/nodejs-rest-http-crud-redhat
+    url: https://github.com/nodeshift-starters/nodejs-rest-http-crud-redhat
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v1.2.2
+        ref: v1.2.3
   production:
     source:
       git:
-        ref: v1.2.2
+        ref: v1.2.3

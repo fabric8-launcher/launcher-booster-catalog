@@ -2,17 +2,17 @@ name: Node.js - Istio - Circuit Breaker
 description: Runs a Node.js application that utilizes Circuit Breakers on Istio
 source:
   git:
-    url: https://github.com/bucharest-gold/nodejs-istio-circuit-breaker
+    url: https://github.com/nodeshift-starters/nodejs-istio-circuit-breaker
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v2.2.1
+        ref: v2.3.0
   production:
     source:
       git:
-        ref: v2.2.1
+        ref: v2.3.0
 metadata:
   app:
     launcher:
