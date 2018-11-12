@@ -2,14 +2,14 @@ name: Node.js - HTTP
 description: Runs a Node.js HTTP application
 source:
   git:
-    url: https://github.com/bucharest-gold/nodejs-rest-http-redhat
+    url: https://github.com/nodeshift-starters/nodejs-rest-http-redhat
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v1.2.3
+        ref: v1.2.5
   production:
     source:
       git:
-        ref: v1.2.3
+        ref: v1.2.5
