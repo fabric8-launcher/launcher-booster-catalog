@@ -329,9 +329,9 @@ runtimes:
       pipelinePlatform: maven
     versions:
       - id: current-community
-        name: 1.5.16.RELEASE (Community)
+        name: 1.5.17.RELEASE (Community)
       - id: current-redhat
-        name: 1.5.16.RELEASE (RHOAR)
+        name: 1.5.17.RELEASE (RHOAR)
       - id: current-osio
         name: 1.5.12.RELEASE (OSIO)
   - id: thorntail
