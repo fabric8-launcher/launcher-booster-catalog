@@ -4,10 +4,6 @@ source:
   git:
     url: https://github.com/nodeshift-starters/nodejs-rest-http
     ref: master
-metadata:
-  app:
-    osio:
-      enabled: true
 environment:
   staging:
     source:
