@@ -7,7 +7,7 @@ source:
 metadata:
   app:
     osio:
-      enabled: true
+      enabled: flase
 environment:
   staging:
     source:
