@@ -8,11 +8,11 @@ environment:
   staging:
     source:
       git:
-        ref: v2
+        ref: v3
   production:
     source:
       git:
-        ref: v2
+        ref: v3
 metadata:
   app:
     launcher:
