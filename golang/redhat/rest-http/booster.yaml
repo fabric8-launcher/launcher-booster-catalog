@@ -1,0 +1,19 @@
+name: Red Hat Golang - HTTP Example
+description: Booster to expose a HTTP Greeting endpoint using Apache camel, Spring Boot and Undertow.
+source:
+  git:
+    url: https://github.com/golang-starters/golang-rest-http
+    ref: master
+metadata:
+  app:
+    osio:
+      enabled: true
+environment:
+  staging:
+    source:
+      git:
+        ref:
+  production:
+    source:
+      git:
+        ref:
