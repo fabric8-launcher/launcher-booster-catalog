@@ -1,4 +1,4 @@
-﻿missions:
+missions:
 - id: cache
   name: Cache
   description: Use a cache to improve the response time of applications
