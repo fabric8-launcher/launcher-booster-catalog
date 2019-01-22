@@ -4,10 +4,6 @@ source:
   git:
     url: https://github.com/nodeshift-starters/nodejs-health-check
     ref: master
-metadata:
-  app:
-    osio:
-    enabled: true
 environment:
   staging:
     source:
