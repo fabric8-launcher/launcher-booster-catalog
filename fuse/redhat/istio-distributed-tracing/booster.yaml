@@ -8,11 +8,11 @@ environment:
   staging:
     source:
       git:
-        ref: v7.2.0
+        ref: v7.2.0-redhat-01
   production:
     source:
       git:
-        ref: v7.2.0
+        ref: v7.2.0-redhat-01
 metadata:
   app:
     launcher:
