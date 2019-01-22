@@ -7,7 +7,7 @@ source:
 metadata:	
   app:	
     osio:	
-      enabled: true
+    enabled: true
 environment:
   staging:
     source:
