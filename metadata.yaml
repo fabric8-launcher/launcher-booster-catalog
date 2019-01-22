@@ -360,4 +360,4 @@ runtimes:
       pipelinePlatform: golang
     versions:
       - id: redhat
-        name: redhat
+        name: Red Hat Golang

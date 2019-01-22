@@ -8,11 +8,6 @@ metadata:
   app:
     osio:
       enabled: true
-environment:
-  staging:
-    source:
-      git:
-        ref:
   production:
     source:
       git:
