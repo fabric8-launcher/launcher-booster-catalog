@@ -15,3 +15,6 @@ vert.x/    @fabric8-launcher/runtime-vert-x @fabric8-launcher/launcher-devs
 
 # Thorntail
 thorntail/    @fabric8-launcher/runtime-thorntail @fabric8-launcher/launcher-devs
+
+# Golang
+golang/    @fabric8-launcher/runtime-golang @fabric8-launcher/launcher-devs

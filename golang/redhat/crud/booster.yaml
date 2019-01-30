@@ -1,0 +1,13 @@
+metadata:
+  app:
+    osio:
+      enabled: true
+    launcher:
+      runsOn:
+        - '!starter'
+name: Red Hat GoLang - CRUD Example
+description: Runs a Golang application exposing a HTTP endpoint proposing CRUD operations
+source:
+  git:
+    url: https://github.com/golang-starters/golang-http-crud
+    ref: master
