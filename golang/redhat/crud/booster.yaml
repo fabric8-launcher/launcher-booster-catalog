@@ -1,7 +1,5 @@
 metadata:
   app:
-    osio:
-      enabled: true
     launcher:
       runsOn:
         - '!starter'
