@@ -12,8 +12,8 @@ environment:
   staging:
     source:
       git:
-        ref: '15'
+        ref: '16'
   production:
     source:
       git:
-        ref: '15'
+        ref: '16'
