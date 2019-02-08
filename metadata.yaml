@@ -346,7 +346,7 @@ runtimes:
       pipelinePlatform: maven
     versions:
       - id: community
-        name: 2.2.0.Final (Community)
+        name: 2.3.0.Final (Community)
       - id: redhat
         name: 2.2.0.Final-redhat-00021 (RHOAR)
   - id: golang

@@ -3,7 +3,7 @@ description: Runs a Thorntail application that utilizes Circuit Breakers on Isti
 source:
   git:
     url: https://github.com/thorntail-examples/istio-circuit-breaker
-    ref: '4'
+    ref: '5'
 metadata:
   app:
     launcher:
