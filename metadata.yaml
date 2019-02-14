@@ -101,7 +101,7 @@ runtimes:
       - id: redhat
         name: 3.5.4.redhat-00002 (RHOAR)
       - id: community
-        name: 3.6.2 (Community)
+        name: 3.6.3 (Community)
   - id: fuse
     name: Fuse
     description: >-
