@@ -8,4 +8,4 @@ description: Demonstrate how to use a Messaging Work Queue from a Spring Boot ap
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-messaging-work-queue-booster
-    ref: 1.5.17-4-redhat
+    ref: 2.1.2-5-redhat
