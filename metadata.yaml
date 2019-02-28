@@ -264,7 +264,11 @@ runtimes:
     name: 2.1.2.RELEASE (Community)
   - id: current-redhat
     name: 2.1.2.RELEASE (RHOAR)
-  - id: current-osio
+  - id: previous-community
+    name: 1.5.17.RELEASE (Community)
+  - id: previous-redhat
+    name: 1.5.17.RELEASE (RHOAR)
+  - id: previous-osio
     name: 1.5.12.RELEASE (OSIO)
 - id: thorntail
   name: Thorntail

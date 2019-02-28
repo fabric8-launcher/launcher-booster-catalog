@@ -1,0 +1,12 @@
+metadata:
+  app:
+    launcher:
+      runsOn:
+      - local
+name: Istio - Spring Boot - Distributed Tracing
+description: Booster to demonstrate how Istio's service mesh and Distributed Tracing
+  - Jaeger interact.
+source:
+  git:
+    url: https://github.com/snowdrop/spring-boot-istio-distributed-tracing-booster.git
+    ref: 1.5.17-4
