@@ -58,7 +58,7 @@ name | The name of the Booster
 description | (Optional) A longer description for the Booster
 ignore | (Optional) Set this to "true" to have the Booster be ignored by the Launcher
 source/git/url | The Git repository location URL
-source/git/ref | The Git reference (tag/branch/SHA1)
+source/git/ref | The Git reference (tag or branch only)
 environment | (Optional) The configuration for this booster in a specific environment to be overriden from the default configuration
 metadata | (Optional) A free section where booster authors can put their own information which will be passed on to REST endpoints and the UI
 
