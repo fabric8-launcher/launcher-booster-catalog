@@ -329,9 +329,9 @@ runtimes:
       pipelinePlatform: maven
     versions:
       - id: current-community
-        name: 2.1.2.RELEASE (Community)
+        name: 2.1.3.RELEASE (Community)
       - id: current-redhat
-        name: 2.1.2.RELEASE (RHOAR)
+        name: 2.1.3.RELEASE (RHOAR)
       - id: previous-community
         name: 1.5.17.RELEASE (Community)
       - id: previous-redhat
