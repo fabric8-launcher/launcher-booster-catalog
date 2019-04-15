@@ -3,7 +3,7 @@ metadata:
     launcher:
       runsOn:
         - '!starter'
-name: Node.js Cache Booster
+name: Node.js Cache Example
 description: Demonstrate how to use a cache server from a Node.js application
 source:
   git:
@@ -13,8 +13,8 @@ environment:
   staging:
     source:
       git:
-        ref: v2.2.0
+        ref: v2.2.1
   production:
     source:
       git:
-        ref: v2.2.0
+        ref: v2.2.1
