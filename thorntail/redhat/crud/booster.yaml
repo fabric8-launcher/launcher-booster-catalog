@@ -4,7 +4,7 @@ metadata:
       runsOn:
         - '!starter'
 name: HTTP CRUD - Thorntail
-description: A simple CRUD applicaiton using Thorntail
+description: A simple CRUD application using Thorntail
 source:
   git:
     url: https://github.com/thorntail-examples/rest-http-crud-redhat
@@ -13,8 +13,8 @@ environment:
   staging:
     source:
       git:
-        ref: 2.2.0-redhat-1
+        ref: 2.4.0-redhat-1
   production:
     source:
       git:
-        ref: 2.2.0-redhat-1
+        ref: 2.4.0-redhat-1
