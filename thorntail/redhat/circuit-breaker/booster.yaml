@@ -13,8 +13,8 @@ environment:
   staging:
     source:
       git:
-        ref: 2.4.0-redhat-1
+        ref: 2.4.0-redhat-2
   production:
     source:
       git:
-        ref: 2.4.0-redhat-1
+        ref: 2.4.0-redhat-2
