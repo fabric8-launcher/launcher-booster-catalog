@@ -8,8 +8,8 @@ environment:
   staging:
     source:
       git:
-        ref: v7.2.0-redhat-01
+        ref: v7.3.0-redhat
   production:
     source:
       git:
-        ref: v7.2.0-redhat-01
+        ref: v7.3.0-redhat
