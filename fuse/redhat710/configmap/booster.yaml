@@ -1,0 +1,15 @@
+name: Red Hat Fuse - ConfigMap Example
+description: Booster to expose an HTTP Greeting endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.
+source:
+  git:
+    url: https://github.com/jboss-fuse/fuse-configmap-booster
+    ref: redhat
+environment:
+  staging:
+    source:
+      git:
+        ref: v7.1.0-redhat
+  production:
+    source:
+      git:
+        ref: v7.1.0-redhat
