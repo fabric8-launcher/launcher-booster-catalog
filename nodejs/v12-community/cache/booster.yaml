@@ -1,0 +1,20 @@
+metadata:
+  app:
+    launcher:
+      runsOn:
+        - '!starter'
+name: Node.js Cache Example Application
+description: Demonstrate how to use a cache server from a Node.js application
+source:
+  git:
+    url: https://github.com/nodeshift-starters/nodejs-cache
+    ref: master
+environment:
+  staging:
+    source:
+      git:
+        ref: v3.0.0
+  production:
+    source:
+      git:
+        ref: v3.0.0
