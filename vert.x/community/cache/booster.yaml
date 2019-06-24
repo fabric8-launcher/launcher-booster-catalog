@@ -11,8 +11,8 @@ environment:
   staging:
     source:
       git:
-        ref: v8
+        ref: v9
   production:
     source:
       git:
-        ref: v8
+        ref: v9

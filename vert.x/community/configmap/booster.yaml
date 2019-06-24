@@ -8,8 +8,8 @@ environment:
   staging:
     source:
       git:
-        ref: v33
+        ref: v34
   production:
     source:
       git:
-        ref: v33
+        ref: v34
