@@ -8,13 +8,13 @@ environment:
   staging:
     source:
       git:
-        ref: v2.2.0
+        ref: v2.2.1
   production:
     source:
       git:
-        ref: v2.2.0
+        ref: v2.2.1
 metadata:
   app:
     launcher:
       runsOn:
-        - 'local'
+        - 'none'

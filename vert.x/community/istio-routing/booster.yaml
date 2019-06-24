@@ -17,4 +17,4 @@ metadata:
   app:
     launcher:
       runsOn:
-        - 'local'
+        - 'none'

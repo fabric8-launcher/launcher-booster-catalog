@@ -38,7 +38,6 @@ Known entries for the `metadata` section are:
 
 Path   | Description 
 ------ | -----------
-pipelinePlatform | (Optional) The Jenkins pipeline template to use for the boosters (only for runtimes)
 suggested | (Optional) Will be marked in the UI as a suggested option
 prerequisite | (Optional) The UI will mark this booster as needing special attention from the user
 
@@ -58,7 +57,7 @@ name | The name of the Booster
 description | (Optional) A longer description for the Booster
 ignore | (Optional) Set this to "true" to have the Booster be ignored by the Launcher
 source/git/url | The Git repository location URL
-source/git/ref | The Git reference (tag/branch/SHA1)
+source/git/ref | The Git reference (tag or branch only)
 environment | (Optional) The configuration for this booster in a specific environment to be overriden from the default configuration
 metadata | (Optional) A free section where booster authors can put their own information which will be passed on to REST endpoints and the UI
 
@@ -71,9 +70,8 @@ Known entries for the `metadata` section are:
 
 Path   | Description 
 ------ | -----------
-app/launcher/enabled | (Optional) Determines if the booster should be shown in OSIO (defaults to `true`)
+app/launcher/enabled | (Optional) Determines if the booster should be enabled in Launcher (defaults to `true`)
 app/launcher/runsOn | (Optional) A single cluster type or a list of cluster types where this booster can run. A type can be prefixed with `!` to negate the option: the booster will _not_ run on clusters of that type. Special values `all` and `none` indicate the booster will run everywhere or nowhere respectively. Important: when using the `!` to negate you _must_ surround it and the cluster type name with double quotes.
-app/osio/enabled | (Optional) Determines if the booster should be shown in OSIO (defaults to `true`)
 buildProfile | (Optional) The Maven profile that should be activated in the booster's `pom.xml` file
 
 #### Common values for `runsOn`
