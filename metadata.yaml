@@ -118,6 +118,8 @@ runtimes:
     versions:
       - id: community
         name: 2.21.2 (Community)
+      - id: redhat731
+        name: 7.3.1 (Red Hat Fuse)
       - id: redhat730
         name: 7.3.0 (Red Hat Fuse)
       - id: redhat720

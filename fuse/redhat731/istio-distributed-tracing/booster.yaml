@@ -1,0 +1,20 @@
+name: Red Hat Fuse - Istio - Distributed Tracing
+description: Runs a Apache Camel application that utilizes Tracing on Istio
+source:
+  git:
+    url: https://github.com/jboss-fuse/fuse-istio-distributed-tracing-booster
+    ref: redhat
+environment:
+  staging:
+    source:
+      git:
+        ref: v7.3.1-redhat
+  production:
+    source:
+      git:
+        ref: v7.3.1-redhat
+metadata:
+  app:
+    launcher:
+      runsOn:
+        - 'none'
