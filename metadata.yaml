@@ -28,38 +28,6 @@ missions:
   description: Monitor an application's ability to service requests
   metadata:
     level: foundational
-- id: istio-circuit-breaker
-  name: Istio - Circuit Breaker
-  description: The Istio Circuit Breaker mission demonstrates limiting access to a
-    degraded service until it becomes available to handle requests. This helps prevent
-    cascading failures in other services that depend on the failed services for functionality.
-  metadata:
-    level: expert
-    istio: true
-- id: istio-distributed-tracing
-  name: Istio - Distributed Tracing
-  description: The Istio Distributed Tracing mission demonstrates how simple distributed
-    tracing can be integrated with an application running on an Istio-enabled cluster.
-  metadata:
-    level: expert
-    istio: true
-- id: istio-security
-  name: Istio - Security
-  description: Ths Istio Security mission demonstrates how Istio secures communication
-    between microservices with Mutual TLS, and how services can be allowed or denied
-    access to other services using ACL.
-  metadata:
-    level: expert
-    istio: true
-- id: istio-routing
-  name: Istio - Routing
-  description: The Istio Routing mission demonstrates how Istio can be used to route
-    traffic to/from services, including load balancing traffic to different versions
-    of the same service. This can be used to set up A/B tests, canary deployments,
-    or simply do rolling deployments during a production release.
-  metadata:
-    level: expert
-    istio: true
 - id: messaging
   name: Messaging Work Queue
   description: This mission demonstrates how to dispatch tasks to a scalable set of
