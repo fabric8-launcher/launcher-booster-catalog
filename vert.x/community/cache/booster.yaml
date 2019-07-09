@@ -5,14 +5,14 @@ metadata:
         - '!starter'
 source:
   git:
-    url: https://github.com/openshiftio-vertx-boosters/vertx-cache-booster
+    url: https://github.com/openshift-vertx-examples/vertx-cache-example
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v9
+        ref: v10
   production:
     source:
       git:
-        ref: v9
+        ref: v10

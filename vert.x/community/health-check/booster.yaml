@@ -2,14 +2,14 @@ name: Vert.x Health Check Example
 description: Demonstrate health check and recovery mechanism
 source:
   git:
-    url: https://github.com/openshiftio-vertx-boosters/vertx-health-checks-booster
+    url: https://github.com/openshift-vertx-examples/vertx-health-checks-example
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v28
+        ref: v29
   production:
     source:
       git:
-        ref: v28
+        ref: v29

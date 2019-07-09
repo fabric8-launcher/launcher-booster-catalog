@@ -6,7 +6,7 @@ metadata:
       enabled: false
 source:
   git:
-    url: https://github.com/openshiftio-vertx-boosters/vertx-secured-http-booster-redhat
+    url: https://github.com/openshift-vertx-examples/vertx-secured-http-example-redhat
     ref: master
 name: Secured Vertx - Rest & Red Hat SSO
 description: Quickstart to expose a REST Greeting endpoint using Eclipse Vert.x & Secured by Red Hat SSO
@@ -14,8 +14,8 @@ environment:
   staging:
     source:
       git:
-        ref: v27
+        ref: v28
   production:
     source:
       git:
-        ref: v27
+        ref: v28

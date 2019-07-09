@@ -5,18 +5,18 @@ metadata:
         - '!starter'
     osio:
       enabled: false
-name: Vert.x Circuit Breaker Booster
+name: Vert.x Circuit Breaker Example
 description: Runs a Vert.x application using a circuit breaker
 source:
   git:
-    url: https://github.com/openshiftio-vertx-boosters/vertx-circuit-breaker-booster-redhat
+    url: https://github.com/openshift-vertx-examples/vertx-circuit-breaker-example-redhat
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v20
+        ref: v21
   production:
     source:
       git:
-        ref: v20
+        ref: v21

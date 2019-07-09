@@ -3,18 +3,18 @@ metadata:
     launcher:
       runsOn: 
         - '!starter'
-name: Vert.x Circuit Breaker Booster
+name: Vert.x Circuit Breaker Example
 description: Runs a Vert.x application using a circuit breaker
 source:
   git:
-    url: https://github.com/openshiftio-vertx-boosters/vertx-circuit-breaker-booster
+    url: https://github.com/openshift-vertx-examples/vertx-circuit-breaker-example
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v24
+        ref: v25
   production:
     source:
       git:
-        ref: v24
+        ref: v25

@@ -2,14 +2,14 @@ name: Vert.x - HTTP & Config Map
 description: Simple HTTP endpoint where the Vert.x application uses OpenShift ConfigMap to get the application parameters.
 source:
   git:
-    url: https://github.com/openshiftio-vertx-boosters/vertx-configmap-booster
+    url: https://github.com/openshift-vertx-examples/vertx-configmap-example
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v34
+        ref: v35
   production:
     source:
       git:
-        ref: v34
+        ref: v35
