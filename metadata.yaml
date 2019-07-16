@@ -47,6 +47,13 @@ missions:
     SSO which adds security to your applications while centralizing the security configuration
   metadata:
     level: advanced
+- id: istio-distributed-tracing
+  name: Istio - Distributed Tracing
+  description: The Istio Distributed Tracing mission demonstrates how simple distributed
+    tracing can be integrated with an application running on an Istio-enabled cluster.
+  metadata:
+    level: expert
+    istio: true
 runtimes:
   - id: vert.x
     name: Eclipse Vert.x
