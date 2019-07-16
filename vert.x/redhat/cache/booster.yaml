@@ -9,14 +9,14 @@ name: Eclipse Vert.x - Cache
 description: Demonstrate how to use a cache server in Eclipse Vert.x
 source:
   git:
-    url: https://github.com/openshiftio-vertx-boosters/vertx-cache-booster-redhat
+    url: https://github.com/openshift-vertx-examples/vertx-cache-example-redhat
     ref: master
 environment:
   staging:
     source:
       git:
-        ref: v10
+        ref: v11
   production:
     source:
       git:
-        ref: v10
+        ref: v11
