@@ -1,0 +1,15 @@
+name: Red Hat Fuse - Health Check Example
+description: Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.
+source:
+  git:
+    url: https://github.com/jboss-fuse/fuse-health-check-booster
+    ref: redhat
+environment:
+  staging:
+    source:
+      git:
+        ref: v7.4.0-redhat
+  production:
+    source:
+      git:
+        ref: v7.4.0-redhat
