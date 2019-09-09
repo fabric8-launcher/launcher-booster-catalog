@@ -7,7 +7,7 @@ set -e
 
 GROUPID=io.fabric8.launcher
 ARTIFACTID=booster-catalog-service
-VERSION=36
+VERSION=58
 MAIN=io.fabric8.launcher.booster.BoosterValidator
 TARGET=target
 
