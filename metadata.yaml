@@ -97,7 +97,7 @@ runtimes:
         name: 7.4.0 (Red Hat Fuse)
       - id: redhat740sb2
         name: 7.4.0 sb2 (Red Hat Fuse)
-      - id: redhat730
+      - id: redhat731
         name: 7.3.1 (Red Hat Fuse)
       - id: redhat730
         name: 7.3.0 (Red Hat Fuse)
