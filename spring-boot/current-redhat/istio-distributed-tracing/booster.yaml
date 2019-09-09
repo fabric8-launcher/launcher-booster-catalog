@@ -9,4 +9,4 @@ description: Booster to demonstrate how Istio's service mesh and Distributed Tra
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-istio-distributed-tracing-booster.git
-    ref: 2.1.6-8-redhat
+    ref: 2.1.6-9-redhat
