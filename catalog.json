@@ -1,0 +1,1508 @@
+[
+  {
+    "name": "Red Hat Fuse - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Apache Camel.",
+    "repo": "https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster",
+    "ref": "v7.3.0-03",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "fuse",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - ConfigMap Example",
+    "description": "Booster to expose an HTTP REST endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/jboss-fuse/fuse-configmap-booster",
+    "ref": "v7.3.0",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "fuse",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.",
+    "repo": "https://github.com/jboss-fuse/fuse-health-check-booster",
+    "ref": "v7.3.0",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "fuse",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Istio - Distributed Tracing",
+    "description": "Runs a Apache Camel application that utilizes Tracing on Istio",
+    "repo": "https://github.com/jboss-fuse/fuse-istio-distributed-tracing-booster",
+    "ref": "v7.3.0",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "fuse",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - HTTP Example",
+    "description": "Booster to expose a HTTP Greeting endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/jboss-fuse/fuse-rest-http-booster",
+    "ref": "v7.3.0",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "fuse",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Apache Camel.",
+    "repo": "https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster",
+    "ref": "v7.0.1-redhat",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "fuse",
+      "version": "redhat701"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - ConfigMap Example",
+    "description": "Booster to expose an HTTP Greeting endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/jboss-fuse/fuse-configmap-booster",
+    "ref": "v7.0.1-redhat",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "fuse",
+      "version": "redhat701"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.",
+    "repo": "https://github.com/jboss-fuse/fuse-health-check-booster",
+    "ref": "v7.0.1-redhat",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "fuse",
+      "version": "redhat701"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - HTTP Example",
+    "description": "Booster to expose a HTTP REST endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/jboss-fuse/fuse-rest-http-booster",
+    "ref": "v7.0.1-redhat",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "fuse",
+      "version": "redhat701"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Apache Camel.",
+    "repo": "https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster",
+    "ref": "v7.1.0-redhat",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "fuse",
+      "version": "redhat710"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - ConfigMap Example",
+    "description": "Booster to expose an HTTP Greeting endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/jboss-fuse/fuse-configmap-booster",
+    "ref": "v7.1.0-redhat",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "fuse",
+      "version": "redhat710"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.",
+    "repo": "https://github.com/jboss-fuse/fuse-health-check-booster",
+    "ref": "v7.1.0-redhat",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "fuse",
+      "version": "redhat710"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - HTTP Example",
+    "description": "Booster to expose a HTTP REST endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/jboss-fuse/fuse-rest-http-booster",
+    "ref": "v7.1.0-redhat",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "fuse",
+      "version": "redhat710"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Apache Camel.",
+    "repo": "https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster",
+    "ref": "v7.2.0-redhat",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "fuse",
+      "version": "redhat720"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - ConfigMap Example",
+    "description": "Booster to expose an HTTP Greeting endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/jboss-fuse/fuse-configmap-booster",
+    "ref": "v7.2.0-redhat",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "fuse",
+      "version": "redhat720"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.",
+    "repo": "https://github.com/jboss-fuse/fuse-health-check-booster",
+    "ref": "v7.2.0-redhat",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "fuse",
+      "version": "redhat720"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Istio - Distributed Tracing",
+    "description": "Runs a Apache Camel application that utilizes Tracing on Istio",
+    "repo": "https://github.com/jboss-fuse/fuse-istio-distributed-tracing-booster",
+    "ref": "v7.2.0-redhat-01",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "fuse",
+      "version": "redhat720"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - HTTP Example",
+    "description": "Booster to expose a HTTP REST endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/jboss-fuse/fuse-rest-http-booster",
+    "ref": "v7.2.0-redhat",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "fuse",
+      "version": "redhat720"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Apache Camel.",
+    "repo": "https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster",
+    "ref": "v7.3.0-redhat-03",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "fuse",
+      "version": "redhat730"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - ConfigMap Example",
+    "description": "Booster to expose an HTTP Greeting endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/jboss-fuse/fuse-configmap-booster",
+    "ref": "v7.3.0-redhat",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "fuse",
+      "version": "redhat730"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.",
+    "repo": "https://github.com/jboss-fuse/fuse-health-check-booster",
+    "ref": "v7.3.0-redhat",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "fuse",
+      "version": "redhat730"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Istio - Distributed Tracing",
+    "description": "Runs a Apache Camel application that utilizes Tracing on Istio",
+    "repo": "https://github.com/jboss-fuse/fuse-istio-distributed-tracing-booster",
+    "ref": "v7.3.0-redhat",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "fuse",
+      "version": "redhat730"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - HTTP Example",
+    "description": "Booster to expose a HTTP REST endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/jboss-fuse/fuse-rest-http-booster",
+    "ref": "v7.3.0-redhat",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "fuse",
+      "version": "redhat730"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Apache Camel.",
+    "repo": "https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster",
+    "ref": "v7.3.1-redhat",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "fuse",
+      "version": "redhat731"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - ConfigMap Example",
+    "description": "Booster to expose an HTTP Greeting endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/jboss-fuse/fuse-configmap-booster",
+    "ref": "v7.3.1-redhat",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "fuse",
+      "version": "redhat731"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.",
+    "repo": "https://github.com/jboss-fuse/fuse-health-check-booster",
+    "ref": "v7.3.1-redhat",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "fuse",
+      "version": "redhat731"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Istio - Distributed Tracing",
+    "description": "Runs a Apache Camel application that utilizes Tracing on Istio",
+    "repo": "https://github.com/jboss-fuse/fuse-istio-distributed-tracing-booster",
+    "ref": "v7.3.1-redhat",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "fuse",
+      "version": "redhat731"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - HTTP Example",
+    "description": "Booster to expose a HTTP REST endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/jboss-fuse/fuse-rest-http-booster",
+    "ref": "v7.3.1-redhat",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "fuse",
+      "version": "redhat731"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Apache Camel.",
+    "repo": "https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster",
+    "ref": "v7.4.0-redhat",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "fuse",
+      "version": "redhat740"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - ConfigMap Example",
+    "description": "Booster to expose an HTTP Greeting endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/jboss-fuse/fuse-configmap-booster",
+    "ref": "v7.4.0-redhat",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "fuse",
+      "version": "redhat740"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.",
+    "repo": "https://github.com/jboss-fuse/fuse-health-check-booster",
+    "ref": "v7.4.0-redhat",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "fuse",
+      "version": "redhat740"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Istio - Distributed Tracing",
+    "description": "Runs a Apache Camel application that utilizes Tracing on Istio",
+    "repo": "https://github.com/jboss-fuse/fuse-istio-distributed-tracing-booster",
+    "ref": "v7.4.0-redhat",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "fuse",
+      "version": "redhat740"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - HTTP Example",
+    "description": "Booster to expose a HTTP REST endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/jboss-fuse/fuse-rest-http-booster",
+    "ref": "v7.4.0-redhat",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "fuse",
+      "version": "redhat740"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Apache Camel.",
+    "repo": "https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster",
+    "ref": "v7.4.0-redhat-sb2",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "fuse",
+      "version": "redhat740sb2"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - ConfigMap Example",
+    "description": "Booster to expose an HTTP Greeting endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/jboss-fuse/fuse-configmap-booster",
+    "ref": "v7.4.0-redhat-sb2",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "fuse",
+      "version": "redhat740sb2"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.",
+    "repo": "https://github.com/jboss-fuse/fuse-health-check-booster",
+    "ref": "v7.4.0-redhat-sb2",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "fuse",
+      "version": "redhat740sb2"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Istio - Distributed Tracing",
+    "description": "Runs a Apache Camel application that utilizes Tracing on Istio",
+    "repo": "https://github.com/jboss-fuse/fuse-istio-distributed-tracing-booster",
+    "ref": "v7.4.0-redhat-sb2",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "fuse",
+      "version": "redhat740sb2"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - HTTP Example",
+    "description": "Booster to expose a HTTP REST endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/jboss-fuse/fuse-rest-http-booster",
+    "ref": "v7.4.0-redhat-sb2",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "fuse",
+      "version": "redhat740sb2"
+    }
+  },
+  {
+    "name": "Red Hat GoLang - CRUD Example",
+    "description": "Runs a Golang application exposing a HTTP endpoint proposing CRUD operations",
+    "repo": "https://github.com/golang-starters/golang-http-crud",
+    "ref": "master",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "golang",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Red Hat Golang - Health Check Example",
+    "description": "Test",
+    "repo": "https://github.com/golang-starters/golang-health-check",
+    "ref": "master",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "golang",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Red Hat Golang - HTTP Example",
+    "description": "Booster to expose a HTTP Greeting endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/golang-starters/golang-rest-http",
+    "ref": "master",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "golang",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Node.js Cache Example Application",
+    "description": "Demonstrate how to use a cache server from a Node.js application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-cache",
+    "ref": "v2.3.1",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "nodejs",
+      "version": "v10-community"
+    }
+  },
+  {
+    "name": "Node.js - Circuit Breaker",
+    "description": "Demonstrates Circuit Breaker in Node.js",
+    "repo": "https://github.com/nodeshift-starters/nodejs-circuit-breaker",
+    "ref": "v2.1.1",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "nodejs",
+      "version": "v10-community"
+    }
+  },
+  {
+    "name": "Node.js - HTTP & Config Map",
+    "description": "Simple HTTP endpoint where the Node.js application uses OpenShift ConfigMap to get the application parameters.",
+    "repo": "https://github.com/nodeshift-starters/nodejs-configmap",
+    "ref": "v2.2.0",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "nodejs",
+      "version": "v10-community"
+    }
+  },
+  {
+    "name": "Node.js - CRUD Example",
+    "description": "Runs a Node.js application exposing a HTTP endpoint proposing CRUD operations",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-crud",
+    "ref": "v2.1.3",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "nodejs",
+      "version": "v10-community"
+    }
+  },
+  {
+    "name": "Node.js - Health Checks",
+    "description": "Demonstrates Health Checks in Node.js",
+    "repo": "https://github.com/nodeshift-starters/nodejs-health-check",
+    "ref": "v2.0.4",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "nodejs",
+      "version": "v10-community"
+    }
+  },
+  {
+    "name": "Node.js - Istio - Distributed Tracing",
+    "description": "Runs a Node.js application that utilizes Tracing on Istio",
+    "repo": "https://github.com/nodeshift-starters/nodejs-istio-tracing",
+    "ref": "v2.2.1",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "nodejs",
+      "version": "v10-community"
+    }
+  },
+  {
+    "name": "Node.js Messaging Example Application",
+    "description": "Demonstrate how to use a Messaging Work Queue from a Node.js application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-messaging-work-queue",
+    "ref": "v2.1.1",
+    "metadata": {
+      "mission": "messaging",
+      "runtime": "nodejs",
+      "version": "v10-community"
+    }
+  },
+  {
+    "name": "Node.js - REST and RH SSO",
+    "description": "A simple HTTP application using Node.js secured by RH SSO",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-secured",
+    "ref": "v2.0.2",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "nodejs",
+      "version": "v10-community"
+    }
+  },
+  {
+    "name": "Node.js - HTTP",
+    "description": "Runs a Node.js HTTP application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http",
+    "ref": "v2.1.1",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "nodejs",
+      "version": "v10-community"
+    }
+  },
+  {
+    "name": "Node.js Cache Example",
+    "description": "Demonstrate how to use a cache server from a Node.js application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-cache-redhat",
+    "ref": "v2.3.1",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "nodejs",
+      "version": "v10-redhat"
+    }
+  },
+  {
+    "name": "Node.js - Circuit Breaker",
+    "description": "Demonstrates Circuit Breaker in Node.js",
+    "repo": "https://github.com/nodeshift-starters/nodejs-circuit-breaker-redhat",
+    "ref": "v2.1.1",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "nodejs",
+      "version": "v10-redhat"
+    }
+  },
+  {
+    "name": "Node.js - HTTP & Config Map",
+    "description": "Simple HTTP endpoint where the Node.js application uses OpenShift ConfigMap to get the application parameters.",
+    "repo": "https://github.com/nodeshift-starters/nodejs-configmap-redhat",
+    "ref": "v2.2.0",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "nodejs",
+      "version": "v10-redhat"
+    }
+  },
+  {
+    "name": "Node.js - CRUD Example",
+    "description": "Runs a Node.js application exposing a HTTP endpoint proposing CRUD operations",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-crud-redhat",
+    "ref": "v2.0.3",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "nodejs",
+      "version": "v10-redhat"
+    }
+  },
+  {
+    "name": "Node.js - Health Checks",
+    "description": "Demonstrates Health Checks in Node.js",
+    "repo": "https://github.com/nodeshift-starters/nodejs-health-check-redhat",
+    "ref": "v2.0.2",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "nodejs",
+      "version": "v10-redhat"
+    }
+  },
+  {
+    "name": "Node.js - Istio - Distributed Tracing",
+    "description": "Runs a Node.js application that utilizes Tracing on Istio",
+    "repo": "https://github.com/nodeshift-starters/nodejs-istio-tracing-redhat",
+    "ref": "v2.1.1",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "nodejs",
+      "version": "v10-redhat"
+    }
+  },
+  {
+    "name": "Node.js Messaging Example Application",
+    "description": "Demonstrate how to use a Messaging Work Queue from a Node.js application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-messaging-work-queue-redhat",
+    "ref": "v2.1.1",
+    "metadata": {
+      "mission": "messaging",
+      "runtime": "nodejs",
+      "version": "v10-redhat"
+    }
+  },
+  {
+    "name": "Node.js - REST and RH SSO",
+    "description": "A simple HTTP application using Node.js secured by RH SSO",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-secured-redhat",
+    "ref": "v2.0.2",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "nodejs",
+      "version": "v10-redhat"
+    }
+  },
+  {
+    "name": "Node.js - HTTP",
+    "description": "Runs a Node.js HTTP application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-redhat",
+    "ref": "v2.0.3",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "nodejs",
+      "version": "v10-redhat"
+    }
+  },
+  {
+    "name": "Node.js Cache Example Application",
+    "description": "Demonstrate how to use a cache server from a Node.js application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-cache",
+    "ref": "v3.1.0",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "nodejs",
+      "version": "v12-community"
+    }
+  },
+  {
+    "name": "Node.js - Circuit Breaker",
+    "description": "Demonstrates Circuit Breaker in Node.js",
+    "repo": "https://github.com/nodeshift-starters/nodejs-circuit-breaker",
+    "ref": "v3.0.0",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "nodejs",
+      "version": "v12-community"
+    }
+  },
+  {
+    "name": "Node.js - HTTP & Config Map",
+    "description": "Simple HTTP endpoint where the Node.js application uses OpenShift ConfigMap to get the application parameters.",
+    "repo": "https://github.com/nodeshift-starters/nodejs-configmap",
+    "ref": "v3.1.0",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "nodejs",
+      "version": "v12-community"
+    }
+  },
+  {
+    "name": "Node.js - CRUD Example",
+    "description": "Runs a Node.js application exposing a HTTP endpoint proposing CRUD operations",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-crud",
+    "ref": "v3.0.1",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "nodejs",
+      "version": "v12-community"
+    }
+  },
+  {
+    "name": "Node.js - Health Checks",
+    "description": "Demonstrates Health Checks in Node.js",
+    "repo": "https://github.com/nodeshift-starters/nodejs-health-check",
+    "ref": "v3.0.0",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "nodejs",
+      "version": "v12-community"
+    }
+  },
+  {
+    "name": "Node.js - Istio - Distributed Tracing",
+    "description": "Runs a Node.js application that utilizes Tracing on Istio",
+    "repo": "https://github.com/nodeshift-starters/nodejs-istio-tracing",
+    "ref": "v3.0.0",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "nodejs",
+      "version": "v12-community"
+    }
+  },
+  {
+    "name": "Node.js Messaging Example Application",
+    "description": "Demonstrate how to use a Messaging Work Queue from a Node.js application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-messaging-work-queue",
+    "ref": "v3.0.0",
+    "metadata": {
+      "mission": "messaging",
+      "runtime": "nodejs",
+      "version": "v12-community"
+    }
+  },
+  {
+    "name": "Node.js - REST and RH SSO",
+    "description": "A simple HTTP application using Node.js secured by RH SSO",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-secured",
+    "ref": "v3.0.0",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "nodejs",
+      "version": "v12-community"
+    }
+  },
+  {
+    "name": "Node.js - HTTP",
+    "description": "Runs a Node.js HTTP application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http",
+    "ref": "v3.0.0",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "nodejs",
+      "version": "v12-community"
+    }
+  },
+  {
+    "name": "Node.js Cache Example Application",
+    "description": "Demonstrate how to use a cache server from a Node.js application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-cache",
+    "ref": "v1.3.1",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "nodejs",
+      "version": "v8-community"
+    }
+  },
+  {
+    "name": "Node.js - Circuit Breaker",
+    "description": "Demonstrates Circuit Breaker in Node.js",
+    "repo": "https://github.com/nodeshift-starters/nodejs-circuit-breaker",
+    "ref": "v1.2.1",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "nodejs",
+      "version": "v8-community"
+    }
+  },
+  {
+    "name": "Node.js - HTTP & Config Map",
+    "description": "Simple HTTP endpoint where the Node.js application uses OpenShift ConfigMap to get the application parameters.",
+    "repo": "https://github.com/nodeshift-starters/nodejs-configmap",
+    "ref": "v1.4.0",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "nodejs",
+      "version": "v8-community"
+    }
+  },
+  {
+    "name": "Node.js - CRUD Example",
+    "description": "Runs a Node.js application exposing a HTTP endpoint proposing CRUD operations",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-crud",
+    "ref": "v1.3.3",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "nodejs",
+      "version": "v8-community"
+    }
+  },
+  {
+    "name": "Node.js - Health Checks",
+    "description": "Demonstrates Health Checks in Node.js",
+    "repo": "https://github.com/nodeshift-starters/nodejs-health-check",
+    "ref": "v1.3.4",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "nodejs",
+      "version": "v8-community"
+    }
+  },
+  {
+    "name": "Node.js - Istio - Distributed Tracing",
+    "description": "Runs a Node.js application that utilizes Tracing on Istio",
+    "repo": "https://github.com/nodeshift-starters/nodejs-istio-tracing",
+    "ref": "v1.2.1",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "nodejs",
+      "version": "v8-community"
+    }
+  },
+  {
+    "name": "Node.js Messaging Example Application",
+    "description": "Demonstrate how to use a Messaging Work Queue from a Node.js application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-messaging-work-queue",
+    "ref": "v1.1.1",
+    "metadata": {
+      "mission": "messaging",
+      "runtime": "nodejs",
+      "version": "v8-community"
+    }
+  },
+  {
+    "name": "Node.js - REST and RH SSO",
+    "description": "A simple HTTP application using Node.js secured by RH SSO",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-secured",
+    "ref": "v1.2.1",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "nodejs",
+      "version": "v8-community"
+    }
+  },
+  {
+    "name": "Node.js - HTTP",
+    "description": "Runs a Node.js HTTP application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http",
+    "ref": "v1.3.1",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "nodejs",
+      "version": "v8-community"
+    }
+  },
+  {
+    "name": "Node.js Cache Example",
+    "description": "Demonstrate how to use a cache server from a Node.js application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-cache-redhat",
+    "ref": "v1.3.1",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "nodejs",
+      "version": "v8-redhat"
+    }
+  },
+  {
+    "name": "Node.js - Circuit Breaker",
+    "description": "Demonstrates Circuit Breaker in Node.js",
+    "repo": "https://github.com/nodeshift-starters/nodejs-circuit-breaker-redhat",
+    "ref": "v1.2.1",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "nodejs",
+      "version": "v8-redhat"
+    }
+  },
+  {
+    "name": "Node.js - HTTP & Config Map",
+    "description": "Simple HTTP endpoint where the Node.js application uses OpenShift ConfigMap to get the application parameters.",
+    "repo": "https://github.com/nodeshift-starters/nodejs-configmap-redhat",
+    "ref": "v1.4.0",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "nodejs",
+      "version": "v8-redhat"
+    }
+  },
+  {
+    "name": "Node.js - CRUD Example",
+    "description": "Runs a Node.js application exposing a HTTP endpoint proposing CRUD operations",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-crud-redhat",
+    "ref": "v1.2.5",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "nodejs",
+      "version": "v8-redhat"
+    }
+  },
+  {
+    "name": "Node.js - Health Checks",
+    "description": "Demonstrates Health Checks in Node.js",
+    "repo": "https://github.com/nodeshift-starters/nodejs-health-check-redhat",
+    "ref": "v1.2.4",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "nodejs",
+      "version": "v8-redhat"
+    }
+  },
+  {
+    "name": "Node.js - Istio - Distributed Tracing",
+    "description": "Runs a Node.js application that utilizes Tracing on Istio",
+    "repo": "https://github.com/nodeshift-starters/nodejs-istio-tracing-redhat",
+    "ref": "v1.1.1",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "nodejs",
+      "version": "v8-redhat"
+    }
+  },
+  {
+    "name": "Node.js Messaging Example Application",
+    "description": "Demonstrate how to use a Messaging Work Queue from a Node.js application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-messaging-work-queue-redhat",
+    "ref": "v1.1.1",
+    "metadata": {
+      "mission": "messaging",
+      "runtime": "nodejs",
+      "version": "v8-redhat"
+    }
+  },
+  {
+    "name": "Node.js - REST and RH SSO",
+    "description": "A simple HTTP application using Node.js secured by RH SSO",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-secured-redhat",
+    "ref": "v1.1.4",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "nodejs",
+      "version": "v8-redhat"
+    }
+  },
+  {
+    "name": "Node.js - HTTP",
+    "description": "Runs a Node.js HTTP application",
+    "repo": "https://github.com/nodeshift-starters/nodejs-rest-http-redhat",
+    "ref": "v1.2.6",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "nodejs",
+      "version": "v8-redhat"
+    }
+  },
+  {
+    "name": "Spring Boot - Cache Example",
+    "description": "Booster to demonstrate how to use a cache server Spring Boot on OpenShift.",
+    "repo": "https://github.com/snowdrop/spring-boot-cache-booster",
+    "ref": "2.1.6-9",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "spring-boot",
+      "version": "current-community"
+    }
+  },
+  {
+    "name": "Spring Boot - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Spring Boot.",
+    "repo": "https://github.com/snowdrop/spring-boot-circuit-breaker-booster",
+    "ref": "2.1.6-9",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "spring-boot",
+      "version": "current-community"
+    }
+  },
+  {
+    "name": "Spring Boot - ConfigMap Example",
+    "description": "Booster to expose an HTTP Greeting endpoint using Spring Boot where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/snowdrop/spring-boot-configmap-booster",
+    "ref": "2.1.6-9",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "spring-boot",
+      "version": "current-community"
+    }
+  },
+  {
+    "name": "Spring Boot - CRUD Example",
+    "description": "Booster to expose an HTTP endpoint with CRUD operations on fruits database.",
+    "repo": "https://github.com/snowdrop/spring-boot-crud-booster",
+    "ref": "2.1.6-9",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "spring-boot",
+      "version": "current-community"
+    }
+  },
+  {
+    "name": "Spring Boot - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Spring Boot Actuator.",
+    "repo": "https://github.com/snowdrop/spring-boot-health-check-booster",
+    "ref": "2.1.6-9",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "spring-boot",
+      "version": "current-community"
+    }
+  },
+  {
+    "name": "Istio - Spring Boot - Distributed Tracing",
+    "description": "Booster to demonstrate how Istio's service mesh and Distributed Tracing - Jaeger interact.",
+    "repo": "https://github.com/snowdrop/spring-boot-istio-distributed-tracing-booster.git",
+    "ref": "2.1.6-9",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "spring-boot",
+      "version": "current-community"
+    }
+  },
+  {
+    "name": "Spring Boot - Messaging Booster",
+    "description": "Demonstrate how to use a Messaging Work Queue from a Spring Boot application",
+    "repo": "https://github.com/snowdrop/spring-boot-messaging-work-queue-booster",
+    "ref": "2.1.6-9",
+    "metadata": {
+      "mission": "messaging",
+      "runtime": "spring-boot",
+      "version": "current-community"
+    }
+  },
+  {
+    "name": "Secured Spring Boot - HTTP & Red Hat SSO Example",
+    "description": "Booster to expose a HTTP Greeting endpoint using SpringBoot & Secured by Red Hat SSO.",
+    "repo": "https://github.com/snowdrop/spring-boot-http-secured-booster",
+    "ref": "2.1.6-9",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "spring-boot",
+      "version": "current-community"
+    }
+  },
+  {
+    "name": "Spring Boot - HTTP Example",
+    "description": "Booster to expose a HTTP Greeting endpoint using Spring Boot and Apache Tomcat in embedded mode.",
+    "repo": "https://github.com/snowdrop/spring-boot-http-booster",
+    "ref": "2.1.6-9",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "spring-boot",
+      "version": "current-community"
+    }
+  },
+  {
+    "name": "Spring Boot - Cache Example",
+    "description": "Booster to demonstrate how to use a cache server Spring Boot on OpenShift.",
+    "repo": "https://github.com/snowdrop/spring-boot-cache-booster",
+    "ref": "2.1.6-9-redhat",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "spring-boot",
+      "version": "current-redhat"
+    }
+  },
+  {
+    "name": "Spring Boot - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Spring Boot.",
+    "repo": "https://github.com/snowdrop/spring-boot-circuit-breaker-booster",
+    "ref": "2.1.6-9-redhat",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "spring-boot",
+      "version": "current-redhat"
+    }
+  },
+  {
+    "name": "Spring Boot - ConfigMap Example",
+    "description": "Booster to expose an HTTP Greeting endpoint using Spring Boot where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/snowdrop/spring-boot-configmap-booster",
+    "ref": "2.1.6-9-redhat",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "spring-boot",
+      "version": "current-redhat"
+    }
+  },
+  {
+    "name": "Spring Boot - CRUD Example",
+    "description": "Booster to expose an HTTP endpoint with CRUD operations on fruits database.",
+    "repo": "https://github.com/snowdrop/spring-boot-crud-booster",
+    "ref": "2.1.6-9-redhat",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "spring-boot",
+      "version": "current-redhat"
+    }
+  },
+  {
+    "name": "Spring Boot - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Spring Boot Actuator.",
+    "repo": "https://github.com/snowdrop/spring-boot-health-check-booster",
+    "ref": "2.1.6-9-redhat",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "spring-boot",
+      "version": "current-redhat"
+    }
+  },
+  {
+    "name": "Istio - Spring Boot - Distributed Tracing",
+    "description": "Booster to demonstrate how Istio's service mesh and Distributed Tracing - Jaeger interact.",
+    "repo": "https://github.com/snowdrop/spring-boot-istio-distributed-tracing-booster.git",
+    "ref": "2.1.6-9-redhat",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "spring-boot",
+      "version": "current-redhat"
+    }
+  },
+  {
+    "name": "Spring Boot - Messaging Booster",
+    "description": "Demonstrate how to use a Messaging Work Queue from a Spring Boot application",
+    "repo": "https://github.com/snowdrop/spring-boot-messaging-work-queue-booster",
+    "ref": "2.1.6-9-redhat",
+    "metadata": {
+      "mission": "messaging",
+      "runtime": "spring-boot",
+      "version": "current-redhat"
+    }
+  },
+  {
+    "name": "Secured Spring Boot - HTTP & Red Hat SSO Example",
+    "description": "Booster to expose a HTTP Greeting endpoint using SpringBoot & Secured by Red Hat SSO.",
+    "repo": "https://github.com/snowdrop/spring-boot-http-secured-booster",
+    "ref": "2.1.6-9-redhat",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "spring-boot",
+      "version": "current-redhat"
+    }
+  },
+  {
+    "name": "Spring Boot - HTTP Example",
+    "description": "Booster to expose a HTTP Greeting endpoint using Spring Boot and Apache Tomcat in embedded mode.",
+    "repo": "https://github.com/snowdrop/spring-boot-http-booster",
+    "ref": "2.1.6-9-redhat",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "spring-boot",
+      "version": "current-redhat"
+    }
+  },
+  {
+    "name": "Thorntail - Cache",
+    "description": "Demonstrate how to use a cache server in Thorntail",
+    "repo": "https://github.com/thorntail-examples/cache",
+    "ref": "7",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "thorntail",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Thorntail - Circuit Breaker",
+    "description": "Demonstrates Circuit Breaker in Thorntail",
+    "repo": "https://github.com/thorntail-examples/circuit-breaker",
+    "ref": "12",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "thorntail",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Thorntail - Config Map",
+    "description": "Simple HTTP endpoint where the Thorntail application uses OpenShift ConfigMap to retrieve application parameters.",
+    "repo": "https://github.com/thorntail-examples/configmap",
+    "ref": "16",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "thorntail",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Thorntail - HTTP CRUD",
+    "description": "A simple CRUD application using Thorntail",
+    "repo": "https://github.com/thorntail-examples/rest-http-crud",
+    "ref": "15",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "thorntail",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Thorntail - Health Checks",
+    "description": "Demonstrates Health Checks in Thorntail",
+    "repo": "https://github.com/thorntail-examples/health-check",
+    "ref": "15",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "thorntail",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Thorntail - Istio - Distributed Tracing",
+    "description": "Runs a Thorntail application that utilizes Tracing with Jaeger on Istio",
+    "repo": "https://github.com/thorntail-examples/istio-tracing",
+    "ref": "7",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "thorntail",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Thorntail - Messaging Work Queue",
+    "description": "Demonstrate how to use a messaging server to implement a work queue in Thorntail",
+    "repo": "https://github.com/thorntail-examples/messaging-work-queue",
+    "ref": "2",
+    "metadata": {
+      "mission": "messaging",
+      "runtime": "thorntail",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Thorntail - REST and RH SSO",
+    "description": "A simple HTTP application using Thorntail secured by RH SSO",
+    "repo": "https://github.com/thorntail-examples/rest-http-secured",
+    "ref": "14",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "thorntail",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Thorntail - HTTP",
+    "description": "Runs a Thorntail HTTP application",
+    "repo": "https://github.com/thorntail-examples/rest-http",
+    "ref": "18",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "thorntail",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Thorntail - Cache",
+    "description": "Demonstrate how to use a cache server in Thorntail",
+    "repo": "https://github.com/thorntail-examples/cache-redhat",
+    "ref": "2.5.0-redhat-1",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "thorntail",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Thorntail - Circuit Breaker",
+    "description": "Demonstrates Circuit Breaker in Thorntail",
+    "repo": "https://github.com/thorntail-examples/circuit-breaker-redhat",
+    "ref": "2.5.0-redhat-1",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "thorntail",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Thorntail - Config Map",
+    "description": "Simple HTTP endpoint where the Thorntail application uses OpenShift ConfigMap to retrieve application parameters.",
+    "repo": "https://github.com/thorntail-examples/configmap-redhat",
+    "ref": "2.5.0-redhat-1",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "thorntail",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Thorntail - HTTP CRUD",
+    "description": "A simple CRUD application using Thorntail",
+    "repo": "https://github.com/thorntail-examples/rest-http-crud-redhat",
+    "ref": "2.5.0-redhat-1",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "thorntail",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Thorntail - Health Checks",
+    "description": "Demonstrates Health Checks in Thorntail",
+    "repo": "https://github.com/thorntail-examples/health-check-redhat",
+    "ref": "2.5.0-redhat-1",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "thorntail",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Thorntail - Istio - Distributed Tracing",
+    "description": "Runs a Thorntail application that utilizes Tracing with Jaeger on Istio",
+    "repo": "https://github.com/thorntail-examples/istio-tracing-redhat",
+    "ref": "2.5.0-redhat-1",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "thorntail",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Thorntail - Messaging Work Queue",
+    "description": "Demonstrate how to use a messaging server to implement a work queue in Thorntail",
+    "repo": "https://github.com/thorntail-examples/messaging-work-queue-redhat",
+    "ref": "2.5.0-redhat-1",
+    "metadata": {
+      "mission": "messaging",
+      "runtime": "thorntail",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Thorntail - REST and RH SSO",
+    "description": "A simple HTTP application using Thorntail secured by RH SSO",
+    "repo": "https://github.com/thorntail-examples/rest-http-secured-redhat",
+    "ref": "2.5.0-redhat-1",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "thorntail",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Thorntail - HTTP",
+    "description": "Runs a Thorntail HTTP application",
+    "repo": "https://github.com/thorntail-examples/rest-http-redhat",
+    "ref": "2.5.0-redhat-1",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "thorntail",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Eclipse Vert.x - Cache",
+    "description": "Demonstrate how to use a cache server in Eclipse Vert.x",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-cache-example",
+    "ref": "v11",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "vert.x",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Vert.x Circuit Breaker Example",
+    "description": "Runs a Vert.x application using a circuit breaker",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-circuit-breaker-example",
+    "ref": "v26",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "vert.x",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Vert.x - HTTP & Config Map",
+    "description": "Simple HTTP endpoint where the Vert.x application uses OpenShift ConfigMap to get the application parameters.",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-configmap-example",
+    "ref": "v36",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "vert.x",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Vert.x CRUD Example using JDBC",
+    "description": "Runs a Vert.x application exposing a HTTP endpoint proposing CRUD operations implemented on top of JDBC",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-crud-example",
+    "ref": "v34",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "vert.x",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Vert.x Health Check Example",
+    "description": "Demonstrate health check and recovery mechanism",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-health-checks-example",
+    "ref": "v31",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "vert.x",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Eclipse Vert.x - Istio - Distributed Tracing",
+    "description": "Runs a Eclipse Vert.x application that utilizes Tracing on Istio",
+    "repo": "https://github.com/openshiftio-vertx-boosters/vertx-istio-distributed-tracing-booster",
+    "ref": "v3",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "vert.x",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Secured Vertx - Rest & Red Hat SSO",
+    "description": "Quickstart to expose a REST Greeting endpoint using Eclipse Vert.x & Secured by Red Hat SSO",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-secured-http-example",
+    "ref": "v28",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "vert.x",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Vert.x HTTP Example",
+    "description": "Runs a Vert.x HTTP application",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-http-example",
+    "ref": "v36",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "vert.x",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Eclipse Vert.x - Cache",
+    "description": "Demonstrate how to use a cache server in Eclipse Vert.x",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-cache-example-redhat",
+    "ref": "v12",
+    "metadata": {
+      "mission": "cache",
+      "runtime": "vert.x",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Vert.x Circuit Breaker Example",
+    "description": "Runs a Vert.x application using a circuit breaker",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-circuit-breaker-example-redhat",
+    "ref": "v22",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "vert.x",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Vert.x - HTTP & Config Map",
+    "description": "Simple HTTP endpoint where the Vert.x application uses OpenShift ConfigMap to get the application parameters.",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-configmap-example-redhat",
+    "ref": "v26",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "vert.x",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Vert.x CRUD Example using JDBC",
+    "description": "Runs a Vert.x application exposing a HTTP endpoint proposing CRUD operations implemented on top of JDBC",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-crud-example-redhat",
+    "ref": "v22",
+    "metadata": {
+      "mission": "crud",
+      "runtime": "vert.x",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Vert.x Health Check Example",
+    "description": "Demonstrate health check and recovery mechanism",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-health-checks-example-redhat",
+    "ref": "v23",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "vert.x",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Secured Vertx - Rest & Red Hat SSO",
+    "description": "Quickstart to expose a REST Greeting endpoint using Eclipse Vert.x & Secured by Red Hat SSO",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-secured-http-example-redhat",
+    "ref": "v30",
+    "metadata": {
+      "mission": "rest-http-secured",
+      "runtime": "vert.x",
+      "version": "redhat"
+    }
+  },
+  {
+    "name": "Vert.x HTTP Example",
+    "description": "Runs a Vert.x HTTP application",
+    "repo": "https://github.com/openshift-vertx-examples/vertx-http-example-redhat",
+    "ref": "v23",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "vert.x",
+      "version": "redhat"
+    }
+  }]
