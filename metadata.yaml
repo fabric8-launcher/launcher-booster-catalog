@@ -93,6 +93,10 @@ runtimes:
     versions:
       - id: community
         name: 2.21.2 (Community)
+      - id: redhat740
+        name: 7.4.0 (Red Hat Fuse)
+      - id: redhat740sb2
+        name: 7.4.0 sb2 (Red Hat Fuse)
       - id: redhat731
         name: 7.3.1 (Red Hat Fuse)
       - id: redhat730
@@ -316,15 +320,9 @@ runtimes:
       pipelinePlatform: maven
     versions:
       - id: current-community
-        name: 2.1.3.RELEASE (Community)
+        name: 2.1.6.RELEASE (Community)
       - id: current-redhat
-        name: 2.1.3.RELEASE (RHOAR)
-      - id: previous-community
-        name: 1.5.19.RELEASE (Community)
-      - id: previous-redhat
-        name: 1.5.19.RELEASE (RHOAR)
-      - id: previous-osio
-        name: 1.5.12.RELEASE (OSIO)
+        name: 2.1.6.RELEASE (RHOAR)
   - id: thorntail
     name: Thorntail
     description: >-

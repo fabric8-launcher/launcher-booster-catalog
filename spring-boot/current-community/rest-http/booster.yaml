@@ -4,4 +4,4 @@ description: Booster to expose a HTTP Greeting endpoint using Spring Boot and Ap
 source:
   git:
     url: https://github.com/snowdrop/spring-boot-http-booster
-    ref: 2.1.3-2
+    ref: 2.1.6-9
