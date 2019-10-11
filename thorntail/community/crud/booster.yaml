@@ -1,20 +1,11 @@
-metadata:
-  app:
-    launcher:
-      runsOn: 
-        - '!starter'
-name: HTTP CRUD - Thorntail
+name: Thorntail - HTTP CRUD
 description: A simple CRUD application using Thorntail
 source:
   git:
     url: https://github.com/thorntail-examples/rest-http-crud
-    ref: master
-environment:
-  staging:
-    source:
-      git:
-        ref: '14'
-  production:
-    source:
-      git:
-        ref: '14'
+    ref: '15'
+metadata:
+  app:
+    launcher:
+      runsOn:
+        - '!starter'
