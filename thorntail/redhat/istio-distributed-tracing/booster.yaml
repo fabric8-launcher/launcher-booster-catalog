@@ -3,7 +3,7 @@ description: Runs a Thorntail application that utilizes Tracing with Jaeger on I
 source:
   git:
     url: https://github.com/thorntail-examples/istio-tracing-redhat
-    ref: '2.4.0-redhat-1'
+    ref: '2.5.0-redhat-1'
 metadata:
   app:
     launcher:

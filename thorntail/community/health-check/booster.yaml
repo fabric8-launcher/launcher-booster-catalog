@@ -3,17 +3,8 @@ description: Demonstrates Health Checks in Thorntail
 source:
   git:
     url: https://github.com/thorntail-examples/health-check
-    ref: master
+    ref: '15'
 metadata:
   app:
     osio:
       enabled: false
-environment:
-  staging:
-    source:
-      git:
-        ref: '14'
-  production:
-    source:
-      git:
-        ref: '14'

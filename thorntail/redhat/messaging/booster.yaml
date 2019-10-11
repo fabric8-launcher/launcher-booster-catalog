@@ -1,0 +1,11 @@
+name: Thorntail - Messaging Work Queue
+description: Demonstrate how to use a messaging server to implement a work queue in Thorntail
+source:
+  git:
+    url: https://github.com/thorntail-examples/messaging-work-queue-redhat
+    ref: '2.5.0-redhat-1'
+metadata:
+  app:
+    launcher:
+      runsOn:
+        - '!starter'

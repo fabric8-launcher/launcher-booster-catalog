@@ -335,9 +335,9 @@ runtimes:
       pipelinePlatform: maven
     versions:
       - id: community
-        name: 2.4.0.Final (Community)
+        name: 2.5.0.Final (Community)
       - id: redhat
-        name: 2.4.0.Final-redhat-00013 (RHOAR)
+        name: 2.5.0.Final-redhat-00016 (RHOAR)
   - id: golang
     name: Golang
     description: The Golang runtime enables you to deploy GoLang applications on OpenShift.

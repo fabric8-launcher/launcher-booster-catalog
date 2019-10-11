@@ -3,13 +3,4 @@ description: Demonstrates Health Checks in Thorntail
 source:
   git:
     url: https://github.com/thorntail-examples/health-check-redhat
-    ref: master
-environment:
-  staging:
-    source:
-      git:
-        ref: 2.4.0-redhat-1
-  production:
-    source:
-      git:
-        ref: 2.4.0-redhat-1
+    ref: '2.5.0-redhat-1'
