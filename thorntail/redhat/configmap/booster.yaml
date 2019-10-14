@@ -1,6 +1,0 @@
-name: Thorntail - Config Map
-description: Simple HTTP endpoint where the Thorntail application uses OpenShift ConfigMap to retrieve application parameters.
-source:
-  git:
-    url: https://github.com/thorntail-examples/configmap-redhat
-    ref: '2.5.0-redhat-1'
