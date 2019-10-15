@@ -60,7 +60,33 @@ IMPORTANT: If a new mission or runtime is introduced, you MUST change the `metad
 
 ### Catalog structure
 
-The most important part of the catalog is the list of Example Applications that is contained in `catalog.json`. The format of the file is simply a JSON array of descriptor objects (see below).
+The most important part of the catalog is the list of Example Applications that is contained in `catalog.json`. The format of the file is simply a JSON array of descriptor objects somewhat like this:
+
+```json
+[
+  {
+    "name": "Red Hat Fuse - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Apache Camel.",
+    "repo": "https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster",
+    "ref": "v7.3.0-03",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "fuse",
+      "version": "community"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - HTTP Example",
+    "description": "Booster to expose a HTTP REST endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/jboss-fuse/fuse-rest-http-booster",
+    "ref": "v7.2.0-redhat",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "fuse",
+      "version": "redhat720"
+    }
+  },
+```
 
 ### Example Application descriptor
 
