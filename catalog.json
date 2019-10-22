@@ -1505,4 +1505,81 @@
       "runtime": "vert.x",
       "version": "redhat"
     }
-  }]
+  },
+  {
+      "name": "Open Liberty - Cache",
+      "description": "Demonstrate how to use a cache server in Open Liberty",
+      "repo": "https://github.com/PurpleLiberty/example-cache",
+      "ref": "master",
+      "metadata": {
+        "mission": "cache",
+        "runtime": "openliberty",
+        "version": "community"
+      }
+    },
+    {
+      "name": "Open Liberty Circuit Breaker Example",
+      "description": "Runs an Open Liberty application using a circuit breaker",
+      "repo": "https://github.com/PurpleLiberty/example-circuit-breaker",
+      "ref": "master",
+      "metadata": {
+        "mission": "circuit-breaker",
+        "runtime": "openliberty",
+        "version": "community"
+      }
+    },
+    {
+      "name": "Open Liberty - HTTP & Config Map",
+      "description": "Simple HTTP endpoint where the OpenLiberty application uses an OpenShift ConfigMap to get the application parameters.",
+      "repo": "https://github.com/PurpleLiberty/example-configmap",
+      "ref": "master",
+      "metadata": {
+        "mission": "configmap",
+        "runtime": "openliberty",
+        "version": "community"
+      }
+    },
+    {
+      "name": "Open Liberty CRUD Example",
+      "description": "Runs an Open Liberty application with simple CRUD database operations",
+      "repo": "https://github.com/PurpleLiberty/example-rest-http-crud",
+      "ref": "master",
+      "metadata": {
+        "mission": "crud",
+        "runtime": "openliberty",
+        "version": "community"
+      }
+    },
+    {
+      "name": "Open Liberty Health Check Example",
+      "description": "Demonstrates a health check and recovery mechanism in Open Liberty",
+      "repo": "https://github.com/PurpleLiberty/example-health-check",
+      "ref": "master",
+      "metadata": {
+        "mission": "health-check",
+        "runtime": "openliberty",
+        "version": "community"
+      }
+    },
+    {
+      "name": "Secured Open Liberty - Rest & Red Hat SSO",
+      "description": "Quickstart to expose a REST Greeting endpoint using Open Liberty & Secured by Red Hat SSO",
+      "repo": "https://github.com/PurpleLiberty/example-rest-http-secured",
+      "ref": "master",
+      "metadata": {
+        "mission": "rest-http-secured",
+        "runtime": "openliberty",
+        "version": "community"
+      }
+    },
+    {
+      "name": "Open Liberty REST Example",
+      "description": "Runs an Open Liberty REST application",
+      "repo": "https://github.com/PurpleLiberty/example-rest-http",
+      "ref": "master",
+      "metadata": {
+        "mission": "rest-http",
+        "runtime": "openliberty",
+        "version": "community"
+      }
+    }]
