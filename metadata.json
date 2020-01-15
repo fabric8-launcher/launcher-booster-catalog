@@ -155,20 +155,12 @@
       },
       "versions": [
         {
-          "id": "v8-community",
-          "name": "8.x (Community)"
-        },
-        {
           "id": "v10-community",
           "name": "10.x (Community)"
         },
         {
           "id": "v12-community",
           "name": "12.x (Community)"
-        },
-        {
-          "id": "v8-redhat",
-          "name": "8.x (RHOAR)"
         },
         {
           "id": "v10-redhat",
