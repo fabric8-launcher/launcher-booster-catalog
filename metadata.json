@@ -163,8 +163,8 @@
           "name": "12.x (Community)"
         },
         {
-          "id": "v10-redhat",
-          "name": "10.x (RHOAR)"
+          "id": "v12-redhat",
+          "name": "12.x (RHOAR)"
         }
       ]
     },
