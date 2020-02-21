@@ -1334,7 +1334,7 @@
     "name": "Vert.x HTTP Example",
     "description": "Runs a Vert.x HTTP application",
     "repo": "https://github.com/openshift-vertx-examples/vertx-http-example",
-    "ref": "v37ß",
+    "ref": "v37",
     "metadata": {
       "mission": "rest-http",
       "runtime": "vert.x",
