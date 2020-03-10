@@ -1345,7 +1345,7 @@
     "name": "Eclipse Vert.x - Cache",
     "description": "Demonstrate how to use a cache server in Eclipse Vert.x",
     "repo": "https://github.com/openshift-vertx-examples/vertx-cache-example-redhat",
-    "ref": "v12",
+    "ref": "v13",
     "metadata": {
       "mission": "cache",
       "runtime": "vert.x",
@@ -1356,7 +1356,7 @@
     "name": "Vert.x Circuit Breaker Example",
     "description": "Runs a Vert.x application using a circuit breaker",
     "repo": "https://github.com/openshift-vertx-examples/vertx-circuit-breaker-example-redhat",
-    "ref": "v22",
+    "ref": "v23",
     "metadata": {
       "mission": "circuit-breaker",
       "runtime": "vert.x",
@@ -1367,7 +1367,7 @@
     "name": "Vert.x - HTTP & Config Map",
     "description": "Simple HTTP endpoint where the Vert.x application uses OpenShift ConfigMap to get the application parameters.",
     "repo": "https://github.com/openshift-vertx-examples/vertx-configmap-example-redhat",
-    "ref": "v26",
+    "ref": "v27",
     "metadata": {
       "mission": "configmap",
       "runtime": "vert.x",
@@ -1378,7 +1378,7 @@
     "name": "Vert.x CRUD Example using JDBC",
     "description": "Runs a Vert.x application exposing a HTTP endpoint proposing CRUD operations implemented on top of JDBC",
     "repo": "https://github.com/openshift-vertx-examples/vertx-crud-example-redhat",
-    "ref": "v22",
+    "ref": "v23",
     "metadata": {
       "mission": "crud",
       "runtime": "vert.x",
@@ -1389,7 +1389,7 @@
     "name": "Vert.x Health Check Example",
     "description": "Demonstrate health check and recovery mechanism",
     "repo": "https://github.com/openshift-vertx-examples/vertx-health-checks-example-redhat",
-    "ref": "v23",
+    "ref": "v24",
     "metadata": {
       "mission": "health-check",
       "runtime": "vert.x",
@@ -1400,7 +1400,7 @@
     "name": "Secured Vertx - Rest & Red Hat SSO",
     "description": "Quickstart to expose a REST Greeting endpoint using Eclipse Vert.x & Secured by Red Hat SSO",
     "repo": "https://github.com/openshift-vertx-examples/vertx-secured-http-example-redhat",
-    "ref": "v30",
+    "ref": "v31",
     "metadata": {
       "mission": "rest-http-secured",
       "runtime": "vert.x",
@@ -1411,7 +1411,7 @@
     "name": "Vert.x HTTP Example",
     "description": "Runs a Vert.x HTTP application",
     "repo": "https://github.com/openshift-vertx-examples/vertx-http-example-redhat",
-    "ref": "v23",
+    "ref": "v24",
     "metadata": {
       "mission": "rest-http",
       "runtime": "vert.x",
