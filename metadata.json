@@ -179,11 +179,11 @@
       "versions": [
         {
           "id": "current-community",
-          "name": "2.1.6.RELEASE (Community)"
+          "name": "2.1.12.RELEASE (Community)"
         },
         {
           "id": "current-redhat",
-          "name": "2.1.6.RELEASE (RHOAR)"
+          "name": "2.1.12.RELEASE (RHOAR)"
         }
       ]
     },
