@@ -172,7 +172,7 @@
         },
         {
           "id": "v12-redhat",
-          "name": "12.x (RHOAR)"
+          "name": "12.x (Runtimes)"
         }
       ]
     },
