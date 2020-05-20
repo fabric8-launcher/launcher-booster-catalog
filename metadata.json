@@ -86,7 +86,7 @@
       "versions": [
         {
           "id": "redhat",
-          "name": "3.8.5.redhat-00005 (Runtimes)"
+          "name": "3.9.0.redhat-00008 (Runtimes)"
         },
         {
           "id": "community",
