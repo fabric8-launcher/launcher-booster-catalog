@@ -1169,7 +1169,7 @@
     "name": "Thorntail - Cache",
     "description": "Demonstrate how to use a cache server in Thorntail",
     "repo": "https://github.com/thorntail-examples/cache",
-    "ref": "7",
+    "ref": "8",
     "metadata": {
       "mission": "cache",
       "runtime": "thorntail",
@@ -1180,7 +1180,7 @@
     "name": "Thorntail - Circuit Breaker",
     "description": "Demonstrates Circuit Breaker in Thorntail",
     "repo": "https://github.com/thorntail-examples/circuit-breaker",
-    "ref": "12",
+    "ref": "13",
     "metadata": {
       "mission": "circuit-breaker",
       "runtime": "thorntail",
@@ -1191,7 +1191,7 @@
     "name": "Thorntail - Config Map",
     "description": "Simple HTTP endpoint where the Thorntail application uses OpenShift ConfigMap to retrieve application parameters.",
     "repo": "https://github.com/thorntail-examples/configmap",
-    "ref": "16",
+    "ref": "17",
     "metadata": {
       "mission": "configmap",
       "runtime": "thorntail",
@@ -1202,7 +1202,7 @@
     "name": "Thorntail - HTTP CRUD",
     "description": "A simple CRUD application using Thorntail",
     "repo": "https://github.com/thorntail-examples/rest-http-crud",
-    "ref": "15",
+    "ref": "16",
     "metadata": {
       "mission": "crud",
       "runtime": "thorntail",
@@ -1213,7 +1213,7 @@
     "name": "Thorntail - Health Checks",
     "description": "Demonstrates Health Checks in Thorntail",
     "repo": "https://github.com/thorntail-examples/health-check",
-    "ref": "15",
+    "ref": "16",
     "metadata": {
       "mission": "health-check",
       "runtime": "thorntail",
@@ -1224,7 +1224,7 @@
     "name": "Thorntail - Istio - Distributed Tracing",
     "description": "Runs a Thorntail application that utilizes Tracing with Jaeger on Istio",
     "repo": "https://github.com/thorntail-examples/istio-tracing",
-    "ref": "7",
+    "ref": "8",
     "metadata": {
       "mission": "istio-distributed-tracing",
       "runtime": "thorntail",
@@ -1235,7 +1235,7 @@
     "name": "Thorntail - Messaging Work Queue",
     "description": "Demonstrate how to use a messaging server to implement a work queue in Thorntail",
     "repo": "https://github.com/thorntail-examples/messaging-work-queue",
-    "ref": "2",
+    "ref": "3",
     "metadata": {
       "mission": "messaging",
       "runtime": "thorntail",
@@ -1246,7 +1246,7 @@
     "name": "Thorntail - REST and RH SSO",
     "description": "A simple HTTP application using Thorntail secured by RH SSO",
     "repo": "https://github.com/thorntail-examples/rest-http-secured",
-    "ref": "14",
+    "ref": "15",
     "metadata": {
       "mission": "rest-http-secured",
       "runtime": "thorntail",
@@ -1257,7 +1257,7 @@
     "name": "Thorntail - HTTP",
     "description": "Runs a Thorntail HTTP application",
     "repo": "https://github.com/thorntail-examples/rest-http",
-    "ref": "18",
+    "ref": "19",
     "metadata": {
       "mission": "rest-http",
       "runtime": "thorntail",
@@ -1268,7 +1268,7 @@
     "name": "Thorntail - Cache",
     "description": "Demonstrate how to use a cache server in Thorntail",
     "repo": "https://github.com/thorntail-examples/cache-redhat",
-    "ref": "2.5.1-redhat-1",
+    "ref": "2.5.1-redhat-2",
     "metadata": {
       "mission": "cache",
       "runtime": "thorntail",
@@ -1279,7 +1279,7 @@
     "name": "Thorntail - Circuit Breaker",
     "description": "Demonstrates Circuit Breaker in Thorntail",
     "repo": "https://github.com/thorntail-examples/circuit-breaker-redhat",
-    "ref": "2.5.1-redhat-1",
+    "ref": "2.5.1-redhat-2",
     "metadata": {
       "mission": "circuit-breaker",
       "runtime": "thorntail",
@@ -1290,7 +1290,7 @@
     "name": "Thorntail - Config Map",
     "description": "Simple HTTP endpoint where the Thorntail application uses OpenShift ConfigMap to retrieve application parameters.",
     "repo": "https://github.com/thorntail-examples/configmap-redhat",
-    "ref": "2.5.1-redhat-1",
+    "ref": "2.5.1-redhat-2",
     "metadata": {
       "mission": "configmap",
       "runtime": "thorntail",
@@ -1301,7 +1301,7 @@
     "name": "Thorntail - HTTP CRUD",
     "description": "A simple CRUD application using Thorntail",
     "repo": "https://github.com/thorntail-examples/rest-http-crud-redhat",
-    "ref": "2.5.1-redhat-1",
+    "ref": "2.5.1-redhat-2",
     "metadata": {
       "mission": "crud",
       "runtime": "thorntail",
@@ -1312,7 +1312,7 @@
     "name": "Thorntail - Health Checks",
     "description": "Demonstrates Health Checks in Thorntail",
     "repo": "https://github.com/thorntail-examples/health-check-redhat",
-    "ref": "2.5.1-redhat-1",
+    "ref": "2.5.1-redhat-2",
     "metadata": {
       "mission": "health-check",
       "runtime": "thorntail",
@@ -1323,7 +1323,7 @@
     "name": "Thorntail - Istio - Distributed Tracing",
     "description": "Runs a Thorntail application that utilizes Tracing with Jaeger on Istio",
     "repo": "https://github.com/thorntail-examples/istio-tracing-redhat",
-    "ref": "2.5.1-redhat-1",
+    "ref": "2.5.1-redhat-2",
     "metadata": {
       "mission": "istio-distributed-tracing",
       "runtime": "thorntail",
@@ -1334,7 +1334,7 @@
     "name": "Thorntail - Messaging Work Queue",
     "description": "Demonstrate how to use a messaging server to implement a work queue in Thorntail",
     "repo": "https://github.com/thorntail-examples/messaging-work-queue-redhat",
-    "ref": "2.5.1-redhat-1",
+    "ref": "2.5.1-redhat-2",
     "metadata": {
       "mission": "messaging",
       "runtime": "thorntail",
@@ -1345,7 +1345,7 @@
     "name": "Thorntail - REST and RH SSO",
     "description": "A simple HTTP application using Thorntail secured by RH SSO",
     "repo": "https://github.com/thorntail-examples/rest-http-secured-redhat",
-    "ref": "2.5.1-redhat-1",
+    "ref": "2.5.1-redhat-2",
     "metadata": {
       "mission": "rest-http-secured",
       "runtime": "thorntail",
@@ -1356,7 +1356,7 @@
     "name": "Thorntail - HTTP",
     "description": "Runs a Thorntail HTTP application",
     "repo": "https://github.com/thorntail-examples/rest-http-redhat",
-    "ref": "2.5.1-redhat-1",
+    "ref": "2.5.1-redhat-2",
     "metadata": {
       "mission": "rest-http",
       "runtime": "thorntail",
