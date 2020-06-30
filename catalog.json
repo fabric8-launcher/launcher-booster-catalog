@@ -1510,7 +1510,7 @@
     "name": "Secured Vertx - Rest & Red Hat SSO",
     "description": "Quickstart to expose a REST Greeting endpoint using Eclipse Vert.x & Secured by Red Hat SSO",
     "repo": "https://github.com/openshift-vertx-examples/vertx-secured-http-example-redhat",
-    "ref": "v33",
+    "ref": "v34",
     "metadata": {
       "mission": "rest-http-secured",
       "runtime": "vert.x",
