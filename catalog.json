@@ -1169,7 +1169,7 @@
     "name": "Thorntail - Cache",
     "description": "Demonstrate how to use a cache server in Thorntail",
     "repo": "https://github.com/thorntail-examples/cache",
-    "ref": "8",
+    "ref": "9",
     "metadata": {
       "mission": "cache",
       "runtime": "thorntail",
@@ -1202,7 +1202,7 @@
     "name": "Thorntail - HTTP CRUD",
     "description": "A simple CRUD application using Thorntail",
     "repo": "https://github.com/thorntail-examples/rest-http-crud",
-    "ref": "16",
+    "ref": "17",
     "metadata": {
       "mission": "crud",
       "runtime": "thorntail",
@@ -1268,7 +1268,7 @@
     "name": "Thorntail - Cache",
     "description": "Demonstrate how to use a cache server in Thorntail",
     "repo": "https://github.com/thorntail-examples/cache-redhat",
-    "ref": "2.5.1-redhat-2",
+    "ref": "2.5.1-redhat-3",
     "metadata": {
       "mission": "cache",
       "runtime": "thorntail",
@@ -1301,7 +1301,7 @@
     "name": "Thorntail - HTTP CRUD",
     "description": "A simple CRUD application using Thorntail",
     "repo": "https://github.com/thorntail-examples/rest-http-crud-redhat",
-    "ref": "2.5.1-redhat-2",
+    "ref": "2.5.1-redhat-3",
     "metadata": {
       "mission": "crud",
       "runtime": "thorntail",
