@@ -206,11 +206,11 @@
       "versions": [
         {
           "id": "community",
-          "name": "2.5.0.Final (Community)"
+          "name": "2.7.0.Final (Community)"
         },
         {
           "id": "redhat",
-          "name": "2.5.1.Final-redhat-00010 (Red Hat Runtimes)"
+          "name": "2.7.0.Final-redhat-00003 (Red Hat Runtimes)"
         }
       ]
     },
