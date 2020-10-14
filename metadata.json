@@ -195,11 +195,11 @@
       "versions": [
         {
           "id": "current-community",
-          "name": "2.2.6.RELEASE (Community)"
+          "name": "2.2.10.RELEASE (Community)"
         },
         {
           "id": "current-redhat",
-          "name": "2.2.6.RELEASE (Red Hat Runtimes)"
+          "name": "2.2.10.RELEASE (Red Hat Runtimes)"
         }
       ]
     },
