@@ -181,6 +181,14 @@
         {
           "id": "v12-redhat",
           "name": "12.x (Runtimes)"
+        },
+        {
+          "id": "v14-community",
+          "name": "14.x (Community)"
+        },
+        {
+          "id": "v14-redhat",
+          "name": "14.x (Runtimes)"
         }
       ]
     },
