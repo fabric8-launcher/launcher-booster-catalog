@@ -108,6 +108,10 @@
           "name": "2.21.2 (Community)"
         },
         {
+          "id": "redhat780sb2",
+          "name": "7.8.0 sb2 (Red Hat Fuse)"
+        },
+        {
           "id": "redhat770",
           "name": "7.7.0 (Red Hat Fuse)"
         },
