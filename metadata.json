@@ -86,19 +86,19 @@
       "versions": [
         {
           "id": "redhat-3.x",
-          "name": "3.9.5.redhat-00002 (Runtimes)"
+          "name": "3.9.6.redhat-00001 (Runtimes)"
         },
         {
           "id": "community-3.x",
-          "name": "3.9.5 (Community)"
-        }
+          "name": "3.9.6 (Community)"
+        },
         {
           "id": "redhat-4.x",
-          "name": "4.0.0.redhat-00001 (Runtimes)"
+          "name": "4.0.2.redhat-00001 (Runtimes)"
         },
         {
           "id": "community-4.x",
-          "name": "4.0.0 (Community)"
+          "name": "4.0.3 (Community)"
         }
       ]
     },
