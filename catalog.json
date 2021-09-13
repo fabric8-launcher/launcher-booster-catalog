@@ -1136,7 +1136,7 @@
     "name": "Spring Boot - Cache Example",
     "description": "Example to demonstrate how to use a cache server Spring Boot on OpenShift.",
     "repo": "https://github.com/snowdrop/cache-example",
-    "ref": "2.3.6-2",
+    "ref": "2.3.10-5",
     "metadata": {
       "mission": "cache",
       "runtime": "spring-boot",
@@ -1147,7 +1147,7 @@
     "name": "Spring Boot - Circuit Breaker Example",
     "description": "Example to demonstrate Circuit Breaker pattern with Spring Boot.",
     "repo": "https://github.com/snowdrop/circuit-breaker-example",
-    "ref": "2.3.6-2",
+    "ref": "2.3.10-5",
     "metadata": {
       "mission": "circuit-breaker",
       "runtime": "spring-boot",
@@ -1158,7 +1158,7 @@
     "name": "Spring Boot - ConfigMap Example",
     "description": "Example to expose an HTTP Greeting endpoint using Spring Boot where the message is defined as a Kubernetes ConfigMap property.",
     "repo": "https://github.com/snowdrop/configmap-example",
-    "ref": "2.3.6-2",
+    "ref": "2.3.10-5",
     "metadata": {
       "mission": "configmap",
       "runtime": "spring-boot",
@@ -1169,7 +1169,7 @@
     "name": "Spring Boot - CRUD Example",
     "description": "Example to expose an HTTP endpoint with CRUD operations on fruits database.",
     "repo": "https://github.com/snowdrop/crud-example",
-    "ref": "2.3.6-2",
+    "ref": "2.3.10-5",
     "metadata": {
       "mission": "crud",
       "runtime": "spring-boot",
@@ -1180,7 +1180,7 @@
     "name": "Spring Boot - Health Check Example",
     "description": "Example to demonstrate OpenShift health probes working with Spring Boot Actuator.",
     "repo": "https://github.com/snowdrop/health-check-example",
-    "ref": "2.3.6-2",
+    "ref": "2.3.10-5",
     "metadata": {
       "mission": "health-check",
       "runtime": "spring-boot",
@@ -1191,7 +1191,7 @@
     "name": "Istio - Spring Boot - Distributed Tracing",
     "description": "Example to demonstrate how Istio's service mesh and Distributed Tracing - Jaeger interact.",
     "repo": "https://github.com/snowdrop/istio-distributed-tracing-example",
-    "ref": "2.3.6-2",
+    "ref": "2.3.10-5",
     "metadata": {
       "mission": "istio-distributed-tracing",
       "runtime": "spring-boot",
@@ -1202,7 +1202,7 @@
     "name": "Spring Boot - Messaging Booster",
     "description": "Demonstrate how to use a Messaging Work Queue from a Spring Boot application",
     "repo": "https://github.com/snowdrop/messaging-work-queue-example",
-    "ref": "2.3.6-2",
+    "ref": "2.3.10-5",
     "metadata": {
       "mission": "messaging",
       "runtime": "spring-boot",
@@ -1213,7 +1213,7 @@
     "name": "Secured Spring Boot - HTTP & Red Hat SSO Example",
     "description": "Example to expose a HTTP Greeting endpoint using SpringBoot & Secured by Red Hat SSO.",
     "repo": "https://github.com/snowdrop/secured-example",
-    "ref": "2.3.6-2",
+    "ref": "2.3.10-5",
     "metadata": {
       "mission": "rest-http-secured",
       "runtime": "spring-boot",
@@ -1224,7 +1224,7 @@
     "name": "Spring Boot - HTTP Example",
     "description": "Example to expose a HTTP Greeting endpoint using Spring Boot and Apache Tomcat in embedded mode.",
     "repo": "https://github.com/snowdrop/rest-http-example",
-    "ref": "2.3.6-2",
+    "ref": "2.3.10-5",
     "metadata": {
       "mission": "rest-http",
       "runtime": "spring-boot",
@@ -1235,7 +1235,7 @@
     "name": "Spring Boot - Cache Example",
     "description": "Example to demonstrate how to use a cache server Spring Boot on OpenShift.",
     "repo": "https://github.com/snowdrop/cache-example",
-    "ref": "2.3.6-2-redhat",
+    "ref": "2.3.10-5-redhat",
     "metadata": {
       "mission": "cache",
       "runtime": "spring-boot",
@@ -1246,7 +1246,7 @@
     "name": "Spring Boot - Circuit Breaker Example",
     "description": "Example to demonstrate Circuit Breaker pattern with Spring Boot.",
     "repo": "https://github.com/snowdrop/circuit-breaker-example",
-    "ref": "2.3.6-2-redhat",
+    "ref": "2.3.10-5-redhat",
     "metadata": {
       "mission": "circuit-breaker",
       "runtime": "spring-boot",
@@ -1257,7 +1257,7 @@
     "name": "Spring Boot - ConfigMap Example",
     "description": "Example to expose an HTTP Greeting endpoint using Spring Boot where the message is defined as a Kubernetes ConfigMap property.",
     "repo": "https://github.com/snowdrop/configmap-example",
-    "ref": "2.3.6-2-redhat",
+    "ref": "2.3.10-5-redhat",
     "metadata": {
       "mission": "configmap",
       "runtime": "spring-boot",
@@ -1268,7 +1268,7 @@
     "name": "Spring Boot - CRUD Example",
     "description": "Example to expose an HTTP endpoint with CRUD operations on fruits database.",
     "repo": "https://github.com/snowdrop/crud-example",
-    "ref": "2.3.6-2-redhat",
+    "ref": "2.3.10-5-redhat",
     "metadata": {
       "mission": "crud",
       "runtime": "spring-boot",
@@ -1279,7 +1279,7 @@
     "name": "Spring Boot - Health Check Example",
     "description": "Example to demonstrate OpenShift health probes working with Spring Boot Actuator.",
     "repo": "https://github.com/snowdrop/health-check-example",
-    "ref": "2.3.6-2-redhat",
+    "ref": "2.3.10-5-redhat",
     "metadata": {
       "mission": "health-check",
       "runtime": "spring-boot",
@@ -1290,7 +1290,7 @@
     "name": "Istio - Spring Boot - Distributed Tracing",
     "description": "Example to demonstrate how Istio's service mesh and Distributed Tracing - Jaeger interact.",
     "repo": "https://github.com/snowdrop/istio-distributed-tracing-example",
-    "ref": "2.3.6-2-redhat",
+    "ref": "2.3.10-5-redhat",
     "metadata": {
       "mission": "istio-distributed-tracing",
       "runtime": "spring-boot",
@@ -1301,7 +1301,7 @@
     "name": "Spring Boot - Messaging Booster",
     "description": "Demonstrate how to use a Messaging Work Queue from a Spring Boot application",
     "repo": "https://github.com/snowdrop/messaging-work-queue-example",
-    "ref": "2.3.6-2-redhat",
+    "ref": "2.3.10-5-redhat",
     "metadata": {
       "mission": "messaging",
       "runtime": "spring-boot",
@@ -1312,7 +1312,7 @@
     "name": "Secured Spring Boot - HTTP & Red Hat SSO Example",
     "description": "Example to expose a HTTP Greeting endpoint using SpringBoot & Secured by Red Hat SSO.",
     "repo": "https://github.com/snowdrop/secured-example",
-    "ref": "2.3.6-2-redhat",
+    "ref": "2.3.10-5-redhat",
     "metadata": {
       "mission": "rest-http-secured",
       "runtime": "spring-boot",
@@ -1323,7 +1323,7 @@
     "name": "Spring Boot - HTTP Example",
     "description": "Example to expose a HTTP Greeting endpoint using Spring Boot and Apache Tomcat in embedded mode.",
     "repo": "https://github.com/snowdrop/rest-http-example",
-    "ref": "2.3.6-2-redhat",
+    "ref": "2.3.10-5-redhat",
     "metadata": {
       "mission": "rest-http",
       "runtime": "spring-boot",
