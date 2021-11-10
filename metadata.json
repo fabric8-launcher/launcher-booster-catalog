@@ -211,11 +211,11 @@
       "versions": [
         {
           "id": "current-community",
-          "name": "2.3.10 (Community)"
+          "name": "2.4.9 (Community)"
         },
         {
           "id": "current-redhat",
-          "name": "2.3.10 (Red Hat Runtimes)"
+          "name": "2.4.9 (Red Hat Runtimes)"
         }
       ]
     },
