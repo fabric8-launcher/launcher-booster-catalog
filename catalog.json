@@ -1023,6 +1023,61 @@
     }
   },
   {
+    "name": "Red Hat Fuse - Circuit Breaker Example",
+    "description": "Booster to demonstrate Circuit Breaker pattern with Apache Camel.",
+    "repo": "https://github.com/jboss-fuse/fuse-springboot-circuit-breaker-booster",
+    "ref": "v7.11.0-redhat-sb2",
+    "metadata": {
+      "mission": "circuit-breaker",
+      "runtime": "fuse",
+      "version": "redhat7110sb2"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - ConfigMap Example",
+    "description": "Booster to expose an HTTP Greeting endpoint using Apache Camel where the message is defined as a Kubernetes ConfigMap property.",
+    "repo": "https://github.com/jboss-fuse/fuse-configmap-booster",
+    "ref": "v7.11.0-redhat-sb2",
+    "metadata": {
+      "mission": "configmap",
+      "runtime": "fuse",
+      "version": "redhat7110sb2"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Health Check Example",
+    "description": "Booster to demonstrate OpenShift health probes working with Apache Camel through Spring Boot Actuator.",
+    "repo": "https://github.com/jboss-fuse/fuse-health-check-booster",
+    "ref": "v7.11.0-redhat-sb2",
+    "metadata": {
+      "mission": "health-check",
+      "runtime": "fuse",
+      "version": "redhat7110sb2"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - Istio - Distributed Tracing",
+    "description": "Runs a Apache Camel application that utilizes Tracing on Istio",
+    "repo": "https://github.com/jboss-fuse/fuse-istio-distributed-tracing-booster",
+    "ref": "v7.11.0-redhat-sb2",
+    "metadata": {
+      "mission": "istio-distributed-tracing",
+      "runtime": "fuse",
+      "version": "redhat7110sb2"
+    }
+  },
+  {
+    "name": "Red Hat Fuse - HTTP Example",
+    "description": "Booster to expose a HTTP REST endpoint using Apache camel, Spring Boot and Undertow.",
+    "repo": "https://github.com/jboss-fuse/fuse-rest-http-booster",
+    "ref": "v7.11.0-redhat-sb2",
+    "metadata": {
+      "mission": "rest-http",
+      "runtime": "fuse",
+      "version": "redhat7110sb2"
+    }
+  },
+  {
     "name": "Red Hat GoLang - CRUD Example",
     "description": "Runs a Golang application exposing a HTTP endpoint proposing CRUD operations",
     "repo": "https://github.com/golang-starters/golang-http-crud",
