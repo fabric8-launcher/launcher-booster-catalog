@@ -108,6 +108,10 @@
           "name": "2.21.2 (Community)"
         },
         {
+          "id": "redhat7111sb2",
+          "name": "7.11.1 sb2 (Red Hat Fuse)"
+        },
+        {
           "id": "redhat7110sb2",
           "name": "7.11.0 sb2 (Red Hat Fuse)"
         },
